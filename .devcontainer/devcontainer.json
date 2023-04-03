@@ -10,7 +10,10 @@
 			"ppa": true,
 			"version": "latest"
 		}
-	}
+	},
+	"mounts": [
+		"source=/home/MeMo-KBC/bio-medrxiv,target=/data,type=bind,consistency=cached"
+	]
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},

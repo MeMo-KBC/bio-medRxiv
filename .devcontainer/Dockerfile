@@ -3,7 +3,7 @@ FROM hiromuhota/fonduer
 LABEL maintainer="Nils Grote <nils.grote@smail.th-koeln.de>"
 LABEL description="Fonduer Devcontainer"
 
-RUN apt-get update
+USER root
 
 RUN pip install --upgrade pip \
  && pip install \
