@@ -16,7 +16,8 @@
 	"runArgs": [
 		"--name=${localEnv:USER}_devcontainer",
 		"--network=fonduer-network"],
-
+	"remoteUser": "root"
+	
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
