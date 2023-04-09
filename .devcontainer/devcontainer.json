@@ -2,8 +2,7 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/postgres
 {
 	"name": "MeMo-KBC-Fonduer-Postgres",
-	"dockerComposeFile": "docker-compose.yml",
-	"service": "app",
+	"dockerFile": "Dockerfile",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 	"features": {
 		"ghcr.io/devcontainers/features/git:1": {
@@ -13,7 +12,10 @@
 	},
 	"mounts": [
 		"source=/home/MeMo-KBC/bio-medrxiv,target=/data,type=bind,consistency=cached"
-	]
+	],
+	"runArgs": [
+		"--name=${localEnv:USER}_devcontainer",
+		"--network=fonduer-network"],
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
