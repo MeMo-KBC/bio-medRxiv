@@ -3,8 +3,7 @@ import re
 
 # Define function
 def matcher_capital_letter(mention):
-    
-    # Matches a span if three capital letters follow each other
+    '''Matches a span if three capital letters follow each other'''
     mention_string = mention.get_span()
     capital_word = re.findall('([A-Z]{3})', mention_string)
     return capital_word
