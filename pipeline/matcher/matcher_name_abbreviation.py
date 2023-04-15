@@ -20,14 +20,16 @@ def second_matcher_capital_letter(mention):
     return capital_words_sep_one
 
 # Third Regex Function
-def third_matcher_abbrevations(mention):
+def third_matcher_abbreviations(mention):
     '''Matches a span if it resembles one of the abbreviation styles which where identified by macmacpri'''
+    
     mention_string = mention.get_span()
     abbreviation = re.findall('(^\(?\w{1}[\.-]{0,2}\w{1}[\.\-:]{0,2}\w?[\.\-:]{0,2}\w?\)?$)', mention_string)
+    return abbreviation
 
 name_matcher_letter = LambdaFunctionMatcher(func=first_matcher_capital_letter)
 name_matcher_sep_one = LambdaFunctionMatcher(func=second_matcher_capital_letter)
-name_matcher_abbreviation = LambdaFunctionMatcher(func=third_matcher_abbrevations)
+name_matcher_abbreviation = LambdaFunctionMatcher(func=third_matcher_abbreviations)
 
 # combine all functions to one
 matcher_abb_name = Union(
