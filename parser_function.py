@@ -2,11 +2,6 @@
 # imports
 import os, shutil
 
-from fonduer.meta import Meta
-from fonduer.parser.preprocessors import HTMLDocPreprocessor
-from fonduer.parser import Parser
-
-from test import conn_string
 
 ## Wichtig: bei mir funktioniert der Dev-Container nicht, deshalb konnte nicht bisher getestet werden
 # vorher muss rxiv_publications.zip entpackt werden
@@ -55,23 +50,3 @@ def extract_html_files(dir_to_extract: str, dir_of_files_bio: str, dir_of_files_
         if os.path.exists(html_file_med):
             shutil.copyfile(html_file_med, dir_to_extract)
 
-
-
-# path strings // path strings may need to be changed depending on the rxiv_publications-folder location
-dir_to_extract = "./data"
-dir_of_files_bio = "./rxiv_publications/bio"
-dir_of_files_med = "./rxiv_publications/med"
-
-
-def main():
-    session = Meta.init(conn_string).Session()
-    extract_html_files(dir_to_extract, dir_of_files_bio, dir_of_files_med)
-
-    docs_path = dir_to_extract
-    doc_preprocessor = HTMLDocPreprocessor(docs_path)
-    corpus_parser = Parser(session, structural=True, lingual=True)
-    corpus_parser.apply(doc_preprocessor, parallelism=4)
-
-
-if __name__ == '__main__':
-    main()
