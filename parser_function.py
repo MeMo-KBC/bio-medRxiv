@@ -2,6 +2,12 @@
 # imports
 import os, shutil
 
+from fonduer.meta import Meta
+from fonduer.parser.preprocessors import HTMLDocPreprocessor
+from fonduer.parser import Parser
+
+from test import conn_string
+
 ## Wichtig: bei mir funktioniert der Dev-Container nicht, deshalb konnte nicht bisher getestet werden
 # vorher muss rxiv_publications.zip entpackt werden
 # je nachdem wo der Ordner ist, müssen die Pfade unten angepasst werden
