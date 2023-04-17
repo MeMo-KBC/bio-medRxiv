@@ -23,7 +23,7 @@ def extract_html_files(dir_to_extract: str, dir_of_files_bio: str, dir_of_files_
     # loop array with folder names
     for f in folderlist_bio:
         # create path to folder
-        file_dir = os.path.join(folderlist_bio, f)
+        file_dir = os.path.join(dir_of_files_bio, f)
         # html-file is hase the same name as the folder
         file_name = f+".html"
         # create path to html-file
@@ -31,7 +31,7 @@ def extract_html_files(dir_to_extract: str, dir_of_files_bio: str, dir_of_files_
         
         # copy file into directory for extracted files
         if os.path.exists(html_file_bio):
-            shutil.copyfile(html_file_bio, dir_to_extract)
+            shutil.copy(html_file_bio, dir_to_extract)
 
 
     ### extract med html-files
@@ -40,7 +40,7 @@ def extract_html_files(dir_to_extract: str, dir_of_files_bio: str, dir_of_files_
     # loop array with folder names
     for f in folderlist_med:
         # create path to folder
-        file_dir = os.path.join(folderlist_med, f)
+        file_dir = os.path.join(dir_of_files_med, f)
         # html-file is hase the same name as the folder
         file_name = f+".html"
         # create path to html-file
@@ -48,5 +48,7 @@ def extract_html_files(dir_to_extract: str, dir_of_files_bio: str, dir_of_files_
 
         # copy file into directory for extracted files
         if os.path.exists(html_file_med):
-            shutil.copyfile(html_file_med, dir_to_extract)
+            shutil.copy(html_file_med, dir_to_extract)
 
+if "__main__" == __name__:
+    extract_html_files("/data/rxiv_publications_extracted", "/data/rxiv_publications/bio", "/data/rxiv_publications/med")
