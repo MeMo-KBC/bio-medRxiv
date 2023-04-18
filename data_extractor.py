@@ -2,7 +2,6 @@
 # imports
 import os, shutil
 
-
 ## Wichtig: bei mir funktioniert der Dev-Container nicht, deshalb konnte nicht bisher getestet werden
 # vorher muss rxiv_publications.zip entpackt werden
 # je nachdem wo der Ordner ist, müssen die Pfade unten angepasst werden
