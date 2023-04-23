@@ -13,6 +13,23 @@ def dummy_lf_rand(c):
     else:
         return FALSE
 
+@labeling_function()
+def dummy_lf_rando(c):
+    if randint(1, 10) <= 5:
+        return TRUE
+    else:
+        return FALSE
+    
+@labeling_function()
+def dummy_lf_randi(c):
+    if randint(1, 10) <= 5:
+        return TRUE
+    else:
+        return FALSE
+
+
 dummy_lfs = [
-    dummy_lf_rand
+    dummy_lf_rand,
+    dummy_lf_rando,
+    dummy_lf_randi
 ]
