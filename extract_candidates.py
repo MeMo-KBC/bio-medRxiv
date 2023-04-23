@@ -2,7 +2,7 @@ from fonduer.candidates import CandidateExtractor
 from fonduer.parser.models import Document
 from pipeline.utils import split_documents, get_session, PARALELL
 from definitions.candidates import NameFullAbbr, NameFullTask
-from pipeline.throttler.dummy_throttler import throt_rand
+from pipeline.throttler.random_throttler import throt_rand
 
 
 
