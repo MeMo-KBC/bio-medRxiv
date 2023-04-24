@@ -6,7 +6,6 @@ from pipeline.utils import PARALLEL
 
 
 def main(db_name: str):
-    PARALLEL = 12
     session = get_session(db_name)
 
     docs_path = "/data/test_collection"
