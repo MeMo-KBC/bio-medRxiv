@@ -4,7 +4,7 @@ from fonduer.parser.preprocessors import HTMLDocPreprocessor
 from fonduer.parser import Parser
 
 
-def main(db_name):
+def main(db_name: str):
     PARALLEL = 12
     session = get_session(db_name)
 
