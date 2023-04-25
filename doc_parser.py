@@ -2,10 +2,10 @@ from pipeline.utils import get_session
 from fonduer.meta import Meta
 from fonduer.parser.preprocessors import HTMLDocPreprocessor
 from fonduer.parser import Parser
+from pipeline.utils import PARALLEL
 
 
-def main(db_name):
-    PARALLEL = 12
+def main(db_name: str):
     session = get_session(db_name)
 
     docs_path = "/data/test_collection"
