@@ -138,7 +138,7 @@ def main(db_name):
     train_idxs = np.where(diffs > 1e-6)[0]
 
     train_dataloader = EmmentalDataLoader(
-        task_to_label_dict={"test_collection": "labels"},
+        task_to_label_dict={db_name: "labels"},
         dataset=FonduerDataset(
             "test_collection",
             train_cands[0],
