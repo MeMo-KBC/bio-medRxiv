@@ -140,7 +140,7 @@ def main(db_name):
     train_dataloader = EmmentalDataLoader(
         task_to_label_dict={db_name: "labels"},
         dataset=FonduerDataset(
-            "test_collection",
+            db_name,
             train_cands[0],
             F_train[0],
             emb_layer.word2id,
