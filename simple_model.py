@@ -81,7 +81,7 @@ def main(db_name):
             "counter_unit": "epoch",
             "checkpointing": False,
             "checkpointer_config": {
-                "checkpoint_metric": {f"test_collection/test_collection/train/loss": "min"},
+                "checkpoint_metric": {f"{db_name}/{db_name}/train/loss": "min"},
                 "checkpoint_freq": 1,
                 "checkpoint_runway": 2,
                 "clear_intermediate_checkpoints": True,
