@@ -155,7 +155,7 @@ def main(db_name):
 
     # Create task and model, and perform training
     tasks = create_task(
-        "test_collection", 2, F_train[0].shape[1], 2, emb_layer, model="LogisticRegression"
+        db_name, 2, F_train[0].shape[1], 2, emb_layer, model="LogisticRegression"
     )
 
     model = EmmentalModel(name=f"test_collection_task")
