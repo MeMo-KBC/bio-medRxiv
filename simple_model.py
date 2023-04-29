@@ -158,7 +158,7 @@ def main(db_name):
         db_name, 2, F_train[0].shape[1], 2, emb_layer, model="LogisticRegression"
     )
 
-    model = EmmentalModel(name=f"test_collection_task")
+    model = EmmentalModel(name=f"{db_name}_task")
 
     for task in tasks:
         model.add_task(task)
