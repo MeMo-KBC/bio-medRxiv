@@ -61,7 +61,7 @@ Aufzählungen von Verben stehen oft hintereinander
         
         oder hier: tissue browning, conducted experiments, analyzed
         
-        <br> 
+        
         
   Verben die oft vorkommen: 
     -analyzed data
