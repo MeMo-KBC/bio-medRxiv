@@ -77,13 +77,14 @@ Aufzählungen von Verben stehen oft hintereinander
   
 
 - Noun 
-- kommt oft vor:
-  -Conceptualization
+    - kommt oft vor:
+
+    -Conceptualization
   
-  -Investigation
+     -Investigation
   
-  -Formal Analysis
+    -Formal Analysis
   
-  -Supervision
+    -Supervision
   
-  -Writing
+    -Writing
