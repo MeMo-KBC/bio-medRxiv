@@ -30,7 +30,7 @@
         - z.B. in conceived of the study.
         
   - zwischen den Verben steht oft "and"    
-          - analyses and study
+          - z.B. analyses and study
 
 
 - Noun 
