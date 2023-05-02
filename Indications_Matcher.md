@@ -26,6 +26,11 @@
 
 ### Matcher activities 
 - Verb: 
-  - nach dem Verb steht oft "of"
-  - zwischen den Verben steht oft "and"   
+  - nach dem Verb steht oft "of"       
+        - z.B. in conceived of the study.
+        
+  - zwischen den Verben steht oft "and"    
+          - analyses and study
+
+
 - Noun 
