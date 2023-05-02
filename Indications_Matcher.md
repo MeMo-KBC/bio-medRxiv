@@ -65,13 +65,13 @@ Aufzählungen von Verben stehen oft hintereinander
         
   Verben die oft vorkommen: <br>
   
-    -analyzed data <br>
-    -organized data <br>
-    -contributed <br>
-    -conceived by <br>
-    -designed by  <br>
-    -performed by --> nach performed by stehen oft Autor Abkürzungen (Autor Kürzel) <br>
-    -write/wrote/written wird oft verwendet <br> 
+    -analyzed data 
+    -organized data 
+    -contributed 
+    -conceived by 
+    -designed by  
+    -performed by --> nach performed by stehen oft Autor Abkürzungen (Autor Kürzel) 
+    -write/wrote/written wird oft verwendet  
 
     
   
