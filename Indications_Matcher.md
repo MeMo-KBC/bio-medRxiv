@@ -25,5 +25,7 @@
 
 
 ### Matcher activities 
-- Verb 
+- Verb: 
+  - nach dem Verb steht oft "of"
+  - zwischen den Verben steht oft "and"   
 - Noun 
