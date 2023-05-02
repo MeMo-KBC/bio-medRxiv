@@ -14,7 +14,7 @@
 ### Matcher Name long 
 -mindestens 2 Namen, jeweils durch "," getrennt
 -nächster Name erst nach meheren Wörtern 
--meisterster Buchstabe Großbuchstabe
+-meist erster Buchstabe Großbuchstabe
 -zweiterbuchstabe klein meist 
 - Manchmal Namen komplett ausgecshrieben 
 - Namen, mit doppelnamen stehen als Abkürzung da Bsp: ...S.S
