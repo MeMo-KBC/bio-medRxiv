@@ -11,6 +11,9 @@
   - Variationen: JC, RTB, EMJG, 
   - Bsp. aus Text: Formal Analysis: CA, AM, ASH, DEG, MB Resources: AM, EF, J PF, SS, XL, MB
 
+
+- Name wie werden Miguel López de Heredia werden zu MLdH (Doc-ID: 10.1101.2020.04.19.20071357)
+
 ### Matcher Name long 
 -mindestens 2 Namen, jeweils durch "," getrennt
 -nächster Name erst nach meheren Wörtern 
