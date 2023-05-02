@@ -40,6 +40,12 @@
 
 
 ### Matcher activities 
+
+
+
+
+
+
 - Verb: 
   - nach dem Verb steht oft "of"       
         - z.B. in conceived of the study.
@@ -57,6 +63,7 @@
 Aufzählungen von Verben stehen oft hintereinander
   
   -Verb, dann Nomen wird wiederholt augezählt wie hier zum Beispiel: 
+  
         -research studies, conducted experiments, analyzed data, and contributed to writing the manuscript
         
         oder hier: tissue browning, conducted experiments, analyzed
