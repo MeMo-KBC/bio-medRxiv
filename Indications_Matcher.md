@@ -31,6 +31,8 @@
         
   - zwischen den Verben steht oft "and"    
           - z.B. analyses and study
-
+  
+  -Verb, dann Nomen wird wiederholt augezählt wie hier zum Beispiel: 
+        -research studies, conducted experiments, analyzed data, and contributed to writing the manuscript
 
 - Noun 
