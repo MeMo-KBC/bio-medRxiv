@@ -12,11 +12,12 @@
   - Bsp. aus Text: Formal Analysis: CA, AM, ASH, DEG, MB Resources: AM, EF, J PF, SS, XL, MB
 
 ### Matcher Name long 
--mindestens 2 Buchstaben, jeweils durch "." getrennt
+-mindestens 2 Namen, jeweils durch "," getrennt
 -nächster Name erst nach meheren Wörtern 
 -meisterster Buchstabe Großbuchstabe
 -zweiterbuchstabe klein meist 
 - Manchmal Namen komplett ausgecshrieben 
+- Namen, mit doppelnamen stehen als Abkürzung da Bsp: ...S.S
 - Beispiel:
 - ![image](https://user-images.githubusercontent.com/79063465/235614136-81dad94d-7b7a-4eb6-a051-0bffb86b02cd.png)
 
