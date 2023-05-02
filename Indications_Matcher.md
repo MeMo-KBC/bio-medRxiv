@@ -63,7 +63,8 @@ Aufzählungen von Verben stehen oft hintereinander
         
         
         
-  Verben die oft vorkommen: 
+  Verben die oft vorkommen: <br>
+  
     -analyzed data <br>
     -organized data <br>
     -contributed <br>
