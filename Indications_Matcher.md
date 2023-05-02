@@ -25,11 +25,11 @@
 
 
 <br> 
-
 <br> 
-
 <br> 
-
+<br> 
+<br> 
+<br> 
 <br> 
 <br> 
 <br> 
@@ -47,6 +47,11 @@
   - zwischen den Verben steht oft "and"    
           - z.B. analyses and study
 
+<br> 
+<br> 
+<br> 
+<br> 
+
 
 
 Aufzählungen von Verben stehen oft hintereinander
@@ -56,6 +61,8 @@ Aufzählungen von Verben stehen oft hintereinander
         
         oder hier: tissue browning, conducted experiments, analyzed
         
+        <br> 
+        
   Verben die oft vorkommen: 
     -analyzed data
     -organized data
@@ -64,5 +71,9 @@ Aufzählungen von Verben stehen oft hintereinander
     -designed by 
     -performed by --> nach performed by stehen oft Autor Abkürzungen (Autor Kürzel)
     -write/wrote/written wird oft verwendet
+    
+    <br> 
+    <br> 
+    <br> 
 
 - Noun 
