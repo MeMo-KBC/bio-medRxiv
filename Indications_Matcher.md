@@ -72,8 +72,6 @@ Aufzählungen von Verben stehen oft hintereinander
     -performed by --> nach performed by stehen oft Autor Abkürzungen (Autor Kürzel)
     -write/wrote/written wird oft verwendet
     
-    <br> 
-    <br> 
-    <br> 
+  
 
 - Noun 
