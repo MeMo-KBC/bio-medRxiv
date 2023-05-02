@@ -79,7 +79,11 @@ Aufzählungen von Verben stehen oft hintereinander
 - Noun 
 - kommt oft vor:
   -Conceptualization
+  
   -Investigation
+  
   -Formal Analysis
+  
   -Supervision
+  
   -Writing
