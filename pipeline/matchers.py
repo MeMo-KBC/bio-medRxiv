@@ -45,6 +45,21 @@ matcher_name_abbrv = Intersect(
 )
 
 
+
+##
+# !!! Meine Notizen/ Änderungen zum Task-Matcher !!!
+##
+# Überlegungen
+# Müssen in einem Text mit Namenskürzeln sein?
+# Müssen in einem Text mit Überschrift xxx sein? (z.B acknowledgements, ... gibt es vielleicht eine Liste aus dem Label Team?)
+# auf bestimmte Verben filtern?
+# Besteht aus Verb und Objekt
+    # verb dann "of" dann Nomen
+    # verb dann "and" dann verb ...
+    # liste von verben und Nomen durch Komma getrennt: research studies, conducted experiments, analyzed data,...
+#
+# To Do: ein Beispiel Matcher der nur den Task xxx(bestimmtes verb) findet und 2 wörter danach
+
 # Matchers for Task
 
 match_small_letters = RegexMatchSpan(rgx=r'[a-z]{8}')

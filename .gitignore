@@ -1,2 +1,6 @@
 logs
 **__pycache__**
+
+
+# directory with (test-)html-files should not be pushed 
+/data/*
