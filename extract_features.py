@@ -4,8 +4,8 @@ from fonduer.parser.models import Document
 from pipeline.utils import get_session
 from definitions.candidates import NameFullAbbr, NameFullTask
 
-def main():
-    session = get_session("test_collection")
+def main(db_name: str):
+    session = get_session(db_name)
     featurizer = Featurizer(session, [NameFullTask, NameFullAbbr], parallelism=6)
     featurizer.apply(split=0, train=True)
     featurizer.apply(split=1)
@@ -13,4 +13,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    main("test_collection")

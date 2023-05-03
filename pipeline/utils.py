@@ -1,7 +1,8 @@
 from fonduer.meta import Meta
 from fonduer.parser.models import Document
+from fonduer.candidates.models import Candidate
 
-PARALELL = 6
+PARALLEL = 6
 
 def get_session(db_name: str):
     conn_str = 'postgresql://postgres@fonduer-postgres-dev:5432/' + db_name
@@ -26,3 +27,17 @@ def split_documents(session):
         else:
             test_docs.add(doc)
     return train_docs, dev_docs, test_docs
+
+
+def load_candidates(session, split: int, candidate_list):
+
+    result = []
+
+    for candidate_class in candidate_list:
+        # Filter by candidate_ids in a particular split
+        sub_query = (session.query(Candidate.id).filter(Candidate.split == split).subquery())
+        cands = (session.query(candidate_class).filter(candidate_class.id.in_(sub_query)).order_by(candidate_class.id).all())
+        
+        result.append(cands)
+
+    return result

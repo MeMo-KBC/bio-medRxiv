@@ -1,13 +1,11 @@
 from fonduer.supervision import Labeler
 from fonduer.parser.models import Document
 
-from pipeline.utils import get_session
+from pipeline.utils import get_session, PARALLEL
 from definitions.candidates import NameFullAbbr, NameFullTask
 from pipeline.lfs.dummy_lfs import dummy_lfs
 
-
-def main(db_name):
-    PARALLEL = 12
+def main(db_name: str):
     session = get_session(db_name)
     labeler = Labeler(session, [NameFullAbbr, NameFullTask])
 
