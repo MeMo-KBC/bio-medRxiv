@@ -78,6 +78,8 @@ Author contributions statement
   - zwischen den Verben steht oft "and"    
           - z.B. analyses and study
 
+
+Mit Bindestrich getrennt zwischen zwei tasks:  Writing – review & editing 
 <br> 
 <br> 
 <br> 
