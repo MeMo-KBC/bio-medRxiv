@@ -29,6 +29,8 @@
 
 <br>
 
+Zusatz zu Author short!
+In wenigen Fällen stehen bei author short keine Kommas oder sonstige Zeichen, die zwei Autoren voneinander trennen. Nur Leerzeichen z.B. hier M.J.A, T.K. S.J.T. and G.H.K. wrote the manuscript with 
 
 ![Screenshot 2023-05-14 125739](https://github.com/MeMo-KBC/bio-medRxiv/assets/115710684/9413bb69-e8de-419e-91e4-d676741a91e4)
 
