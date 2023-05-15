@@ -13,6 +13,7 @@
 
 
 - Name wie werden Miguel López de Heredia werden zu MLdH (Doc-ID: 10.1101.2020.04.19.20071357)
+- Kürzel ohne Punkte dazwischen können auch ohne kommas getrennt im text stehen: MdL designed and performed ... KB and HW designed... (ID 718)
 
 ### Matcher Name long 
 -mindestens 2 Namen, jeweils durch "," getrennt
@@ -127,3 +128,4 @@ Aufzählungen von Verben stehen oft hintereinander
     -Supervision
   
     -Writing
+    
