@@ -14,8 +14,10 @@
 Neues:
 - Name wie werden Miguel López de Heredia werden zu MLdH (Doc-ID: 10.1101.2020.04.19.20071357)
 - Kürzel ohne Punkte dazwischen können auch ohne kommas getrennt im text stehen: MdL designed and performed ... KB and HW designed... (ID 718)
-- In Doc Nr. 714 hat viele verschiedene Variationen wie: Ar.M., Se.R., Ad.M., F.G.-H, S.M.-L
-- Zudem muss beachtet werden, dass manche der fachlichen Begriffe wie die Kürzel ohne Punkte dazwischden, erkannt werden könnten. Bei bedarf könnte eine art "don´t match these" liste erstellt werden, wenn ich das richtig verstanden habe.
+- In Doc Nr. 714 sind viele verschiedene Variationen wie: Ar.M., Se.R., Ad.M., F.G.-H, S.M.-L
+- Zudem muss beachtet werden, dass manche der fachlichen Begriffe wie die Kürzel ohne Punkte dazwischden, erkannt werden könnten. Bei bedarf könnte eine art "don't match these" liste erstellt werden, wenn ich das richtig verstanden habe.
+- In Doc Nr. 713 sind ganz spezielle abürzungen wie: A.H.O'D-L., K.O'K., C.A.A-T.
+- In Doc Nr. 709 ist ein Kürzel mit einem leerzeichen dazwischen: K. T
 
 ### Matcher Name long 
 -mindestens 2 Namen, jeweils durch "," getrennt
