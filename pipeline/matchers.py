@@ -62,16 +62,50 @@ matcher_name_abbrv = Intersect(
 
 # Matchers for Task
 
-match_small_letters = RegexMatchSpan(rgx=r'[a-z]{8}')
-match_small_words = RegexMatchSpan(rgx=r'[a-z]+\s{3,}')
+# match_small_letters = RegexMatchSpan(rgx=r'[a-z]{8}')
+# match_small_words = RegexMatchSpan(rgx=r'[a-z]+\s{3,}')
 
-matcher_task = Intersect(
-    Union(
-        match_small_letters,
-        match_small_words
-    )
-)
+# matcher_task = Intersect(
+#     Union(
+#         match_small_letters,
+#         match_small_words
+#     )
+# )
 
+import sys
+import subprocess
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'nltk'])
+# %pip install nltk
+from nltk.corpus import wordnet as wn
+import nltk
+nltk.download('wordnet')
+
+def mention_span_in_acknowledments_matches_verb(mention):
+    # read in span/word
+    span_string = mention.get_span() 
+
+    # Task(SpanMention("RefWorks Tagged", sentence=61332, chars=[0,14], words=[0,1]))]
+
+    # check if span is verb
+    #print("xxxxxxxxxxx")
+    #print(span_string)
+    #print(span_string)
+    
+    for word in span_string.split(): # mention.get_span()[0]
+        #print(word)
+        try:
+            if wn.synsets(word)[0].pos() == "v":
+                #print(word)
+                return True
+        except:
+            pass
+    return False
+
+
+    # mention space???
+    
+
+matcher_task = LambdaFunctionMatcher(func = mention_span_in_acknowledments_matches_verb)
 '''
 def first_page(mention):
     """Matches a span if it is on the first page."""
