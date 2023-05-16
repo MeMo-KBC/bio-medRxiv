@@ -79,7 +79,7 @@ Author contributions statement
 
 
 - Verb: 
-  - nach dem Verb steht oft "of"       
+  - nach dem Verb steht oft "of" und “from“      
         - z.B. in conceived of the study.
         
   - zwischen den Verben steht oft "and"    
