@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "MeMoKBC"
+version = "0.0.1"
+authors = [
+  { name="@JannickTH" },
+  { name="@juwess" },
+  { name="@macmacpri" },
+  { name="@Pexem" },
+  { name="@thuettel" },
+  { name="@Wanille" }
+
+]
+description = "Utilities for the MeMo-KBC bio-medrxiv project."
+readme = "README.md"
+requires-python = "~=3.8"
+
+[project.urls]
+"Bug Tracker" = "https://github.com/MeMo-KBC/bio-medRxiv/issues"
