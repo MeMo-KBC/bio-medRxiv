@@ -19,6 +19,8 @@ Neues:
 - In Doc Nr. 713 sind ganz spezielle abürzungen wie: A.H.O'D-L., K.O'K., C.A.A-T.
 - In Doc Nr. 709 ist ein Kürzel mit einem leerzeichen dazwischen: K. T
 
+-Doc ID 759: Kürzel variationen - VŠ, MÖB
+
 ### Matcher Name long 
 -mindestens 2 Namen, jeweils durch "," getrennt
 -nächster Name erst nach meheren Wörtern 
