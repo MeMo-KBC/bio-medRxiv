@@ -135,3 +135,8 @@ Aufzählungen von Verben stehen oft hintereinander
   
     -Writing
     
+
+Sonderfall Author Contibution: 
+
+*keine Kürzel sondern volle Namen mit Doppelpunkt*
+![image](https://github.com/MeMo-KBC/bio-medRxiv/assets/92575975/e93e26ab-a876-457e-a5d7-b3db0fff4d51)
