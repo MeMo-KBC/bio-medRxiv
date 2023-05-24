@@ -136,7 +136,29 @@ Aufzählungen von Verben stehen oft hintereinander
     -Writing
     
 
-Sonderfall Author Contibution: 
+Sonderfälle Author Contibution: 
 
 *keine Kürzel sondern volle Namen mit Doppelpunkt*
 ![image](https://github.com/MeMo-KBC/bio-medRxiv/assets/92575975/e93e26ab-a876-457e-a5d7-b3db0fff4d51)
+
+
+Task steht am Anfang des Satzes und Kürzel dahinter, task und kürzel sind durch doppelpunkt voneinander getrennt. Hinter dem letzten Kürzel der jeweiligen Task steht ein Semicolon. 
+
+In Zeile 1 ist eine Unregelmäßigkeit im Kürzel. Normalerweise ist Kürzel bspw. X.X <- hinter dem letzten Großbuchstaben steht kein Punkt.
+Hier ist ein Kürzel R.K.G. 
+![image](https://github.com/MeMo-KBC/bio-medRxiv/assets/92575975/5959818b-cfc1-49ef-bb4d-7f6bc9ff39f0)
+
+
+Nächstes Beispiel: 
+
+Hier steht Task auch am Satzanfang, jedoch erfolgt danach ein Komma und darauffolgend die Namenskürzel. Hier sind die Namenskürzel konsequent mit durchgehenden Punkten geschrieben (bspw. X.X.). Hinter dem letzten kürzel steht auch wieder ein Semicolon. 
+Eventuell problematisch, da kein Leerzeichen vorhanden ist (X.X.;)??
+![image](https://github.com/MeMo-KBC/bio-medRxiv/assets/92575975/667882dd-4b08-4425-a7c6-eb814d5538eb)
+
+
+Nächste Unregelmäßigkeit: 
+
+Kürzel stehen am Satzanfang - inkonsistent in der Anordnung von Großbuchstabe und Punkt. Nach "-" erfolgt Auflistung der Tasks.
+Hierbei Auffällig: medizinische Abkürzungen mit Großbuchstaben (bspw. PCR) stehen in den Tasks. Die Trennung zwischen Tasks & Tasks erfolgt durch ein Komma,  ziwschen Taks & Kürzel durch einen Punkt. 
+
+![image](https://github.com/MeMo-KBC/bio-medRxiv/assets/92575975/c56d7c08-e572-4efb-87e6-1b2abf85d9c9)
