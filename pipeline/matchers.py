@@ -1,7 +1,7 @@
 from fonduer.candidates.matchers import LambdaFunctionMatcher, Union, Intersect, RegexMatchSpan
 import re
 from random import randint
-
+from fonduer.parser.models import Document, Section, Table, Cell, Paragraph, Sentence, Figure, Caption
 
 # Matchers for testing to reduce the number of candidates
 
@@ -80,30 +80,42 @@ from nltk.corpus import wordnet as wn
 import nltk
 nltk.download('wordnet')
 
+
+#########################################################
+
+list_of_headlines = ["Acknowledgements", "Acknowledgement", "acknowledgements", "acknowledgement", 
+                     #"Contributions", "Contribution", "contribution", "contributions",
+                     #"Credits", "Credit", "credits", "credit",
+                     #"Überschrift 1"
+                     ]
+
+
+from pipeline.utils import get_session
+session = get_session("jkracht") # hier eigenen DB- Namen hinzufügen
+
 def mention_span_in_acknowledments_matches_verb(mention):
-    # read in span/word
-    span_string = mention.get_span() 
+    span_string = mention.get_span()
+    try:
+        # get last paragraphs first sentence (headline of the paragraph)
+        headline_of_last_paragraph = session.query(Paragraph).get(mention.sentence.paragraph_id-1).sentences[0].text
 
-    # Task(SpanMention("RefWorks Tagged", sentence=61332, chars=[0,14], words=[0,1]))]
+        # check if last headline is listed to extract mentions of
+        #if headline_of_last_paragraph in list_of_headlines:
+        if any(option in headline_of_last_paragraph for option in list_of_headlines):
 
-    # check if span is verb
-    #print("xxxxxxxxxxx")
-    #print(span_string)
-    #print(span_string)
-    
-    for word in span_string.split(): # mention.get_span()[0]
-        #print(word)
-        try:
-            if wn.synsets(word)[0].pos() == "v":
-                #print(word)
-                return True
-        except:
-            pass
-    return False
+            #test if span is a verb
+            for word in wn.synsets(span_string):
+                if word.pos() == "v": # and word.name().split(".")[0] == span_string.lower():
+                    return True # case: span is a ver in a wanted paragraph
 
+            return False # case: span is not a verb
+        
+        else:
+            return False # case: span not in wanted paragraph
+    except:
+        return False # case: no prior paragraph
 
-    # mention space???
-    
+###############################    
 
 matcher_task = LambdaFunctionMatcher(func = mention_span_in_acknowledments_matches_verb)
 '''

@@ -8,12 +8,13 @@ from pipeline.utils import PARALLEL
 def main(db_name: str):
     session = get_session(db_name)
 
-    docs_path = "/data/test_collection"
+    #docs_path = "/data/test_collection2/"
+    docs_path = "data/test_collection2"
     doc_preprocessor = HTMLDocPreprocessor(docs_path)
     corpus_parser = Parser(session, structural=True, lingual=True)
     corpus_parser.apply(doc_preprocessor, parallelism=PARALLEL)
 
 
 if __name__ == '__main__':
-    #main("test_collection")
-    main("jkracht")
+    main(db_name="jkracht")
+    #main("jkracht") #createdb -h fonduer-postgres-dev -U postgres jkracht

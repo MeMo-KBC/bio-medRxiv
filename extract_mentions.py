@@ -28,11 +28,11 @@ def extract_mentions(db_name: str):
         f"Number of Tasks: {session.query(Task).count()}",
     )
 
-    print(session.query(Task).all())
-    for m in session.query(Task).all():
-        print(m.context.get_span())
-        print("\n")
+    # print(session.query(Task).all())
+    # for m in session.query(Task).all():
+    #     print(m.context.get_span())
+    #     print("\n")
 
 
 if __name__ == '__main__':
-    extract_mentions("test_collection")
+    extract_mentions(db_name="jkracht")
