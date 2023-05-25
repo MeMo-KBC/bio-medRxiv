@@ -4,7 +4,7 @@ from pipeline.utils import split_documents, get_session, PARALELL
 from definitions.candidates import NameFullAbbr, NameFullTask
 from pipeline.throttler.random_throttler import throt_rand
 
-
+trains_cands = ()
 
 def main(db_name: str):
     session = get_session(db_name=db_name)
@@ -21,7 +21,7 @@ def main(db_name: str):
         candidate_extractor.apply(docs, split=split, parallelism=PARALELL)
         print(f"Split {split}: Number of NameFull + NameAbbrv candidates:", session.query(NameFullAbbr).filter(NameFullAbbr.split==split).count())
         print(f"Split {split}: Number of NameFull + Task candidates:", session.query(NameFullTask).filter(NameFullTask.split==split).count())
-
+    train_cands = candidate_extractor.get_candidates()
 
 if __name__ == "__main__":
-    main(db_name="test_collection")
+    main(db_name="testrun")

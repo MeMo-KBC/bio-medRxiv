@@ -8,7 +8,7 @@ from fonduer.parser.models import Document
 
 def extract_mentions(db_name: str):
 
-    assert db_name, "db_name is necessary"  
+    assert db_name, "testrun"  
     session = get_session(db_name=db_name)
 
     docs = session.query(Document).all()
@@ -30,4 +30,4 @@ def extract_mentions(db_name: str):
 
 
 if __name__ == '__main__':
-    extract_mentions("test_collection")
+    extract_mentions("testrun")
