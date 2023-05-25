@@ -4,8 +4,8 @@ project_name = "biorxiv"
 conn_string = "postgresql://postgres@fonduer-postgres-dev:5432/"
 
 dataset_path = "data/"
-export_path = os.path.join(dataset_path, "snapshot1.json")
-documents_path = os.path.join(dataset_path, "converted")
+export_path = os.path.join(dataset_path, "contrisnap.json")
+documents_path = os.path.join(dataset_path, "converted_contri")
 
 
 from LabelstudioToFonduer.to_fonduer import parse_export
@@ -21,7 +21,7 @@ session = Meta.init(conn_string + project_name).Session()
 
 from LabelstudioToFonduer.document_processor import My_HTMLDocPreprocessor
 from fonduer.parser import Parser
-doc_preprocessor = My_HTMLDocPreprocessor(documents_path, max_docs=100)
+doc_preprocessor = My_HTMLDocPreprocessor(documents_path, max_docs=5)
 
 from LabelstudioToFonduer.lingual_parser import ModifiedSpacyParser
 exceptions = [".NET", "Sr.", ".WEB", ".de", "Jr.", "Inc.", "Senior.", "p.", "m."]
@@ -49,12 +49,12 @@ Date = mention_subclass("Date")
 
 from fonduer.candidates import MentionNgrams
 title_ngrams = MentionNgrams(n_max=export.ngrams("Author short")[1] + 5, n_min=export.ngrams("Author short")[0])
-date_ngrams = MentionNgrams(n_max=export.ngrams("Author long")[1] + 5, n_min=export.ngrams("Author long")[0])
+date_ngrams = MentionNgrams(n_max=export.ngrams("Task")[1] + 5, n_min=export.ngrams("Task")[0])
 
 
 from fonduer.candidates.matchers import LambdaFunctionMatcher
 title = export.lable_entitis("Author short")
-date = export.lable_entitis("Author long")
+date = export.lable_entitis("Task")
 
 
 def is_title(mention):
@@ -115,3 +115,17 @@ labeler.apply(
     train=True,
     parallelism=8,
 )
+
+train_cands = candidate_extractor.get_candidates()
+all_gold = labeler.get_gold_labels(train_cands)
+
+
+print("Gold labels found:", all_gold[0].sum(), "from", len(export.documents))
+print("Documents successfully transfered:")
+
+golds = []
+for k, v in zip(all_gold[0], train_cands[0]):
+    if k:
+        golds.append(v)
+        print(v.document.name)
+print(golds)
