@@ -68,7 +68,7 @@ for document, phone_numbers in numbers_per_document:
         all_recalls.append(recall)
 
         if recall != 1:
-            print("Numbers not found:", phone_numbers_unique - correct_found)
+            print("Name_Shorts not found:", phone_numbers_unique - correct_found)
     except ZeroDivisionError:  
         continue
 
