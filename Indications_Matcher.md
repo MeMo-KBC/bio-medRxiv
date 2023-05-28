@@ -20,6 +20,8 @@ Neues:
 - In Doc Nr. 709 ist ein Kürzel mit einem leerzeichen dazwischen: K. T
 
 -Doc ID 759: Kürzel variationen - VŠ, MÖB
+-Doc ID 743: Kürzel variationen - BSche, BSchu
+-Doc ID 742: Alle Kürzel in Fetter Schrift
 
 ### Matcher Name long 
 -mindestens 2 Namen, jeweils durch "," getrennt
