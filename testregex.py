@@ -3,8 +3,13 @@ import json
 from bs4 import BeautifulSoup
 from pprint import pprint
 
-phone_matcher_new = re.compile(r"[A-Z][\'.-]?[\s]?[A-Z][\'.-]?[aA-zZ]?[\'.-]?[aA-zZ]?[\'.-]?[aA-zZ]?")
-phone_matcher_old = re.compile(r"[A-Z][a-z][\'.-][A-Z][\'.-]?[aA-zZ]*")
+# # First Test Run
+# phone_matcher_new = re.compile(r"[A-Z][\'.-]?[\s]?[A-Z][\'.-]?[aA-zZ]?[\'.-]?[aA-zZ]?[\'.-]?[aA-zZ]?")
+# phone_matcher_old = re.compile(r"[A-Z][a-z][\'.-][A-Z][\'.-]?[aA-zZ]*")
+
+# Second Test Run
+phone_matcher_new = re.compile(r"[\s]?[A-Z][\'.-]?[\s]?[A-Z][\'.-]?[aA-zZ]?[\'.-]?[aA-zZ]?[\'.-]?[aA-zZ]*[\'.-]?[\s]?")
+phone_matcher_old = re.compile(r"[A-Z][a-z][\'.-]?[a-z]?[A-Z][\'.-]?[aA-zZ]*")
 
 export = json.load(open("project-30.json"))
 
