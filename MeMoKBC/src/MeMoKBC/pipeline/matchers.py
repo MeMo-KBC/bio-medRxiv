@@ -5,12 +5,8 @@ from random import randint
 
 # Matchers for NameFull
 
-match_capital_words = RegexMatchSpan(rgx=r"([A-Z][a-z]+\s?){2,}")
+match_name_full = RegexMatchSpan(rgx=r"([A-Z][a-z]+\s?){2,}")
 
-matcher_name_full = Intersect(
-    match_capital_words,
-    LambdaFunctionMatcher(func=every_hundreth)
-    )
 
 
 # Matchers for NameAbbrv
