@@ -13,6 +13,8 @@ def extract_candidates(session, split: "tuple[float, float]"=(0.33, 0.66), paral
                                     [NameAbbrTask],
                                     throttlers=None,
                                 )
+    docs = [session.query(Document).all()]
+    # doc_split = split_documents(session, split)
     
     # doc_split = split_documents(session, split)
     doc_split = [session.query(Document).all()]
