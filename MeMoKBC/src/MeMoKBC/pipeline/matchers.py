@@ -3,23 +3,6 @@ import re
 from random import randint
 
 
-# Matchers for testing to reduce the number of candidates
-
-def every_hundreth(mention):
-    """Matches every hundreth mention."""
-    if randint(1, 100) == 1:
-        return True
-    else:
-        return False
-
-def every_tenth(mention):
-    """Matches every tenth mention."""
-    if randint(1, 10) == 1:
-        return True
-    else:
-        return False
-
-
 # Matchers for NameFull
 
 match_capital_words = RegexMatchSpan(rgx=r"([A-Z][a-z]+\s?){2,}")
@@ -32,16 +15,14 @@ matcher_name_full = Intersect(
 
 # Matchers for NameAbbrv
 
-match_capital_letters = RegexMatchSpan(rgx=r"[A-Z]{2,4}")
-match_seperated_capital_letters = RegexMatchSpan(rgx=r"[A-Z].[A-Z]")
-# match_abbrv_style = RegexMatchSpan(rgx=r'(^\(?\w{1}[\.-]{0,2}\w{1}[\.\-:]{0,2}\w?[\.\-:]{0,2}\w?\)?$)')
+match_all = RegexMatchSpan(rgx=r"[\s]?[A-Z][\'.-]?[\s]?[A-Z][\'.-]?[aA-zZ]?[\'.-]?[aA-zZ]?[\'.-]?[aA-zZ]*[\'.-]?[\s]?", ignore_case = False)
+match_capital_dot_small = RegexMatchSpan(rgx=r"[A-Z][a-z][\'.-]?[a-z]?[A-Z][\'.-]?[aA-zZ]*", ignore_case = False)
 
 matcher_name_abbrv = Intersect(
     Union(
-        match_capital_letters,
-        match_seperated_capital_letters
-    ),
-    LambdaFunctionMatcher(func=every_tenth)
+        match_all,
+        match_capital_dot_small
+    )
 )
 
 
