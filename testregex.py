@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from pprint import pprint
 
 # # First Test Run
-# phone_matcher_new = re.compile(r"[A-Z][\'.-]?[\s]?[A-Z][\'.-]?[aA-zZ]?[\'.-]?[aA-zZ]?[\'.-]?[aA-zZ]?")
+phone_matcher_oldold = re.compile(r"[A-Z][\'.-]?[\s]?[A-Z][\'.-]?[aA-zZ]?[\'.-]?[aA-zZ]?[\'.-]?[aA-zZ]?")
 # phone_matcher_old = re.compile(r"[A-Z][a-z][\'.-][A-Z][\'.-]?[aA-zZ]*")
 
 # Second Test Run
@@ -18,6 +18,7 @@ numbers_per_document = []
 for document in export:
     data = document["data"]
     phone_numbers = []
+    doc_id = document['file_upload']
 
     for match in document["annotations"][0]["result"]:
         if "value" not in match.keys():
@@ -32,14 +33,14 @@ for document in export:
         else:
             continue
     numbers_per_document.append(
-        (data, phone_numbers)
+        (data, phone_numbers, doc_id)
     )
 
 
 all_precisions = []
 all_recalls = []
 
-for document, phone_numbers in numbers_per_document:
+for document, phone_numbers, doc_id in numbers_per_document:
     soup = BeautifulSoup(str(document), features="html.parser")
     # kill all script and style elements
     for script in soup(["script", "style"]):
@@ -73,7 +74,7 @@ for document, phone_numbers in numbers_per_document:
         all_recalls.append(recall)
 
         if recall != 1:
-            print("Name_Shorts not found:", phone_numbers_unique - correct_found)
+            print("Name_Shorts not found in doc:", doc_id, phone_numbers_unique - correct_found)
     except ZeroDivisionError:  
         continue
 

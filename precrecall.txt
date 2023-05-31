@@ -1,0 +1,301 @@
+r"[A-Z][a-z][\'.-]?[a-z]?[A-Z][\'.-]?[aA-zZ]*"
+
+Name_Shorts not found in doc: bab43d6c-10.1101.2020.02.16.951657.html {'JY', 'DF', 'NAF', 'WZ', 'KTA', 'HN', 'JWC'}
+Name_Shorts not found in doc: d1534b2a-10.1101.2020.02.16.941070.html {'R.D.A.', 'S.K.', 'S.A.B.', 'J.L.G.-S.', 'J.S.C.', 'R.L.T.', 'M.F.', 'J.C.', 'Y.Z.', 'D.U. ', 'E.Q.', 'D.U.', ' J.S.C.', 'J.B.H.'}
+Name_Shorts not found in doc: 6873bdf7-10.1101.2020.04.16.044693.html {'SBE', 'JLC', 'BK', 'HFA', 'SR', 'RLB', 'KF', 'ŁK', 'DSN', 'WK', 'GWH', 'LH'}
+Name_Shorts not found in doc: 42537e23-10.1101.2020.05.31.20118554.html {'VK', 'BF', 'MAP', 'LS', 'RR', 'DH', 'DJS', 'KL', 'RJ', 'AW', 'EPM', 'RO', 'KS', 'OB', 'FP', 'DE', 'CZ', 'MI', 'TJPK', 'EDC', 'DL', 'GM', 'IX', 'JG', 'DS', 'TB', 'JD', 'CKX', 'DM', 'AA', 'GS', 'CA', 'DIS', 'JR', 'JN', 'LB', 'AMR', 'TM', 'SH', 'CT', 'LM', 'AGG', 'ME', 'MMS', 'ICM', 'FL', 'RM', 'JDH', 'ILD', 'NBB', 'BD'}
+Name_Shorts not found in doc: 46c2c552-10.1101.2020.06.02.20117036.html {'DNC', 'NEC', 'DPM', 'WSA', 'LEO', 'RWN', 'TMT', 'BAW', 'MCT', 'GLC', 'FVT', 'MSF', 'MAA', 'PAC'}
+Name_Shorts not found in doc: d7254191-10.1101.2020.06.09.20126979.html {'O.S.', ' J.B.', 'H.L.', 'B.F.A', 'J.H.', 'J.M.C', 'E.J.', ' T.N.', 'J.B.', 'S.D.', 'V.S.', 'M.J.V.', 'K.H.B.', 'J.B', ' A.E.H.', 'W.C.', 'O.S', 'K.H.B', ' V.S.', 'M.J.V', 'A.S.', 'A.M.', 'J.C.', 'J.M.C.', ' E.J.', 'R.H.', 'B.F.A.', 'N.H.', 'E.O.C.', 'A.E.H.', 'I.M.', 'W.J.', 'N.N.P.', 'P.C.', 'A.N.', ' J.C'}
+Name_Shorts not found in doc: c145dddb-10.1101.2020.06.24.20138958.html {'HEJ', 'MR', 'PP', 'GP', 'EG', 'VGM'}
+Name_Shorts not found in doc: efbe4fd6-10.1101.2020.07.12.20150367.html {'Yen-Feng Lin', 'Chiu-Ping Fang', 'Chia-Yen Chen', 'Tzu-Ting Chen', 'Ying-Chih Cheng'}
+Name_Shorts not found in doc: d58210d4-10.1101.2020.07.23.20160762.html {'R.A.', 'M.G.M.G.'}
+Name_Shorts not found in doc: 3bad62df-10.1101.2020.09.22.20196048.html {'A.B.', 'C.M.', 'M.A.', 'K.S.', 'A.I.B.'}
+Name_Shorts not found in doc: 0b142991-10.1101.2020.09.29.20204388.html {'A.B.', 'M.A.', 'N.C', 'D.D.', 'N.C.', 'A.S.', 'Y.H.'}
+Name_Shorts not found in doc: c4b323a1-10.1101.2020.10.12.20211169.html {'MMH', 'SB', 'AB', 'MS', 'SK', 'TM'}
+Name_Shorts not found in doc: 8a408404-10.1101.2020.10.13.20212035.html {'P.C.M.', 'C.H.', 'D.C.', 'A.M.', 'C.F.', 'A.N.K.', 'L.P.', 'E.B.', 'N.C.R', 'A.V.', 'N.C.R.', 'A.T.', 'S.O.', 'M.A.', 'D.M.', 'N.S.'}
+Name_Shorts not found in doc: 712cb675-10.1101.2020.10.19.20215483.html {'Yi Li (YL)', 'Haoran Xia (HX)', 'YL', 'Nanfei Sun (NS)', 'Haiming Tang (HT)', 'HT', 'NS'}
+Name_Shorts not found in doc: 788c6877-10.1101.2020.11.10.20229369.html {'Brian Ko', 'Siao Ye', 'Huy Phi', 'Bin Huang', 'Reza Hosseini Ghomi', 'Duong Huynh', 'Kevin Sun'}
+Name_Shorts not found in doc: c13b7894-10.1101.2020.11.19.20235010.html {'P.S.', 'C.R.M', 'S.H.', 'A.S.', 'C.R.M.', 'L.S.', 'M.M.', 'D.S.'}
+Name_Shorts not found in doc: 29ca17b3-10.1101.2020.11.28.20240242.html {'OL', 'BH', 'CN', 'AB'}
+Name_Shorts not found in doc: f251d250-10.1101.2020.12.11.20247924.html {'HR', 'TYL'}
+Name_Shorts not found in doc: 1c8f1a1b-10.1101.2020.12.22.20248150.html {'JMY', 'AS', 'DK', 'BC', 'HP'}
+Name_Shorts not found in doc: 15131f02-10.1101.2020.12.22.20248705.html {'Fei Jia', 'T. Pham', 'Shu Wang'}
+Name_Shorts not found in doc: a8c98149-10.1101.2020.12.24.20248815.html {'SNRR', 'SK', 'PJ', 'SR', 'SKS', 'IK', 'SB', 'DMT', 'VN', 'PR'}
+Name_Shorts not found in doc: 736a5643-10.1101.2021.01.05.21249283.html {'M.A.P', 'E.C.', 'N.C.', 'M.A.P.', 'G.Y.', 'E.M.S.', 'F.C.', 'M.G.', 'M.M.', 'S.R', 'N.H.'}
+Name_Shorts not found in doc: 2c5617d1-10.1101.2021.01.06.21249243.html {'Prof. Cesar Amaral', 'Ms. Angela M.G.', 'Dr. Daniel A.J. de Oliveira', 'Dr. Eduardo Delfino Sodré', 'Dr. Newton Magalhães', 'Prof. Ricardo H.M. Godoi', 'Dr. Sérgio J. Gonçalves Junior', 'Prof. Luís Cristóvão Porto', 'MS. Rodrigo G. Barbosa', 'Dr. Marcio Cataldo Gomes da Silva', 'Prof. Heitor Evangelista', 'Dr. Juliana Nogueira'}
+Name_Shorts not found in doc: 5fed37dc-10.1101.2021.02.03.21251034.html {'R.D.S.', 'J.Z.', 'D.L.R.', 'M.F.G.', 'S.A.'}
+Name_Shorts not found in doc: 2b18ee4d-10.1101.2021.02.08.21250641.html {'RF', 'ASW', 'WBM', 'LRW', 'MED', 'RHBIII', 'ASF', 'LK', 'JPD', 'SS', 'DG', ' JB.', 'KC', 'EL', 'DG.', 'RKJ', 'SK', 'JMF', 'AB.', 'KAS', 'HK', 'RF.', 'DH', 'CF'}
+Name_Shorts not found in doc: 84159e2f-10.1101.2021.02.08.21251186.html {'JFL', 'MJ', 'EB', 'YHC', 'AP', 'KP', 'MD', 'MB', 'MCR', 'EAB', 'SS', 'KA', 'JJK', 'LH'}
+Name_Shorts not found in doc: b2562ce6-10.1101.2021.02.12.21251621.html {'R.T', 'T.R.', 'E.D.', 'G.H.', 'S.B-C.', 'A.D.B.', 'T.B.', 'F.A.', 'W.K.C.', 'F.C.', 'R.D.', 'J.D.', 'C.S.L.', 'V.W.', 'J.G.', 'L.D.', 'S.J.', 'N.T.', 'S.M.', 'C.M.', 'R.J.L.A.', 'S.P.', 'A.P.'}
+Name_Shorts not found in doc: 2a0bc38e-10.1101.2021.02.19.21251770.html {'B.H.S.', 'H.L.H.', 'L.A.C.'}
+Name_Shorts not found in doc: 71ec328f-10.1101.2021.02.24.21252386.html {'ASW', 'ZI', 'JK', 'TMW', 'DWC', 'PWF', 'AWS', 'TEAP', 'ALGC', 'MH', 'SH', 'DMC'}
+Name_Shorts not found in doc: c1780b2c-10.1101.2021.03.08.21252839.html {'RC', 'CB', 'KB', 'AC', 'NA', 'WB', 'SR', 'PF', 'SS', 'AR', 'PW', 'RJ', 'TL', 'MC', 'LM', 'JE', 'CR', 'HL', 'GZ', 'MM', 'MS', 'GPT', 'JZ', 'LR'}
+Name_Shorts not found in doc: 75f820b7-10.1101.2021.03.09.21253168.html {'F.X.C.', 'M.K.', ' R.L.', 'K.D.T', 'V.G.', 'R.S.', 'C.H.', 'B.L.L.', 'L.T.', 'A.M-B.', 'R.L.', 'R.H.T.', 'R.C.C.', 'M.P.M.', 'A.R.F.', ' A.M-B', 'A.M-B', ' M.P.M.', 'K.D.T.', 'M.B.', ' A.R.F.', 'S.J.C.'}
+Name_Shorts not found in doc: dddf7f46-10.1101.2021.03.12.21253461.html {'CS', 'RZ', 'JM', 'AC', 'SR', 'ZA', 'JT', 'GG', 'FW', 'HZ', 'JB', 'FFC', 'WG', 'ZB', 'YL', 'YH'}
+Name_Shorts not found in doc: 01b80b0c-10.1101.2020.06.09.20127100.html {' V.S.', 'O.S.', 'H.L.', 'A.S.', 'B.F.A', 'J.H.', ' A.M.', 'A.M.', 'J.C.', 'J.M.C.', 'J.M.C', 'E.C', 'R.H.', 'B.F.A.', 'N.H.', ' I.M.', 'A.E.H.', 'E.O.C.', 'J.B.', 'I.M.', 'W.J.', 'M.J.V.', 'S.D.', 'V.S.', 'B.F.A.,', 'T.N.', 'N.N.P.', 'K.H.B.', 'P.C.', 'A.N.', 'W.C.'}
+Name_Shorts not found in doc: 27d9c3de-10.1101.2021.03.04.21251264.html {'PBS', 'KBD', 'PS', 'RS', 'GWR', 'TML', 'LACC', 'TML.', 'IRB', 'Author contributions\\n', 'NCL', 'GRW'}
+Name_Shorts not found in doc: f82d25f2-10.1101.2021.02.28.21252634.html {'A.P. ', 'F.B', ' J.S.', 'A.S.', ' V.N.', 'M.L.', 'X.G.', 'P.R.', 'V.N.', 'J.S.', 'S.T.', 'C.N.', 'F.B.', 'A.N.', 'A.A.', 'A.P.', 'A.P'}
+Name_Shorts not found in doc: 604d9794-10.1101.2021.02.26.21252547.html {'J.J.', 'D.V.S.', 'C.H.', 'V.U.'}
+Name_Shorts not found in doc: 75718235-10.1101.2021.03.04.21252466.html {'MH', 'VH', 'DF', 'AF'}
+Name_Shorts not found in doc: 80d4a9c0-10.1101.2021.03.17.21253760.html {'JLK', 'EER', 'BAS', 'NGE'}
+Name_Shorts not found in doc: ac424b40-10.1101.2020.05.07.20093286.html {'MR', 'LW', 'XZL', 'TRG', 'DB', 'JZ', 'YL', 'YMZ', 'HZ'}
+Name_Shorts not found in doc: 25f9ae95-10.1101.2020.04.19.20071357.html {'RC', 'IQ', 'PL', 'AC', 'JRG', 'TE', 'MLdH', 'LAPJ'}
+Name_Shorts not found in doc: 0a6b5430-10.1101.2020.04.17.046268.html {'RF', 'SGT', 'DHH', 'BK', 'EK', 'MB', 'VR', 'KO', 'APM', 'AW', 'GA', 'MP', 'MSC', 'JPB', 'AI', 'RS', 'LSD1', 'SL', 'MS', 'GP', ' SY', 'SF', 'DO'}
+Name_Shorts not found in doc: b1c6df2f-10.1101.2020.04.16.044941.html {'Z.F.M.', 'M.B.', 'Z.F.M', 'M.S.F', 'M.S.F.', 'N.S.'}
+Name_Shorts not found in doc: ae732271-10.1101.2020.04.15.035063.html {'K.Y', 'K.K', 'K.Y.', 'H.B.', 'K.K.'}
+Name_Shorts not found in doc: 785f15dc-10.1101.2020.04.14.20065326.html {'AK', 'HC', 'JGW', 'EGC'}
+Name_Shorts not found in doc: 1a270f2a-10.1101.2020.04.14.041046.html {'ON', 'MT', 'ABB', 'KXN', 'MY', 'TA', 'KH', 'TI', ' KT', 'KT', 'TF', 'TU', 'KU', 'NK', ' AY', 'YH', 'KN'}
+Name_Shorts not found in doc: 397e4ba8-10.1101.2020.04.09.20060103.html {'XS', 'YW', 'MJ', 'PL', 'ZW', 'FZ', 'SP', 'SL', 'CF'}
+Name_Shorts not found in doc: 1e63e4f8-10.1101.2020.04.09.035097.html {'Y.L.', 'Z. L.', 'R.L.', 'M.P.', 'G.L.', 'C.L.', 'Y.C'}
+Name_Shorts not found in doc: 371d1371-10.1101.2020.04.09.032995.html {'A.G.', 'M.K.', 'A. Siddaiah', 'R.R.S.', ' J. Andelin', 'A. Martin', 'J.Q.P.', 'S.E.T.', 'A. Schachner', 'D.K.', 'S.C.C.', 'T.A.V.', 'J. Simson', 'E.A.', 'C.J.M.', 'C.B.H.', 'C.D.P.', 'A. Mabulla', 'C.T.R.', 'Q.D.A.', 'J. Song', 'L.K.C.', 'M.A.', 'S.A.M.', 'M.S.', 'C.M.B.', 'B.M.W', 'J. Stieglitz', 'J. Antfolk', 'C.S.', 'D.K. ', 'M.M.K.', 'D.A.', 'H.L-R.', 'G.D.S.', 'S.K.', 'P.M.', 'A. Salenius', 'C.M.', 'M.B.', 'L.G.', 'G.J.', 'S.A.C.', 'M.B.N.'}
+Name_Shorts not found in doc: 9bf1cee9-10.1101.2020.04.08.031203.html {'J.A.H.', 'I.S.', 'G.A.M.', ' J.C.', ' A.J.', ' A.T.I', 'G.T.', ' J.A.H.', 'T.B.G.', 'M.L.B.', 'A.N.', 'M.T.', 'V.B.', 'L-F.W.', 'A.J.'}
+Name_Shorts not found in doc: a111ae6f-10.1101.2020.04.04.023945.html {'DSp', 'WI', 'XH', 'HFW', 'DSa', 'CAR', 'KB', 'JO', 'ED', 'CLM', 'AS', 'RH', 'SC', 'SH', 'FYZ', 'IW', 'BGF', 'MJW', 'GD', 'CH', 'EH', 'GL'}
+Name_Shorts not found in doc: 9a69ca45-10.1101.2020.04.02.022681.html {'L.N', 'L.T.S.', 'T.K.', 'M. E.', 'S.B.F.', 'L.N.', 'T. T.', 'M.Q.', 'L.T.S', 'A.K.J.', 'M.A.', 'S.L.B', 'S.L.B.', 'C.B.'}
+Name_Shorts not found in doc: 36bdb399-10.1101.2020.03.27.011759.html {'X.W.G.', 'Y.L.', 'R.L.X.', 'L.W.L.', 'T.W.', 'J.Q.C.', 'S.N.W.', 'Q.W.', 'Y.T.', 'F.Y.', 'Y.F.W.', 'Q.H.C.', 'X.L.L.', 'Z.C.J.', 'Y.W.'}
+Name_Shorts not found in doc: 34e48848-10.1101.2020.04.02.022616.html {'Y.O.', 'A.B', 'E.F.C', 'K.K.', ' A.B.', 'C.C.', 'Y.O', 'A.F', 'K.K', 'S.N'}
+Name_Shorts not found in doc: e1999953-10.1101.2020.03.25.009100.html {'J.T.W.', 'X.L.', 'C.K.C.', 'H.X.'}
+Name_Shorts not found in doc: 230c511b-10.1101.2020.03.25.008375.html {'B.S.', 'T.D.', 'M.Z.', 'N.R.', 'D.C.', 'J.C.', 'M.W.', 'A.M.', 'M.H.', 'S.K.S.'}
+Name_Shorts not found in doc: 041a1ff4-10.1101.2020.03.17.982181.html {'EAW', 'TI', 'JCJ', 'MD', 'GF', 'AK', 'HC', 'KC'}
+Name_Shorts not found in doc: 186155a1-10.1101.2020.03.13.983551.html {'SM', 'JF', 'IK', 'ST', 'AG', 'AMU'}
+Name_Shorts not found in doc: 28217087-10.1101.001768.html {'LD', 'AB', 'AG', 'GC', 'DL', 'ACL', 'MG', 'AK', 'RJ'}
+Name_Shorts not found in doc: dc1e7402-10.1101.2019.12.20.882787.html {'N.B.', 'D.D.', 'S.L.', 'K.A.', 'R.G.', 'J.M.A.', 'A.R.', 'K.O.'}
+Name_Shorts not found in doc: 713a99d0-10.1101.2020.03.11.987073.html {'HS', 'SN'}
+Name_Shorts not found in doc: 60bc123b-10.1101.2020.03.10.986505.html {'TN', 'CF', 'MV', 'MK', 'MGB', 'MI', 'AZ'}
+Name_Shorts not found in doc: b41ffb59-10.1101.2020.03.10.985663.html {'G.A.S.', 'M.S.B.', 'S.K.', 'S.B.', 'V.S.', 'C.D.V.', 'M.B.', 'P.L.B.', 'AK', 'J.M.S.', 'E.B.B.'}
+Name_Shorts not found in doc: f6333053-10.1101.2020.03.09.980862.html {'ARH', 'EAJF', 'JSH', 'SB', 'SJND', 'FB', 'JAGMdV'}
+Name_Shorts not found in doc: e18d1fb7-10.1101.2020.03.09.979054.html {'N.B.', 'X.H.', 'O.M.', 'J.N.F', 'P.D.', 'J.I.', 'F.R.', 'F.D.F.', 'J.M.', 'J.C.T', 'P.M.C.', 'E.LM.', 'C.F.B.', 'S.M.', 'E.M.', 'G.L.', 'C.B.'}
+Name_Shorts not found in doc: 4c3d2ec6-10.1101.2020.03.05.979450.html {'O.S.', 'M.O.H.', 'R.B.', 'C.C.', 'J.L.', 'R.L.', 'V.N.', 'Y.Z.', 'M.M.', 'H.P.', 'K.M.', 'P.K.S.', 'E.M.P-G.', 'P.Y.', 'V.K.Y', 'F.L.', 'B.S.K.', 'C.J.C.', 'R.J.', 'M.O.H'}
+Name_Shorts not found in doc: a6cb5508-10.1101.2020.03.05.962001.html {'MK', 'TG', 'KM', 'HT', 'YN', 'HB', 'MH', 'KT'}
+Name_Shorts not found in doc: 07ddd62d-10.1101.2020.03.03.974709.html {'D.C.', 'S.-P.K.', 'M.H.'}
+Name_Shorts not found in doc: b09a07b3-10.1101.2020.02.29.971242.html {'Y.D.D', 'V.T', 'M.C', 'E.A', ' J.L', 'Y.Y', 'M.A.K', 'N.W.P', 'Q.H', 'A.R.', 'K.G', 'J.F.L'}
+Name_Shorts not found in doc: 8d3dec2f-10.1101.2020.02.18.951756.html {'D.W.', 'R.R.', 'K.A.R.', 'A.B', 'B.L.', 'L.H.', 'L.A.', 'K.X.', 'A.S.', 'A.K.', ' A.B.', 'A.B.', 'Y.G-R.', 'M.M.', 'S-C.Z.', 'J.S.', 'B.S.', 'R.A.D.', 'S.D.', 'Y.T.', 'S.M.'}
+Name_Shorts not found in doc: 4797ac85-10.1101.2020.02.16.949362.html {'MV', 'MR', 'BG', 'JT', 'HH', 'SU', 'LY', 'AR', 'GM', ' AG', 'LB', 'DO'}
+Name_Shorts not found in doc: 39b1fd5e-10.1101.2020.01.31.928937.html {'BJN', 'KL', 'DCW', 'NS'}
+Name_Shorts not found in doc: c98d72e0-10.1101.2020.02.12.942755.html {'M.K', 'M.K.', 'M.L.', 'S.V.B.', 'C.A.', 'A.R.', 'M.M.H.'}
+Name_Shorts not found in doc: c4127fac-10.1101.2020.02.12.941369.html {'S. Yaqub', 'S.K. Chauhan', 'E.S. Baekkevold', 'O.J.B. Landsverk', 'F.L. Jahnsen', 'E.S. Bækkevold', 'O. Øyen', 'R. Horneland', 'Knut E.A. Lundin', 'R. Bartolomé-Casado', 'E.M. Aandahl'}
+Name_Shorts not found in doc: b992f5c2-10.1101.2020.02.08.939942.html {'WX', 'MMA', 'JL', 'SCS', ' JAI', 'AS', 'EE'}
+Name_Shorts not found in doc: b66cfb60-10.1101.2020.01.29.926022.html {'H.K.', 'H.T. ', 'A.R.', 'N.S.', 'C.P.E.S.', 'J.L.'}
+Name_Shorts not found in doc: e1b701db-10.1101.2020.01.29.924928.html {'VK', 'AD', 'NKL', 'JW', 'LAF', 'TIP', 'SS', ' JW'}
+Name_Shorts not found in doc: b87e14f6-10.1101.2020.01.29.924498.html {'LN', 'GZ', 'MH', 'CGB', 'EAF', 'OK'}
+Name_Shorts not found in doc: 4c2b9dcc-10.1101.2020.01.27.921148.html {'BMK', 'AB'}
+Name_Shorts not found in doc: fb94ffb4-10.1101.2020.01.23.917211.html {'RD', 'HS', 'AC', 'JW', 'CH', 'CG', 'GF', 'DY', 'MH', 'SG', 'EM'}
+Name_Shorts not found in doc: b9d1eff0-10.1101.2020.01.22.20018408.html {'I.M.', 'Y.B.', 'I.S.', 'P.F.', 'C.H.', 'J.D.R.', 'N.S.Y.', 'A.M.', 'J.D.W.', 'E.H.'}
+Name_Shorts not found in doc: 2f535246-10.1101.2020.01.11.902890.html {'WM', 'AEL', 'EJS', 'LVC'}
+Name_Shorts not found in doc: 6b4621eb-10.1101.2020.01.10.891226.html {'A.F.', 'P.Y.C.', 'J.M.P.', 'M.Z.', 'C.L.', 'P.D.'}
+Name_Shorts not found in doc: 63c26d5e-10.1101.2020.01.08.898304.html {'CS', 'RK', 'LS', 'PY', 'RR', 'IR', 'SR', 'GNB', 'GMG', 'SS', 'MSW', 'MRK', 'AMO', 'GB', 'AK', 'HK', 'KMG'}
+Name_Shorts not found in doc: a57de1ec-10.1101.2020.01.02.893081.html {'S.T.', 'W.Y.', 'M.N.T', 'F.B.K.', 'E.B.M.', 'K.M.K.', 'A.R.', 'M.N.T.'}
+Name_Shorts not found in doc: d39c4da5-10.1101.2019.12.30.891457.html {'CMR', 'REST', 'LS', 'YG', 'BK', 'BR', 'BB', 'GS', 'SB', 'AM', 'RN', 'EMJG', 'JC', 'RTB', 'MLL', ' VS', 'GF', 'LG', 'AE', 'JZ', 'MB', 'VS', 'DH'}
+Name_Shorts not found in doc: 75e180b9-10.1101.2019.12.28.890046.html {' V.S.', 'W.H.', 'R.S', 'M.Ts', 'V.S.', 'R.S.', 'M.Ts.', 'W.H', 'M.Tu.', 'F.M.'}
+Name_Shorts not found in doc: a463cf38-10.1101.2019.12.28.886655.html {'Mateusz Hohol', 'Michał Krzyżowski', 'Zoltán Rádai', 'Jacek Francikowski', 'Bartosz Baran'}
+Name_Shorts not found in doc: 0226a542-10.1101.2019.12.13.875633.html {'K.J.K', 'K.J.K.', 'X-J. W', 'P.M.T', 'K.N.G-C', 'A.N.F', 'S.S.T.', 'J.E.G.', 'K.K', 'N.S.B.', ' W.S-P'}
+Name_Shorts not found in doc: 41d1bbef-10.1101.2019.12.12.873844.html {'A.D.', 'G.-B.S.', 'G.S.B.', 'M.S.'}
+Name_Shorts not found in doc: 65b3a181-10.1101.2020.11.08.20228056.html {'YA', 'RZ', 'LM', 'VF', 'ES', 'KF', 'EO', 'GWG', 'JMT', 'SH'}
+Name_Shorts not found in doc: e03bff6c-10.1101.2020.09.29.20199893.html {'NI', 'MER', 'JSO', 'MHL', 'AGDS', 'XH', ' JSY', 'YH', 'SA', 'PFK', 'BLM', 'AIC', 'XD', 'MTAG', 'SM', 'GCP', 'LCV', 'GWAS', 'CLSA', 'LMGM', 'NGM', 'COLOC', 'PRS'}
+Name_Shorts not found in doc: 355af4e9-10.1101.2020.09.16.20190694.html {'M.S.', 'G.A.D.', 'K.S.', 'Y.M.', 'K.M.P.D.', 'M.L.N.', ' J.D.D', 'C.F.', 'T.I.', 'M.M.', 'R.F.P.', 'A.W.', 'S.G.H.', 'L.P.L', 'P.A.', 'N.N.L.'}
+Name_Shorts not found in doc: 9491c0c9-10.1101.2020.07.15.20154864.html {'J.A.C.', 'L.K.D.', 'M.S.', 'P.S.', 'B.L.', 'I.K.', 'J.M.N', 'D.R.V.', 'C.A.B.', 'A.A', ' J.M.N', 'A.A.', 'A.R.', 'L.M.'}
+Name_Shorts not found in doc: 6244568d-10.1101.2020.06.25.20139725.html {'LD', 'CB', 'MT', 'MJB', 'DK', 'LK', 'SB', 'DF', 'EP', 'TC', 'QC', 'ALB', 'RS', 'SOV', 'NM', 'HA', 'MB'}
+
+Average prec. 0.4246946563124214
+Average rec. 0.0025822962665596146
+
+
+r"[\s]?[A-Z][\'.-]?[\s]?[A-Z][\'.-]?[aA-zZ]?[\'.-]?[aA-zZ]?[\'.-]?[aA-zZ]*[\'.-]?[\s]?"
+
+
+Name_Shorts not found in doc: bab43d6c-10.1101.2020.02.16.951657.html {'WZ', 'HN', 'JY', 'DF', 'KTA', 'JWC'}
+Name_Shorts not found in doc: d1534b2a-10.1101.2020.02.16.941070.html {'J.S.C.', 'E.Q.', 'J.L.G.-S.', 'R.L.T.', 'S.A.B.', 'D.U. ', 'J.B.H.', 'D.U.', 'M.F.', 'Y.Z.', 'S.K.', 'J.C.', 'R.D.A.'}
+Name_Shorts not found in doc: 6873bdf7-10.1101.2020.04.16.044693.html {'LH', 'JLC', 'SR', 'WK', 'KF', 'ŁK', 'SBE', 'HFA', 'GWH', 'BK', 'DSN', 'RLB'}
+Name_Shorts not found in doc: 42537e23-10.1101.2020.05.31.20118554.html {'DS', 'VK', 'RR', 'ME', 'FP', 'DH', 'CZ', 'IX', 'ILD', 'BD', 'CA', 'JR', 'LS', 'EDC', 'KS', 'TB', 'RM', 'DIS', 'EPM', 'GM', 'AGG', 'TJPK', 'JD', 'JDH', 'CKX', 'OB', 'AMR', 'DL', 'KL', 'AA', 'BF', 'FL', 'CT', 'DM', 'LM', 'LB', 'JN', 'AvE', 'SH', 'NBB', 'GS', 'MI', 'RJ', 'StH', 'TM', 'DJS', 'RO', 'ICM', 'MAP', 'AW', 'MMS', 'JG'}
+Name_Shorts not found in doc: 46c2c552-10.1101.2020.06.02.20117036.html {'MSF', 'MAA', 'DNC', 'GLC', 'MCT', 'WSA', 'BAW', 'NEC', 'PAC', 'DPM', 'FVT', 'LEO'}
+Name_Shorts not found in doc: d7254191-10.1101.2020.06.09.20126979.html {'J.M.C.', 'V.S.', 'N.N.P.', 'W.J.', 'J.M.C', 'S.D.', 'A.N.', 'K.H.B', 'J.C.', 'O.S.', 'W.C.', 'B.F.A.', 'E.O.C.', 'A.S.', 'H.L.', 'I.M.', ' J.C', 'B.F.A', 'N.H.', 'J.B', 'A.E.H.', 'M.J.V', ' T.N.', 'O.S', 'M.J.V.', 'A.M.', 'R.H.', 'J.H.', 'P.C.', 'E.J.'}
+Name_Shorts not found in doc: c145dddb-10.1101.2020.06.24.20138958.html {'GP', 'HEJ', 'MR', 'VGM', 'EG'}
+Name_Shorts not found in doc: efbe4fd6-10.1101.2020.07.12.20150367.html {'Chiu-Ping Fang', 'Chia-Yen Chen', 'Tzu-Ting Chen', 'Yen-Feng Lin', 'Ying-Chih Cheng'}
+Name_Shorts not found in doc: d58210d4-10.1101.2020.07.23.20160762.html {'M.G.M.G.', 'R.A.'}
+Name_Shorts not found in doc: 3bad62df-10.1101.2020.09.22.20196048.html {'C.M.', 'A.I.B.', 'A.B.', 'K.S.'}
+Name_Shorts not found in doc: 0b142991-10.1101.2020.09.29.20204388.html {'Y.H.', 'N.C', 'A.S.', 'M.A.', 'A.B.', 'N.C.'}
+Name_Shorts not found in doc: c4b323a1-10.1101.2020.10.12.20211169.html {'MMH', 'AB', 'SB', 'TM', 'SK', 'MS'}
+Name_Shorts not found in doc: 8a408404-10.1101.2020.10.13.20212035.html {'A.T.', 'D.M.', 'L.P.', 'E.B.', 'M.A.', 'P.C.M.', 'N.C.R', 'A.V.', 'C.H.', 'A.M.', 'D.C.', 'S.O.', 'C.F.'}
+Name_Shorts not found in doc: 712cb675-10.1101.2020.10.19.20215483.html {'Haoran Xia (HX)', 'Haiming Tang (HT)', 'Yi Li (YL)', 'Nanfei Sun (NS)'}
+Name_Shorts not found in doc: 788c6877-10.1101.2020.11.10.20229369.html {'Siao Ye', 'Huy Phi', 'Kevin Sun', 'Duong Huynh', 'Reza Hosseini Ghomi', 'Bin Huang', 'Brian Ko'}
+Name_Shorts not found in doc: c13b7894-10.1101.2020.11.19.20235010.html {'C.R.M', 'M.M.', 'A.S.', 'S.H.', 'P.S.', 'C.R.M.', 'D.S.'}
+Name_Shorts not found in doc: 29ca17b3-10.1101.2020.11.28.20240242.html {'OL', 'AB', 'BH', 'CN'}
+Name_Shorts not found in doc: f251d250-10.1101.2020.12.11.20247924.html {'HR', 'TYL'}
+Name_Shorts not found in doc: 1c8f1a1b-10.1101.2020.12.22.20248150.html {'AS', 'DK', 'BC', 'JMY'}
+Name_Shorts not found in doc: 15131f02-10.1101.2020.12.22.20248705.html {'Fei Jia', 'T. Pham', 'Shu Wang'}
+Name_Shorts not found in doc: a8c98149-10.1101.2020.12.24.20248815.html {'DMT', 'SR', 'IK', 'SNRR', 'SKS', 'SB', 'VN'}
+Name_Shorts not found in doc: 736a5643-10.1101.2021.01.05.21249283.html {'N.H.', 'E.M.S.', 'F.C.', 'M.M.', 'S.R', 'M.A.P', 'M.G.', 'M.A.P.', 'E.C.', 'G.Y.', 'N.C.'}
+Name_Shorts not found in doc: 2c5617d1-10.1101.2021.01.06.21249243.html {'MS. Rodrigo G. Barbosa', 'Prof. Heitor Evangelista', 'Prof. Luís Cristóvão Porto', 'Dr. Eduardo Delfino Sodré', 'Dr. Newton Magalhães', 'Dr. Juliana Nogueira', 'Prof. Cesar Amaral', 'Dr. Marcio Cataldo Gomes da Silva', 'Dr. Sérgio J. Gonçalves Junior', 'Ms. Angela M.G.', 'Dr. Daniel A.J. de Oliveira', 'Prof. Ricardo H.M. Godoi'}
+Name_Shorts not found in doc: 5fed37dc-10.1101.2021.02.03.21251034.html {'D.L.R.', 'R.D.S.', 'S.A.', 'J.Z.', 'M.F.G.'}
+Name_Shorts not found in doc: 2b18ee4d-10.1101.2021.02.08.21250641.html {' JB.', 'KAS', 'RF', 'LRW', 'DG.', 'ASW', 'JPD', 'JMF', 'HK', 'RHBIII', 'MED', 'RF.', 'WBM', 'DH', 'DG', 'ASF', 'SK', 'CF', 'LK', 'AB.', 'EL', 'SS', 'KC', 'RKJ'}
+Name_Shorts not found in doc: 84159e2f-10.1101.2021.02.08.21251186.html {'MCR', 'JJK', 'MD', 'MB', 'EB', 'AP', 'MJ', 'SS', 'KP', 'KA', 'EAB', 'JFL', 'YHC'}
+Name_Shorts not found in doc: b2562ce6-10.1101.2021.02.12.21251621.html {'R.D.', 'S.B-C.', 'F.C.', 'J.D.', 'V.W.', 'E.D.', 'T.B.', 'N.T.', 'An.M.', 'S.M.', 'S.J.', 'A.P.', 'G.H.', 'R.J.L.A.', 'T.R.', 'Al.M.', 'F.A.', 'C.S.L.', 'C.M.', 'R.T', 'L.D.', 'W.K.C.', 'A.D.B.', 'S.P.', 'J.G.'}
+Name_Shorts not found in doc: 2a0bc38e-10.1101.2021.02.19.21251770.html {'B.H.S.', 'L.A.C.'}
+Name_Shorts not found in doc: 71ec328f-10.1101.2021.02.24.21252386.html {'TEAP', 'JK', 'ALGC', 'DMC', 'ASW', 'AWS', 'TMW', 'MH', 'SH'}
+Name_Shorts not found in doc: c1780b2c-10.1101.2021.03.08.21252839.html {'TL', 'CR', 'SR', 'GZ', 'NA', 'JZ', 'PF', 'JE', 'MS', 'WB', 'LR', 'GPT', 'HL', 'LM', 'CB', 'KB', 'MM', 'AR'}
+Name_Shorts not found in doc: 75f820b7-10.1101.2021.03.09.21253168.html {'M.P.M.', 'K.D.T.', 'B.L.L.', 'A.M-B', 'R.H.T.', 'F.X.C.', 'M.B.', 'R.L.', 'V.G.', 'S.J.C.', 'R.C.C.', 'K.D.T', 'M.K.', 'L.T.', 'C.H.', 'A.M-B.', 'R.S.', 'A.R.F.'}
+Name_Shorts not found in doc: dddf7f46-10.1101.2021.03.12.21253461.html {'CS', 'ZB', 'SR', 'FFC', 'RZ', 'JT', 'ZA', 'JB', 'GG', 'HZ', 'YL', 'JM', 'AC', 'YH', 'WG', 'FW'}
+Name_Shorts not found in doc: 01b80b0c-10.1101.2020.06.09.20127100.html {'J.M.C.', 'V.S.', 'B.F.A', 'N.N.P.', 'N.H.', 'W.J.', 'J.M.C', 'S.D.', 'J.H.', 'A.N.', 'T.N.', 'A.E.H.', 'J.C.', 'O.S.', 'W.C.', 'B.F.A.,', 'B.F.A.', 'E.O.C.', 'E.C', 'A.S.', 'M.J.V.', 'A.M.', 'H.L.', 'I.M.', 'P.C.', 'R.H.'}
+Name_Shorts not found in doc: 27d9c3de-10.1101.2021.03.04.21251264.html {'TML.', 'PBS', 'KBD', 'GWR', 'GRW', 'IRB', 'TML', 'Author contributions\\n', 'PS', 'RS'}
+Name_Shorts not found in doc: f82d25f2-10.1101.2021.02.28.21252634.html {'V.N.', 'S.T.', 'F.B.', 'C.N.', 'X.G.', 'A.N.', 'J.S.', 'A.P.', 'A.S.', 'A.P', 'A.P. ', 'P.R.', 'F.B', 'A.A.', 'M.L.'}
+Name_Shorts not found in doc: 604d9794-10.1101.2021.02.26.21252547.html {'D.V.S.', 'V.U.', 'J.J.'}
+Name_Shorts not found in doc: 75718235-10.1101.2021.03.04.21252466.html {'MH', 'VH', 'AF'}
+Name_Shorts not found in doc: 80d4a9c0-10.1101.2021.03.17.21253760.html {'JLK', 'NGE', 'EER'}
+Name_Shorts not found in doc: ac424b40-10.1101.2020.05.07.20093286.html {'HZ', 'YL', 'JZ', 'XZL', 'DB', 'LW', 'YMZ'}
+Name_Shorts not found in doc: 25f9ae95-10.1101.2020.04.19.20071357.html {'RC', 'TE', 'IQ', 'AC', 'MLdH', 'PL', 'JRG'}
+Name_Shorts not found in doc: 0a6b5430-10.1101.2020.04.17.046268.html {'APM', 'SGT', 'AW', 'MSC', 'LSD1', 'EK', 'MB', 'SF', 'VR', 'DHH', 'BK', 'JPB', 'KO', 'DO', 'AI', 'GP', 'RS'}
+Name_Shorts not found in doc: b1c6df2f-10.1101.2020.04.16.044941.html {'Z.F.M.', 'Z.F.M', 'M.S.F.', 'N.S.', 'M.B.', 'M.S.F'}
+Name_Shorts not found in doc: ae732271-10.1101.2020.04.15.035063.html {'K.Y', 'K.K.', 'K.K', 'K.Y.', 'H.B.'}
+Name_Shorts not found in doc: 785f15dc-10.1101.2020.04.14.20065326.html {'AK', 'EGC'}
+Name_Shorts not found in doc: 1a270f2a-10.1101.2020.04.14.041046.html {'KN', 'TF', 'TA', 'MT', 'TU', 'ON', 'KXN', 'KT', ' AY', 'YH', 'ABB', 'TI', 'MY', 'KU'}
+Name_Shorts not found in doc: 397e4ba8-10.1101.2020.04.09.20060103.html {'SP', 'YW', 'ZW', 'CF', 'XS', 'MJ', 'FZ', 'PL'}
+Name_Shorts not found in doc: 1e63e4f8-10.1101.2020.04.09.035097.html {'R.L.', 'Y.L.', 'M.P.', 'C.L.', 'G.L.', 'Y.C', 'Z. L.'}
+Name_Shorts not found in doc: 371d1371-10.1101.2020.04.09.032995.html {'E.A.', 'B.M.W', 'M.A.', 'A. Schachner', 'C.M.B.', 'J. Song', 'A. Mabulla', 'M.B.N.', 'D.K.', 'M.M.K.', 'M.K.', 'J. Simson', 'J.Q.P.', 'S.K.', 'A.G.', 'A. Martin', 'J. Stieglitz', 'S.A.C.', 'M.S.', 'M.B.', 'T.A.V.', 'A. Siddaiah', 'D.A.', 'R.R.S.', 'C.M.', 'S.C.C.', 'A. Salenius', 'C.B.H.', 'C.D.P.', 'D.K. '}
+Name_Shorts not found in doc: 9bf1cee9-10.1101.2020.04.08.031203.html {'G.A.M.', 'A.J.', 'M.L.B.', 'T.B.G.', 'L-F.W.', 'A.N.', 'M.T.', 'V.B.', 'G.T.', 'I.S.'}
+Name_Shorts not found in doc: a111ae6f-10.1101.2020.04.04.023945.html {'IW', 'XH', 'SC', 'ED', 'DSa', 'BGF', 'DSp', 'CH', 'CLM', 'MJW', 'RH', 'WI', 'EH', 'CAR', 'JO', 'HFW'}
+Name_Shorts not found in doc: 9a69ca45-10.1101.2020.04.02.022681.html {'L.N', 'M. E.', 'S.B.F.', 'T. T.', 'A.K.J.', 'L.T.S.', 'S.L.B', 'M.A.', 'L.N.', 'C.B.', 'S.L.B.', 'T.K.', 'M.Q.'}
+Name_Shorts not found in doc: 36bdb399-10.1101.2020.03.27.011759.html {'T.W.', 'L.W.L.', 'Y.F.W.', 'Y.W.', 'X.W.G.', 'J.Q.C.', 'X.L.L.', 'Y.L.', 'S.N.W.', 'Q.W.', 'R.L.X.', 'Z.C.J.', 'F.Y.', 'Y.T.'}
+Name_Shorts not found in doc: 34e48848-10.1101.2020.04.02.022616.html {'Y.O', 'E.F.C', 'S.N', 'A.F', 'Y.O.', 'K.K.', 'K.K', 'A.B', 'C.C.'}
+Name_Shorts not found in doc: e1999953-10.1101.2020.03.25.009100.html {'X.L.', 'H.X.', 'J.T.W.', 'C.K.C.'}
+Name_Shorts not found in doc: 230c511b-10.1101.2020.03.25.008375.html {'N.R.', 'M.W.', 'D.C.', 'M.Z.', 'A.M.', 'M.H.', 'J.C.', 'S.K.S.', 'T.D.'}
+Name_Shorts not found in doc: 041a1ff4-10.1101.2020.03.17.982181.html {'JCJ', 'HC', 'GF', 'TI', 'EAW', 'KC'}
+Name_Shorts not found in doc: 186155a1-10.1101.2020.03.13.983551.html {'SM', 'AG', 'IK', 'AMU', 'ST'}
+Name_Shorts not found in doc: 28217087-10.1101.001768.html {'LD', 'RJ', 'AG', 'DL', 'GC', 'AK', 'MG', 'ACL', 'AB'}
+Name_Shorts not found in doc: dc1e7402-10.1101.2019.12.20.882787.html {'K.A.', 'N.B.', 'S.L.', 'D.D.', 'K.O.', 'R.G.', 'A.R.'}
+Name_Shorts not found in doc: 713a99d0-10.1101.2020.03.11.987073.html {'SN', 'HS'}
+Name_Shorts not found in doc: 60bc123b-10.1101.2020.03.10.986505.html {'TN', 'MK', 'CF', 'MI', 'MGB'}
+Name_Shorts not found in doc: b41ffb59-10.1101.2020.03.10.985663.html {'G.A.S.', 'V.S.', 'S.B.', 'E.B.B.', 'AK', 'P.L.B.', 'C.D.V.', 'M.S.B.', 'J.M.S.', 'S.K.', 'M.B.'}
+Name_Shorts not found in doc: e18d1fb7-10.1101.2020.03.09.979054.html {'P.M.C.', 'C.F.B.', 'F.R.', 'F.D.F.', 'P.D.', 'E.LM.', 'S.M.', 'J.N.F', 'J.I.', 'G.L.', 'J.C.T', 'N.B.', 'X.H.', 'E.M.', 'C.B.', 'J.M.'}
+Name_Shorts not found in doc: 4c3d2ec6-10.1101.2020.03.05.979450.html {'V.N.', 'M.O.H.', 'B.S.K.', 'V.K.Y', 'E.M.P-G.', 'R.J.', 'Y.Z.', 'O.S.', 'C.C.', 'M.O.H', 'J.L.', 'F.L.', 'K.M.', 'P.Y.', 'H.P.', 'R.B.', 'P.K.S.'}
+Name_Shorts not found in doc: a6cb5508-10.1101.2020.03.05.962001.html {'KT', 'MK', 'KM', 'MH', 'HB', 'HT', 'TG'}
+Name_Shorts not found in doc: 07ddd62d-10.1101.2020.03.03.974709.html {'D.C.', 'S.-P.K.'}
+Name_Shorts not found in doc: b09a07b3-10.1101.2020.02.29.971242.html {' J.L', 'E.A', 'Y.Y', 'M.A.K', 'J.F.L', 'K.G', 'V.T', 'Q.H', 'N.W.P', 'M.C', 'Y.D.D', 'A.R.'}
+Name_Shorts not found in doc: 8d3dec2f-10.1101.2020.02.18.951756.html {'M.M.', 'K.A.R.', 'A.K.', 'S.D.', 'S.M.', 'Y.T.', 'Y.G-R.', 'J.S.', 'R.R.', 'L.H.', 'A.S.', 'B.L.', 'K.X.', 'R.A.D.', 'S-C.Z.', 'A.B', 'A.B.', 'L.A.'}
+Name_Shorts not found in doc: 4797ac85-10.1101.2020.02.16.949362.html {'SU', 'MV', 'HH', 'BG', 'JT', 'MR', 'LB', 'LY', ' AG', 'DO', 'AR'}
+Name_Shorts not found in doc: 39b1fd5e-10.1101.2020.01.31.928937.html {'NS', 'KL', 'DCW', 'BJN'}
+Name_Shorts not found in doc: c98d72e0-10.1101.2020.02.12.942755.html {'M.K', 'C.A.', 'M.M.H.', 'A.R.'}
+Name_Shorts not found in doc: c4127fac-10.1101.2020.02.12.941369.html {'S.K. Chauhan', 'Knut E.A. Lundin', 'O. Øyen', 'E.M. Aandahl', 'R. Horneland', 'R. Bartolomé-Casado', 'O.J.B. Landsverk', 'S. Yaqub', 'E.S. Baekkevold', 'F.L. Jahnsen', 'E.S. Bækkevold'}
+Name_Shorts not found in doc: b992f5c2-10.1101.2020.02.08.939942.html {'AS', 'WX', ' JAI', 'SCS', 'IdlR'}
+Name_Shorts not found in doc: b66cfb60-10.1101.2020.01.29.926022.html {'J.L.', 'C.P.E.S.', 'H.K.', 'A.R.', 'H.T. ', 'N.S.'}
+Name_Shorts not found in doc: e1b701db-10.1101.2020.01.29.924928.html {'AD', 'TIP', 'JW', 'NKL', 'LAF', 'VK', 'SS'}
+Name_Shorts not found in doc: b87e14f6-10.1101.2020.01.29.924498.html {'LN', 'GZ', 'EAF', 'MH', 'CGB'}
+Name_Shorts not found in doc: 4c2b9dcc-10.1101.2020.01.27.921148.html {'AB', 'BMK'}
+Name_Shorts not found in doc: fb94ffb4-10.1101.2020.01.23.917211.html {'JW', 'EM', 'SG', 'AC', 'GF', 'CH', 'RD', 'CG', 'MH', 'DY'}
+Name_Shorts not found in doc: b9d1eff0-10.1101.2020.01.22.20018408.html {'N.S.Y.', 'J.D.W.', 'J.D.R.', 'E.H.', 'C.H.', 'A.M.', 'P.F.', 'I.S.'}
+Name_Shorts not found in doc: 2f535246-10.1101.2020.01.11.902890.html {'EJS', 'WM', 'AEL', 'LVC'}
+Name_Shorts not found in doc: 6b4621eb-10.1101.2020.01.10.891226.html {'P.Y.C.', 'P.D.', 'J.M.P.', 'M.Z.', 'C.L.', 'A.F.'}
+Name_Shorts not found in doc: 63c26d5e-10.1101.2020.01.08.898304.html {'RK', 'PY', 'GNB', 'SR', 'AK', 'RR', 'LS', 'GMG', 'MSW', 'HK', 'AMO', 'MRK'}
+Name_Shorts not found in doc: a57de1ec-10.1101.2020.01.02.893081.html {'W.Y.', 'E.B.M.', 'S.T.', 'K.M.K.', 'M.N.T', 'F.B.K.', 'M.N.T.', 'A.R.'}
+Name_Shorts not found in doc: d39c4da5-10.1101.2019.12.30.891457.html {'BB', 'REST', 'GF', 'LG', 'BK', 'AE', 'MLL', 'CMR', 'JC', 'SB', 'AM', 'MB', 'JZ', 'YG', 'LS', 'RN', 'EMJG', 'BR', 'VS', 'GS', 'RTB'}
+Name_Shorts not found in doc: 75e180b9-10.1101.2019.12.28.890046.html {'V.S.', 'F.M.', 'M.Ts.', 'W.H.', 'M.Ts', 'R.S.', 'W.H', 'R.S', 'M.Tu.'}
+Name_Shorts not found in doc: a463cf38-10.1101.2019.12.28.886655.html {'Bartosz Baran', 'Jacek Francikowski', 'Mateusz Hohol', 'Zoltán Rádai', 'Michał Krzyżowski'}
+Name_Shorts not found in doc: 0226a542-10.1101.2019.12.13.875633.html {'K.N.G-C', 'N.S.B.', 'K.J.K', 'S.S.T.', 'K.K', 'A.N.F', 'P.M.T', 'X-J. W', 'J.E.G.'}
+Name_Shorts not found in doc: 41d1bbef-10.1101.2019.12.12.873844.html {'G.-B.S.'}
+Name_Shorts not found in doc: 65b3a181-10.1101.2020.11.08.20228056.html {'JMT', 'KF', 'GWG', 'RZ', 'YA', 'LM', 'SH', 'VF'}
+Name_Shorts not found in doc: e03bff6c-10.1101.2020.09.29.20199893.html {'XD', 'SM', 'AIC', 'NI', 'PFK', 'BLM', 'NGM', 'YH', 'LMGM', 'COLOC', ' JSY', 'MHL', 'JSO', 'MER'}
+Name_Shorts not found in doc: 355af4e9-10.1101.2020.09.16.20190694.html {'M.M.', 'K.S.', 'T.I.', 'A.W.', 'S.G.H.', 'L.P.L', 'M.S.', 'P.A.', 'N.N.L.', 'K.M.P.D.', 'R.F.P.', ' J.D.D', 'C.F.', 'G.A.D.', 'M.L.N.'}
+Name_Shorts not found in doc: 9491c0c9-10.1101.2020.07.15.20154864.html {'J.M.N', ' J.M.N', 'I.K.', 'D.R.V.', 'J.A.C.', 'C.A.B.', 'B.L.', 'A.A', 'L.M.', 'L.K.D.', 'P.S.', 'M.S.', 'A.A.', 'A.R.'}
+Name_Shorts not found in doc: 6244568d-10.1101.2020.06.25.20139725.html {'ALB', 'NM', 'EP', 'MB', 'LK', 'MT', 'SOV', 'DK', 'MJB', 'RS'}
+
+Average prec. 0.04422439329248804
+Average rec. 0.1470085622552762
+
+
+r"[A-Z][\'.-]?[\s]?[A-Z][\'.-]?[aA-zZ]?[\'.-]?[aA-zZ]?[\'.-]?[aA-zZ]?"
+
+
+Name_Shorts not found in doc: bab43d6c-10.1101.2020.02.16.951657.html {'HN', 'JWC', 'DF', 'WZ', 'KTA', 'JY'}
+Name_Shorts not found in doc: d1534b2a-10.1101.2020.02.16.941070.html {'S.A.B.', 'Y.Z.', 'E.Q.', 'J.L.G.-S.', 'D.U.', 'J.B.H.', 'S.K.', 'J.S.C.', 'M.F.', 'R.D.A.', 'J.C.', 'D.U. ', 'R.L.T.'}
+Name_Shorts not found in doc: 6873bdf7-10.1101.2020.04.16.044693.html {'LH', 'DSN', 'JLC', 'KF', 'HFA', 'SR', 'WK', 'SBE', 'RLB', 'ŁK', 'BK', 'GWH'}
+Name_Shorts not found in doc: 42537e23-10.1101.2020.05.31.20118554.html {'IX', 'JN', 'OB', 'NBB', 'VK', 'CA', 'ICM', 'DJS', 'EDC', 'LM', 'LS', 'JG', 'RR', 'GM', 'DS', 'DL', 'GS', 'LB', 'AW', 'ME', 'KS', 'CZ', 'MI', 'DIS', 'KL', 'RO', 'FL', 'JD', 'ILD', 'EPM', 'RJ', 'JDH', 'CT', 'SH', 'JR', 'TJPK', 'MAP', 'DH', 'AGG', 'StH', 'BD', 'DM', 'RM', 'MMS', 'AMR', 'CKX', 'AA', 'FP', 'BF', 'TM', 'TB', 'AvE'}
+Name_Shorts not found in doc: 46c2c552-10.1101.2020.06.02.20117036.html {'DPM', 'PAC', 'MCT', 'GLC', 'NEC', 'MSF', 'BAW', 'DNC', 'WSA', 'FVT', 'MAA', 'LEO'}
+Name_Shorts not found in doc: d7254191-10.1101.2020.06.09.20126979.html {'J.M.C.', ' J.C', 'S.D.', 'J.B', 'E.J.', 'M.J.V', 'W.J.', 'P.C.', 'A.E.H.', 'N.N.P.', 'H.L.', 'J.M.C', 'R.H.', 'J.H.', 'I.M.', 'J.C.', 'W.C.', 'N.H.', 'K.H.B', 'B.F.A', 'E.O.C.', 'A.M.', 'V.S.', 'O.S', 'O.S.', 'B.F.A.', ' T.N.', 'A.S.', 'M.J.V.', 'A.N.'}
+Name_Shorts not found in doc: c145dddb-10.1101.2020.06.24.20138958.html {'VGM', 'MR', 'GP', 'EG', 'HEJ'}
+Name_Shorts not found in doc: efbe4fd6-10.1101.2020.07.12.20150367.html {'Tzu-Ting Chen', 'Chia-Yen Chen', 'Chiu-Ping Fang', 'Yen-Feng Lin', 'Ying-Chih Cheng'}
+Name_Shorts not found in doc: d58210d4-10.1101.2020.07.23.20160762.html {'R.A.', 'M.G.M.G.'}
+Name_Shorts not found in doc: 3bad62df-10.1101.2020.09.22.20196048.html {'A.B.', 'A.I.B.', 'K.S.', 'C.M.'}
+Name_Shorts not found in doc: 0b142991-10.1101.2020.09.29.20204388.html {'N.C', 'A.B.', 'Y.H.', 'N.C.', 'A.S.', 'M.A.'}
+Name_Shorts not found in doc: c4b323a1-10.1101.2020.10.12.20211169.html {'SK', 'AB', 'MS', 'MMH', 'TM', 'SB'}
+Name_Shorts not found in doc: 8a408404-10.1101.2020.10.13.20212035.html {'L.P.', 'A.V.', 'C.F.', 'N.C.R', 'M.A.', 'A.M.', 'S.O.', 'E.B.', 'D.C.', 'D.M.', 'P.C.M.', 'C.H.', 'A.T.'}
+Name_Shorts not found in doc: 712cb675-10.1101.2020.10.19.20215483.html {'Haoran Xia (HX)', 'Nanfei Sun (NS)', 'Yi Li (YL)', 'Haiming Tang (HT)'}
+Name_Shorts not found in doc: 788c6877-10.1101.2020.11.10.20229369.html {'Huy Phi', 'Reza Hosseini Ghomi', 'Bin Huang', 'Siao Ye', 'Kevin Sun', 'Brian Ko', 'Duong Huynh'}
+Name_Shorts not found in doc: c13b7894-10.1101.2020.11.19.20235010.html {'P.S.', 'D.S.', 'M.M.', 'A.S.', 'S.H.', 'C.R.M.', 'C.R.M'}
+Name_Shorts not found in doc: 29ca17b3-10.1101.2020.11.28.20240242.html {'AB', 'BH', 'OL', 'CN'}
+Name_Shorts not found in doc: f251d250-10.1101.2020.12.11.20247924.html {'TYL', 'HR'}
+Name_Shorts not found in doc: 1c8f1a1b-10.1101.2020.12.22.20248150.html {'AS', 'DK', 'JMY', 'BC'}
+Name_Shorts not found in doc: 15131f02-10.1101.2020.12.22.20248705.html {'Shu Wang', 'Fei Jia', 'T. Pham'}
+Name_Shorts not found in doc: a8c98149-10.1101.2020.12.24.20248815.html {'DMT', 'VN', 'SKS', 'SB', 'SR', 'IK', 'SNRR'}
+Name_Shorts not found in doc: 736a5643-10.1101.2021.01.05.21249283.html {'S.R', 'G.Y.', 'M.A.P.', 'F.C.', 'E.M.S.', 'M.G.', 'M.M.', 'N.C.', 'N.H.', 'M.A.P', 'E.C.'}
+Name_Shorts not found in doc: 2c5617d1-10.1101.2021.01.06.21249243.html {'Prof. Ricardo H.M. Godoi', 'Prof. Luís Cristóvão Porto', 'Dr. Eduardo Delfino Sodré', 'Dr. Juliana Nogueira', 'Dr. Marcio Cataldo Gomes da Silva', 'MS. Rodrigo G. Barbosa', 'Prof. Cesar Amaral', 'Dr. Sérgio J. Gonçalves Junior', 'Prof. Heitor Evangelista', 'Dr. Newton Magalhães', 'Dr. Daniel A.J. de Oliveira', 'Ms. Angela M.G.'}
+Name_Shorts not found in doc: 5fed37dc-10.1101.2021.02.03.21251034.html {'M.F.G.', 'R.D.S.', 'D.L.R.', 'J.Z.', 'S.A.'}
+Name_Shorts not found in doc: 2b18ee4d-10.1101.2021.02.08.21250641.html {'AB.', 'MED', 'ASF', 'JPD', 'KAS', 'DG', 'CF', 'LRW', 'WBM', 'SS', 'DH', 'RF', 'EL', 'ASW', 'DG.', 'HK', ' JB.', 'SK', 'JMF', 'RF.', 'RHBIII', 'RKJ', 'LK', 'KC'}
+Name_Shorts not found in doc: 84159e2f-10.1101.2021.02.08.21251186.html {'MCR', 'EAB', 'KP', 'MD', 'MJ', 'YHC', 'JFL', 'AP', 'MB', 'EB', 'KA', 'JJK', 'SS'}
+Name_Shorts not found in doc: b2562ce6-10.1101.2021.02.12.21251621.html {'A.P.', 'R.J.L.A.', 'R.D.', 'W.K.C.', 'F.C.', 'A.D.B.', 'J.D.', 'S.B-C.', 'R.T', 'G.H.', 'L.D.', 'S.J.', 'J.G.', 'Al.M.', 'E.D.', 'T.R.', 'C.S.L.', 'S.M.', 'S.P.', 'F.A.', 'An.M.', 'N.T.', 'V.W.', 'T.B.', 'C.M.'}
+Name_Shorts not found in doc: 2a0bc38e-10.1101.2021.02.19.21251770.html {'B.H.S.', 'L.A.C.'}
+Name_Shorts not found in doc: 71ec328f-10.1101.2021.02.24.21252386.html {'TMW', 'MH', 'ASW', 'DMC', 'ALGC', 'JK', 'TEAP', 'SH', 'AWS'}
+Name_Shorts not found in doc: c1780b2c-10.1101.2021.03.08.21252839.html {'MS', 'KB', 'JZ', 'TL', 'GZ', 'CB', 'SR', 'WB', 'CR', 'PF', 'LM', 'JE', 'GPT', 'AR', 'LR', 'MM', 'NA', 'HL'}
+Name_Shorts not found in doc: 75f820b7-10.1101.2021.03.09.21253168.html {'R.C.C.', 'M.K.', 'S.J.C.', 'R.H.T.', 'V.G.', 'A.R.F.', 'R.S.', 'A.M-B', 'M.P.M.', 'K.D.T', 'A.M-B.', 'C.H.', 'F.X.C.', 'R.L.', 'L.T.', 'B.L.L.', 'M.B.', 'K.D.T.'}
+Name_Shorts not found in doc: dddf7f46-10.1101.2021.03.12.21253461.html {'JT', 'ZB', 'SR', 'YL', 'JM', 'FFC', 'JB', 'ZA', 'FW', 'RZ', 'GG', 'AC', 'HZ', 'WG', 'YH', 'CS'}
+Name_Shorts not found in doc: 01b80b0c-10.1101.2020.06.09.20127100.html {'J.M.C.', 'I.M.', 'S.D.', 'J.C.', 'W.C.', 'E.C', 'W.J.', 'N.H.', 'B.F.A', 'E.O.C.', 'A.N.', 'A.M.', 'P.C.', 'V.S.', 'N.N.P.', 'O.S.', 'H.L.', 'B.F.A.', 'B.F.A.,', 'J.M.C', 'T.N.', 'R.H.', 'J.H.', 'A.S.', 'M.J.V.', 'A.E.H.'}
+Name_Shorts not found in doc: 27d9c3de-10.1101.2021.03.04.21251264.html {'TML', 'TML.', 'RS', 'GRW', 'IRB', 'Author contributions\\n', 'PBS', 'PS', 'KBD', 'GWR'}
+Name_Shorts not found in doc: f82d25f2-10.1101.2021.02.28.21252634.html {'A.P.', 'J.S.', 'C.N.', 'M.L.', 'A.A.', 'A.P. ', 'F.B', 'X.G.', 'A.P', 'F.B.', 'V.N.', 'P.R.', 'A.S.', 'S.T.', 'A.N.'}
+Name_Shorts not found in doc: 604d9794-10.1101.2021.02.26.21252547.html {'J.J.', 'V.U.', 'D.V.S.'}
+Name_Shorts not found in doc: 75718235-10.1101.2021.03.04.21252466.html {'MH', 'AF', 'VH'}
+Name_Shorts not found in doc: 80d4a9c0-10.1101.2021.03.17.21253760.html {'NGE', 'JLK', 'EER'}
+Name_Shorts not found in doc: ac424b40-10.1101.2020.05.07.20093286.html {'HZ', 'LW', 'JZ', 'YL', 'XZL', 'DB', 'YMZ'}
+Name_Shorts not found in doc: 25f9ae95-10.1101.2020.04.19.20071357.html {'JRG', 'RC', 'TE', 'IQ', 'MLdH', 'PL', 'AC'}
+Name_Shorts not found in doc: 0a6b5430-10.1101.2020.04.17.046268.html {'VR', 'AI', 'JPB', 'GP', 'KO', 'RS', 'SF', 'APM', 'LSD1', 'DHH', 'EK', 'MB', 'BK', 'MSC', 'AW', 'DO', 'SGT'}
+Name_Shorts not found in doc: b1c6df2f-10.1101.2020.04.16.044941.html {'N.S.', 'Z.F.M', 'M.S.F', 'Z.F.M.', 'M.S.F.', 'M.B.'}
+Name_Shorts not found in doc: ae732271-10.1101.2020.04.15.035063.html {'K.K', 'K.Y.', 'K.Y', 'H.B.', 'K.K.'}
+Name_Shorts not found in doc: 785f15dc-10.1101.2020.04.14.20065326.html {'AK', 'EGC'}
+Name_Shorts not found in doc: 1a270f2a-10.1101.2020.04.14.041046.html {'MT', 'KN', 'TI', 'KU', 'KXN', ' AY', 'ON', 'MY', 'TU', 'TA', 'ABB', 'YH', 'KT', 'TF'}
+Name_Shorts not found in doc: 397e4ba8-10.1101.2020.04.09.20060103.html {'ZW', 'SP', 'MJ', 'FZ', 'CF', 'YW', 'PL', 'XS'}
+Name_Shorts not found in doc: 1e63e4f8-10.1101.2020.04.09.035097.html {'G.L.', 'C.L.', 'M.P.', 'Z. L.', 'Y.L.', 'R.L.', 'Y.C'}
+Name_Shorts not found in doc: 371d1371-10.1101.2020.04.09.032995.html {'S.A.C.', 'C.M.B.', 'S.K.', 'R.R.S.', 'T.A.V.', 'A. Martin', 'D.K.', 'B.M.W', 'M.B.N.', 'C.D.P.', 'J. Simson', 'D.K. ', 'A. Siddaiah', 'D.A.', 'C.M.', 'M.B.', 'J.Q.P.', 'M.M.K.', 'A. Mabulla', 'M.K.', 'C.B.H.', 'S.C.C.', 'M.A.', 'J. Stieglitz', 'M.S.', 'J. Song', 'A. Schachner', 'A.G.', 'E.A.', 'A. Salenius'}
+Name_Shorts not found in doc: 9bf1cee9-10.1101.2020.04.08.031203.html {'I.S.', 'L-F.W.', 'M.T.', 'V.B.', 'A.J.', 'G.A.M.', 'G.T.', 'M.L.B.', 'A.N.', 'T.B.G.'}
+Name_Shorts not found in doc: a111ae6f-10.1101.2020.04.04.023945.html {'RH', 'DSa', 'CAR', 'CLM', 'EH', 'XH', 'MJW', 'HFW', 'DSp', 'CH', 'BGF', 'ED', 'WI', 'IW', 'SC', 'JO'}
+Name_Shorts not found in doc: 9a69ca45-10.1101.2020.04.02.022681.html {'S.B.F.', 'M. E.', 'S.L.B', 'T.K.', 'T. T.', 'L.T.S.', 'C.B.', 'L.N', 'L.N.', 'A.K.J.', 'M.A.', 'M.Q.', 'S.L.B.'}
+Name_Shorts not found in doc: 36bdb399-10.1101.2020.03.27.011759.html {'T.W.', 'R.L.X.', 'Y.T.', 'X.L.L.', 'S.N.W.', 'Y.W.', 'Q.W.', 'F.Y.', 'X.W.G.', 'Z.C.J.', 'Y.L.', 'Y.F.W.', 'J.Q.C.', 'L.W.L.'}
+Name_Shorts not found in doc: 34e48848-10.1101.2020.04.02.022616.html {'Y.O.', 'K.K', 'K.K.', 'Y.O', 'E.F.C', 'A.F', 'A.B', 'S.N', 'C.C.'}
+Name_Shorts not found in doc: e1999953-10.1101.2020.03.25.009100.html {'C.K.C.', 'H.X.', 'J.T.W.', 'X.L.'}
+Name_Shorts not found in doc: 230c511b-10.1101.2020.03.25.008375.html {'S.K.S.', 'T.D.', 'N.R.', 'A.M.', 'M.Z.', 'D.C.', 'M.W.', 'J.C.', 'M.H.'}
+Name_Shorts not found in doc: 041a1ff4-10.1101.2020.03.17.982181.html {'HC', 'GF', 'TI', 'JCJ', 'EAW', 'KC'}
+Name_Shorts not found in doc: 186155a1-10.1101.2020.03.13.983551.html {'SM', 'ST', 'IK', 'AMU', 'AG'}
+Name_Shorts not found in doc: 28217087-10.1101.001768.html {'MG', 'GC', 'ACL', 'LD', 'AB', 'DL', 'AK', 'RJ', 'AG'}
+Name_Shorts not found in doc: dc1e7402-10.1101.2019.12.20.882787.html {'R.G.', 'N.B.', 'K.O.', 'D.D.', 'K.A.', 'A.R.', 'S.L.'}
+Name_Shorts not found in doc: 713a99d0-10.1101.2020.03.11.987073.html {'SN', 'HS'}
+Name_Shorts not found in doc: 60bc123b-10.1101.2020.03.10.986505.html {'MI', 'CF', 'TN', 'MGB', 'MK'}
+Name_Shorts not found in doc: b41ffb59-10.1101.2020.03.10.985663.html {'E.B.B.', 'V.S.', 'S.K.', 'M.S.B.', 'C.D.V.', 'AK', 'S.B.', 'J.M.S.', 'G.A.S.', 'M.B.', 'P.L.B.'}
+Name_Shorts not found in doc: e18d1fb7-10.1101.2020.03.09.979054.html {'N.B.', 'C.B.', 'J.I.', 'J.M.', 'E.M.', 'J.N.F', 'F.R.', 'G.L.', 'P.D.', 'X.H.', 'P.M.C.', 'S.M.', 'F.D.F.', 'C.F.B.', 'J.C.T', 'E.LM.'}
+Name_Shorts not found in doc: 4c3d2ec6-10.1101.2020.03.05.979450.html {'H.P.', 'P.K.S.', 'V.K.Y', 'Y.Z.', 'B.S.K.', 'F.L.', 'R.J.', 'P.Y.', 'K.M.', 'M.O.H', 'C.C.', 'M.O.H.', 'J.L.', 'O.S.', 'V.N.', 'E.M.P-G.', 'R.B.'}
+Name_Shorts not found in doc: a6cb5508-10.1101.2020.03.05.962001.html {'HT', 'MH', 'HB', 'KM', 'KT', 'TG', 'MK'}
+Name_Shorts not found in doc: 07ddd62d-10.1101.2020.03.03.974709.html {'S.-P.K.', 'D.C.'}
+Name_Shorts not found in doc: b09a07b3-10.1101.2020.02.29.971242.html {'N.W.P', 'V.T', ' J.L', 'E.A', 'J.F.L', 'M.A.K', 'Q.H', 'A.R.', 'Y.D.D', 'M.C', 'K.G', 'Y.Y'}
+Name_Shorts not found in doc: 8d3dec2f-10.1101.2020.02.18.951756.html {'J.S.', 'B.L.', 'Y.T.', 'K.X.', 'K.A.R.', 'S.D.', 'R.A.D.', 'A.K.', 'Y.G-R.', 'S.M.', 'A.B.', 'L.A.', 'A.B', 'M.M.', 'A.S.', 'S-C.Z.', 'L.H.', 'R.R.'}
+Name_Shorts not found in doc: 4797ac85-10.1101.2020.02.16.949362.html {'JT', ' AG', 'MR', 'BG', 'LY', 'MV', 'AR', 'LB', 'SU', 'DO', 'HH'}
+Name_Shorts not found in doc: 39b1fd5e-10.1101.2020.01.31.928937.html {'NS', 'BJN', 'DCW', 'KL'}
+Name_Shorts not found in doc: c98d72e0-10.1101.2020.02.12.942755.html {'M.M.H.', 'A.R.', 'C.A.', 'M.K'}
+Name_Shorts not found in doc: c4127fac-10.1101.2020.02.12.941369.html {'E.S. Baekkevold', 'O.J.B. Landsverk', 'O. Øyen', 'R. Bartolomé-Casado', 'R. Horneland', 'S. Yaqub', 'Knut E.A. Lundin', 'F.L. Jahnsen', 'S.K. Chauhan', 'E.S. Bækkevold', 'E.M. Aandahl'}
+Name_Shorts not found in doc: b992f5c2-10.1101.2020.02.08.939942.html {'WX', ' JAI', 'SCS', 'IdlR', 'AS'}
+Name_Shorts not found in doc: b66cfb60-10.1101.2020.01.29.926022.html {'N.S.', 'J.L.', 'C.P.E.S.', 'A.R.', 'H.K.', 'H.T. '}
+Name_Shorts not found in doc: e1b701db-10.1101.2020.01.29.924928.html {'TIP', 'JW', 'VK', 'NKL', 'AD', 'LAF', 'SS'}
+Name_Shorts not found in doc: b87e14f6-10.1101.2020.01.29.924498.html {'GZ', 'MH', 'EAF', 'CGB', 'LN'}
+Name_Shorts not found in doc: 4c2b9dcc-10.1101.2020.01.27.921148.html {'AB', 'BMK'}
+Name_Shorts not found in doc: fb94ffb4-10.1101.2020.01.23.917211.html {'JW', 'SG', 'MH', 'CG', 'DY', 'GF', 'RD', 'CH', 'EM', 'AC'}
+Name_Shorts not found in doc: b9d1eff0-10.1101.2020.01.22.20018408.html {'I.S.', 'A.M.', 'P.F.', 'C.H.', 'E.H.', 'N.S.Y.', 'J.D.R.', 'J.D.W.'}
+Name_Shorts not found in doc: 2f535246-10.1101.2020.01.11.902890.html {'EJS', 'LVC', 'WM', 'AEL'}
+Name_Shorts not found in doc: 6b4621eb-10.1101.2020.01.10.891226.html {'C.L.', 'P.D.', 'P.Y.C.', 'M.Z.', 'A.F.', 'J.M.P.'}
+Name_Shorts not found in doc: 63c26d5e-10.1101.2020.01.08.898304.html {'AMO', 'GNB', 'MRK', 'RR', 'GMG', 'SR', 'HK', 'MSW', 'RK', 'AK', 'LS', 'PY'}
+Name_Shorts not found in doc: a57de1ec-10.1101.2020.01.02.893081.html {'M.N.T.', 'W.Y.', 'K.M.K.', 'M.N.T', 'E.B.M.', 'A.R.', 'S.T.', 'F.B.K.'}
+Name_Shorts not found in doc: d39c4da5-10.1101.2019.12.30.891457.html {'RN', 'JZ', 'GF', 'SB', 'LG', 'BR', 'LS', 'AM', 'CMR', 'VS', 'EMJG', 'MLL', 'RTB', 'REST', 'GS', 'MB', 'BK', 'BB', 'YG', 'JC', 'AE'}
+Name_Shorts not found in doc: 75e180b9-10.1101.2019.12.28.890046.html {'M.Ts.', 'V.S.', 'W.H', 'R.S', 'M.Ts', 'R.S.', 'M.Tu.', 'F.M.', 'W.H.'}
+Name_Shorts not found in doc: a463cf38-10.1101.2019.12.28.886655.html {'Bartosz Baran', 'Mateusz Hohol', 'Zoltán Rádai', 'Michał Krzyżowski', 'Jacek Francikowski'}
+Name_Shorts not found in doc: 0226a542-10.1101.2019.12.13.875633.html {'K.N.G-C', 'J.E.G.', 'K.K', 'A.N.F', 'K.J.K', 'N.S.B.', 'S.S.T.', 'X-J. W', 'P.M.T'}
+Name_Shorts not found in doc: 41d1bbef-10.1101.2019.12.12.873844.html {'G.-B.S.'}
+Name_Shorts not found in doc: 65b3a181-10.1101.2020.11.08.20228056.html {'JMT', 'KF', 'GWG', 'YA', 'LM', 'SH', 'VF', 'RZ'}
+Name_Shorts not found in doc: e03bff6c-10.1101.2020.09.29.20199893.html {'NI', 'BLM', 'LMGM', 'MHL', ' JSY', 'AIC', 'COLOC', 'XD', 'NGM', 'YH', 'SM', 'PFK', 'JSO', 'MER'}
+Name_Shorts not found in doc: 355af4e9-10.1101.2020.09.16.20190694.html {'K.S.', 'A.W.', 'S.G.H.', 'P.A.', 'K.M.P.D.', 'M.L.N.', 'C.F.', 'N.N.L.', 'G.A.D.', 'M.S.', ' J.D.D', 'R.F.P.', 'M.M.', 'T.I.', 'L.P.L'}
+Name_Shorts not found in doc: 9491c0c9-10.1101.2020.07.15.20154864.html {'M.S.', 'B.L.', 'P.S.', 'J.A.C.', 'D.R.V.', 'J.M.N', 'I.K.', ' J.M.N', 'L.M.', 'L.K.D.', 'A.R.', 'A.A.', 'A.A', 'C.A.B.'}
+Name_Shorts not found in doc: 6244568d-10.1101.2020.06.25.20139725.html {'NM', 'ALB', 'MT', 'MJB', 'RS', 'MB', 'EP', 'DK', 'SOV', 'LK'}
+
+Average prec. 0.04422439329248804
+Average rec. 0.1470085622552762
