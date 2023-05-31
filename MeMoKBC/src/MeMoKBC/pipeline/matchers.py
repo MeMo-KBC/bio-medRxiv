@@ -1,4 +1,5 @@
 from fonduer.candidates.matchers import LambdaFunctionMatcher, Union, Intersect, RegexMatchSpan
+from MeMoKBC.pipeline.utils import get_session
 import re
 from random import randint
 
@@ -24,15 +25,37 @@ matcher_name_abbrv = Intersect(
 
 # Matchers for Task
 
-match_small_letters = RegexMatchSpan(rgx=r'[a-z]{8}')
-match_small_words = RegexMatchSpan(rgx=r'[a-z]+\s{3,}')
+list_of_headlines = [
+                     #"Acknowledgements", "Acknowledgement", "acknowledgements", "acknowledgement", 
+                     "Contributions", "Contribution", "contribution", "contributions",
+                     "Author Contributions",
+                     #"Credits", "Credit", "credits", "credit",
+                     "Überschrift 1"]
 
-matcher_task = Intersect(
-    Union(
-        match_small_letters,
-        match_small_words
-    )
-)
+def mention_get_verb(mention):
+    """
+    function checks
+    """
+    span_string = mention.get_span()
+    doc_id = mention.sentence.paragraph.document_id
+    para_pos = mention.sentence.paragraph.position
+    try:
+        p = mention.sentence.paragraph
+        p_pos = mention.sentence.document.paragraphs.index(p)
+        headline = p.document.paragraphs[p_pos-10:p_pos]
+        for h in headline:
+            x = h.sentences[0].text
+            if any(option.lower() in x.lower() for option in list_of_headlines):
+                return True
+        else:
+            
+            return False # case: span not in wanted paragraph
+    except:
+        
+        return False
+        
+
+matcher_task = LambdaFunctionMatcher(func = mention_get_verb)
 
 '''
 def first_page(mention):
