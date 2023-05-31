@@ -10,7 +10,7 @@ conn_str = 'postgresql://postgres@fonduer-postgres-dev:5432/' + db_name
 session = Meta.init(conn_string=conn_str).Session()
 
 
-relations_per_doc = Relation.generate_from_project_json("label_studio_export.json")    
+relations_per_doc = Relation.generate_from_project_json("/data/label_studio_export.json")    
 # print(relations)
 
 
