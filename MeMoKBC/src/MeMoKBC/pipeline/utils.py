@@ -15,6 +15,7 @@ def create_db(db_name: str):
     cur.execute(sql)
     conn.close()
 
+PARALLEL = 1
 
 def get_session(db_name: str):
     conn_str = 'postgresql://postgres@fonduer-postgres-dev:5432/' + db_name
