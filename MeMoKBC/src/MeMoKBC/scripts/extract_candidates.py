@@ -14,12 +14,14 @@ def extract_candidates(session, split: "tuple[float, float]"=(0.33, 0.66), paral
                                     throttlers=None,
                                 )
     
-    doc_split = split_documents(session, split)
-    
+    # doc_split = split_documents(session, split)
+    doc_split = [session.query(Document).all()]
+
     for idx, docs in enumerate(doc_split): 
         if type(docs) != list:
             docs = list(docs)
         print(f"\nSplit {idx}: {len(docs)} documents")
         candidate_extractor.apply(docs, split=idx, parallelism=parallel)
-        print(f"Split {idx}: Number of NameFull + NameAbbrv candidates:", session.query(NameFullAbbr).filter(NameFullAbbr.split==idx).count())
-        print(f"Split {idx}: Number of NameFull + Task candidates:", session.query(NameFullTask).filter(NameFullTask.split==idx).count())
+        # print(f"Split {idx}: Number of NameFull + NameAbbrv candidates:", session.query(NameFullAbbr).filter(NameFullAbbr.split==idx).count())
+        # print(f"Split {idx}: Number of NameFull + Task candidates:", session.query(NameFullTask).filter(NameFullTask.split==idx).count())
+        print(f"Split {idx}: Number of NameAbbr + Task candidates:", session.query(NameAbbrTask).filter(NameAbbrTask.split==idx).count())
