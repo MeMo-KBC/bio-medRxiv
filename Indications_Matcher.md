@@ -164,3 +164,12 @@ Kürzel stehen am Satzanfang - inkonsistent in der Anordnung von Großbuchstabe 
 Hierbei Auffällig: medizinische Abkürzungen mit Großbuchstaben (bspw. PCR) stehen in den Tasks. Die Trennung zwischen Tasks & Tasks erfolgt durch ein Komma,  ziwschen Taks & Kürzel durch einen Punkt. 
 
 ![image](https://github.com/MeMo-KBC/bio-medRxiv/assets/92575975/c56d7c08-e572-4efb-87e6-1b2abf85d9c9)
+
+ Sonderkürzel:
+ 
+ "all authors", "both authors" werden auch als Kürzel gelabelt, sind dann zugehörig zu allen "Author long"
+
+
+sonderfall: ![grafik](https://github.com/MeMo-KBC/bio-medRxiv/assets/92575975/3955d6da-e015-4c14-8ea3-47aa39bb0904)
+Wie soll "other authors" related werden ? Kann nicht auf alle "Author long" label related werden. 
+Soll es dann lieber ausgelassen werden oder als "all authors" betrachtet werden?
