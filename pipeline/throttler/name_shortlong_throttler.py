@@ -7,12 +7,13 @@ def count_small_letter_throttler(c):
     # Count the number of lowercase letters in the string
     lowercase_count = sum(1 for w in name_short_string if w.islower())
 
-    if lowercase_count <= 2:
+    if lowercase_count <= 5:
         return True
     else:
         return False
 
-    
+
+
 def same_first_character_throttler(c):
     '''Checks if both Mentions start with the same letter'''
     # Extract both Mentions
@@ -29,6 +30,14 @@ def same_first_character_throttler(c):
     
     # Check if the first characters of the strings are the same
     if short_string[0] == long_string[0]:
+        return True
+    else:
+        return False
+    
+
+
+def name_shortlong_throttler(c):
+    if count_small_letter_throttler(c) and same_first_character_throttler(c):
         return True
     else:
         return False
