@@ -2,6 +2,7 @@ from fonduer.meta import Meta
 from fonduer.parser.models import Document
 import psycopg2
 
+<<<<<<< HEAD:MeMoKBC/src/MeMoKBC/pipeline/utils.py
 
 def create_db(db_name: str):
     conn=psycopg2.connect(
@@ -16,6 +17,9 @@ def create_db(db_name: str):
     conn.close()
 
 PARALLEL = 1
+=======
+PARALLEL = 6
+>>>>>>> origin/23-throttler-für-name-shortlong-0:pipeline/utils.py
 
 def get_session(db_name: str):
     conn_str = 'postgresql://postgres@fonduer-postgres-dev:5432/' + db_name
