@@ -1,7 +1,7 @@
 from fonduer.candidates import CandidateExtractor
 from fonduer.parser.models import Document
 
-from MeMoKBC.src.MeMoKBC.definitions.candidates import NameFullAbbr, NameAbbrTask, AllAuthorsTask
+from MeMoKBC.definitions.candidates import NameFullAbbr, NameAbbrTask, AllAuthorsTask
 from MeMoKBC.pipeline.utils import split_documents
 from MeMoKBC.pipeline.throttler.name_shortlong_throttler import name_shortlong_throttler
 
