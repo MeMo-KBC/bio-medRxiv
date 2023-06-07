@@ -29,9 +29,7 @@ def lf_name_short_in_first_words(c):
                 return ABSTAIN
         i+=1   
     return ABSTAIN
-     
-        
-    
+
 
 
 short_task_lfs = [
