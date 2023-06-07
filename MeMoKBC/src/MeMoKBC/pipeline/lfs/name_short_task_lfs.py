@@ -1,5 +1,6 @@
 from snorkel.labeling import labeling_function
 
+
 ABSTAIN = -1
 FALSE = 0
 TRUE = 1

@@ -11,4 +11,4 @@ def apply_lf(session, parallel: int=12):
     labeler.apply(split=0, lfs=[short_long_lfs, short_task_lfs], train=True, parallelism=parallel)
     #labeler.apply(split=1, lfs=[short_long_lfs, short_task_lfs], parallelism=parallel)
     #labeler.apply(split=2, lfs=[short_long_lfs, short_task_lfs], parallelism=parallel)
-    # print("Ende")
+
