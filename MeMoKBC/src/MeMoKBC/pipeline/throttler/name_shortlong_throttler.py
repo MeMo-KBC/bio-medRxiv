@@ -1,7 +1,7 @@
 def count_small_letter_throttler(c):
     '''Checks if the Mention NameShort has more than two small letters'''
     # Extract the first Mention (NameShort)
-    name_short = c[0]
+    name_short = c[1]
     # Get the string representation of the first Mention
     name_short_string = name_short.context.get_span()
     # Count the number of lowercase letters in the string
@@ -17,8 +17,8 @@ def count_small_letter_throttler(c):
 def same_first_character_throttler(c):
     '''Checks if both Mentions start with the same letter'''
     # Extract both Mentions
-    name_short = c[0]
-    name_long = c[1]
+    name_short = c[1]
+    name_long = c[0]
     
     # Get the string representation
     short_string = name_short.context.get_span()
@@ -34,6 +34,24 @@ def same_first_character_throttler(c):
     else:
         return False
     
+# def all_short_in_long_throttler(c):
+#    '''Checks if all words of the short name are contained in the long name'''
+#    # Extract both Mentions
+#    name_short = c[1]
+#    name_long = c[0]
+#
+#    # Get the string representation
+#    short_string = name_short.context.get_span()
+#    long_string = name_long.context.get_span()
+#
+#    # Convert the strings to lowercase
+#    short_string = short_string.lower()
+#    long_string = long_string.lower()
+#
+#    # Split the strings into words
+#    short_words = short_string.split()
+#    long_words = long_string.split()
+# ...
 
 
 def name_shortlong_throttler(c):
