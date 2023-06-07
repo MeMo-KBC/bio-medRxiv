@@ -11,7 +11,7 @@ def extract_candidates(session, split: "tuple[float, float]"=(0.33, 0.66), paral
     candidate_extractor = CandidateExtractor(
                                     session,
                                     [NameAbbrTask],
-                                    throttlers=None,
+                                    throttlers=[throt_rand],
                                 )
     docs = [session.query(Document).all()]
     # doc_split = split_documents(session, split)
@@ -27,3 +27,7 @@ def extract_candidates(session, split: "tuple[float, float]"=(0.33, 0.66), paral
         # print(f"Split {idx}: Number of NameFull + NameAbbrv candidates:", session.query(NameFullAbbr).filter(NameFullAbbr.split==idx).count())
         # print(f"Split {idx}: Number of NameFull + Task candidates:", session.query(NameFullTask).filter(NameFullTask.split==idx).count())
         print(f"Split {idx}: Number of NameAbbr + Task candidates:", session.query(NameAbbrTask).filter(NameAbbrTask.split==idx).count())
+
+        x = session.query(NameAbbrTask).all()
+        for i in x:
+            print(i)
