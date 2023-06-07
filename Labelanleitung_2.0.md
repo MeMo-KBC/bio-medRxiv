@@ -9,33 +9,10 @@
 
 #### Labeling Interface
 
-<View>
-
-<Relations>
-
-<Relation value="Author short" />
-<Relation value="Task" />
-<Relation value="Author long" />
+![grafik](https://github.com/MeMo-KBC/bio-medRxiv/assets/92575975/2db12254-8e61-48ff-b056-1142a95d5c02)
 
 
-</Relations>
-
-<HyperTextLabels name="ner" toName="text">
-  
-<Label value="Author short" background="red"/>
-<Label value="Task" background="blue"/>
-<Label value="Author long" background="orange"/>
-
-</HyperTextLabels>
-
-
-<View style="border: 1px solid #CCC; border-radius: 10px; padding: 5px">
-
-<HyperText name="text" value="$html"/>
-
-</View>
-
-</View>
+Zum Kopieren für weitere Projekte liegt das Labeling Interface unter LabelingInterface.txt
 
 #### 1. Author long
 
