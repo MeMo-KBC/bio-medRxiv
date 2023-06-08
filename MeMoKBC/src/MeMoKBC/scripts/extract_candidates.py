@@ -14,8 +14,7 @@ def extract_candidates(session, split: "tuple[float, float]"=(0.33, 0.66), paral
                                     throttlers=[name_mention_in_task_mention_throttler, name_shortlong_throttler],
                                 )
     
-    # doc_split = split_documents(session, split)
-    doc_split = [session.query(Document).all()]
+    doc_split = split_documents(session, split)
 
     for idx, docs in enumerate(doc_split): 
         if type(docs) != list:
@@ -24,7 +23,3 @@ def extract_candidates(session, split: "tuple[float, float]"=(0.33, 0.66), paral
         candidate_extractor.apply(docs, split=idx, parallelism=parallel)
         print(f"Split {idx}: Number of NameFull + NameAbbrv candidates:", session.query(NameFullAbbr).filter(NameFullAbbr.split==idx).count())
         print(f"Split {idx}: Number of NameAbbr + Task candidates:", session.query(NameAbbrTask).filter(NameAbbrTask.split==idx).count())
-
-        x = session.query(NameAbbrTask).all()
-        for i in x:
-            print(i)

@@ -31,10 +31,8 @@ def dummy_lf_randi(c):
 @labeling_function()
 def lf_test(c):
     if randint(1, 10) <= 5:
-        print("True")
         return TRUE
     else:
-        print("False")
         return FALSE
     
 
@@ -42,10 +40,8 @@ def lf_test(c):
 def lf_length_more_than_three_words(c):
     sentence = c[1].context.get_span().split(" ")
     if len(sentence) > 3:
-        print("1")
         return ABSTAIN
     else:
-        print("2")
         return FALSE
 
 @labeling_function()
@@ -56,10 +52,8 @@ def lf_name_short_in_first_words(c):
     for word in sentence:
         if name.lower() == word.lower(): # was ist mit sonderzeichen? word stemmen und vergleichen?
             if i <= 3:
-                print("3")
                 return TRUE
             else:
-                print("4")
                 return ABSTAIN
         i+=1   
     return ABSTAIN
