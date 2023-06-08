@@ -29,10 +29,6 @@ def lf_name_short_in_first_words(c):
                 return ABSTAIN
         i+=1   
     return ABSTAIN
-     
-        
-    
-
 
 name_abbr_task_lfs = [
     lf_length_more_than_three_words,
