@@ -1,5 +1,6 @@
 from fonduer.meta import Meta
 from fonduer.parser.models import Document
+from fonduer.candidates.models import Candidate
 import psycopg2
 
 
@@ -40,3 +41,16 @@ def split_documents(session, splits: "tuple[float, float]"):
         else:
             test_docs.add(doc)
     return train_docs, dev_docs, test_docs
+
+def load_candidates(session, split: int, candidate_list):
+
+    result = []
+
+    for candidate_class in candidate_list:
+        # Filter by candidate_ids in a particular split
+        sub_query = (session.query(Candidate.id).filter(Candidate.split == split).subquery())
+        cands = (session.query(candidate_class).filter(candidate_class.id.in_(sub_query)).order_by(candidate_class.id).all())
+        
+        result.append(cands)
+
+    return result
