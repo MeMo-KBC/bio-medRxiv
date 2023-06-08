@@ -68,7 +68,7 @@ def lf_name_short_in_first_words(c):
     
 
 
-dummy_lfs = [
+name_full_abbr_lfs = [
     # lf_test,
     lf_length_more_than_three_words,
     lf_name_short_in_first_words,

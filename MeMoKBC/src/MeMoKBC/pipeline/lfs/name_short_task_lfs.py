@@ -34,7 +34,7 @@ def lf_name_short_in_first_words(c):
     
 
 
-NameAbb_Task_lfs = [
+name_abbr_task_lfs = [
     lf_length_more_than_three_words,
     lf_name_short_in_first_words,
 ]
