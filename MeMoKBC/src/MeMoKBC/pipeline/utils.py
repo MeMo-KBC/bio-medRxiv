@@ -1,7 +1,10 @@
 from fonduer.meta import Meta
 from fonduer.parser.models import Document
 from fonduer.candidates.models import Candidate
+from fonduer.supervision.models import LabelKey
+from fonduer.supervision.labeler import Labeler
 import psycopg2
+import numpy as np
 
 
 def create_db(db_name: str):
@@ -54,3 +57,18 @@ def load_candidates(session, split: int, candidate_list):
         result.append(cands)
 
     return result
+
+
+def match_label_matrix(session: Meta, candidates: "list[Candidate]", split: int) -> "list[np.ndarray]":
+    """Get the label matrix for a set of candidates. And reduce the label matrix to the columns corresponding to the candidate classes."""
+    labeler = Labeler(session, candidates)
+    train_cands = load_candidates(session, split, candidates)
+    L_train = labeler.get_label_matrices(train_cands)
+    lfs = session.query(LabelKey).all()
+    lfs_classes = np.array([lf.candidate_classes[0] for lf in lfs])
+    matricies = []
+    for candidate, L_train_cand in zip(candidates, L_train):
+        cand_name = candidate.__tablename__
+        mask = np.where(lfs_classes == cand_name)[0].tolist()
+        matricies.append(L_train_cand[:, mask])
+    return matricies
