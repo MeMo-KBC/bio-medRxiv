@@ -10,5 +10,5 @@ def apply_lf(session, parallel: int=12):
     labeler.drop_keys(labeler.get_keys())
     labeler.clear_all()
     labeler.update(split=0, lfs=[name_abbr_task_lfs, short_long_lfs], parallelism=parallel)
-    labeler.update(split=1, lfs=[name_abbr_task_lfs, short_long_lfs], parallelism=parallel)
-    labeler.update(split=2, lfs=[name_abbr_task_lfs, short_long_lfs], parallelism=parallel)
+    labeler.apply(split=1, lfs=[name_abbr_task_lfs, short_long_lfs], parallelism=parallel)
+    labeler.apply(split=2, lfs=[name_abbr_task_lfs, short_long_lfs], parallelism=parallel)
