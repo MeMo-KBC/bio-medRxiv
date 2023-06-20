@@ -47,6 +47,7 @@ def name_short_outside_half_percentile_sentence_wise(c):
     except:
         print(c)
         return ABSTAIN
+    
     if short_vert_percentile >= 0.5:
         return TRUE
     else:
