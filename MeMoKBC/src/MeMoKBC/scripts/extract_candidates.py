@@ -4,6 +4,8 @@ from fonduer.parser.models import Document
 from MeMoKBC.definitions.candidates import NameFullAbbr, NameAbbrTask, AllAuthorsTask
 from MeMoKBC.pipeline.utils import split_documents
 from MeMoKBC.pipeline.throttler.name_shortlong_throttler import name_shortlong_throttler
+#from MeMoKBC.pipeline.throttler.NameAbbrTask import are_neighbors
+from MeMoKBC.pipeline.throttler.AllAuthorsTask_throt import all_authors_task_throttler
 
 
 
@@ -11,7 +13,7 @@ def extract_candidates(session, split: "tuple[float, float]"=(0.33, 0.66), paral
     candidate_extractor = CandidateExtractor(
                                     session,
                                     [NameAbbrTask, NameFullAbbr, AllAuthorsTask],
-                                    throttlers=[None, name_shortlong_throttler, None],
+                                    throttlers=[None, name_shortlong_throttler, all_authors_task_throttler]
                                 )
     
     # doc_split = split_documents(session, split)
@@ -25,3 +27,10 @@ def extract_candidates(session, split: "tuple[float, float]"=(0.33, 0.66), paral
         print(f"Split {idx}: Number of NameFull + NameAbbrv candidates:", session.query(NameFullAbbr).filter(NameFullAbbr.split==idx).count())
         print(f"Split {idx}: Number of NameAbbr + Task candidates:", session.query(NameAbbrTask).filter(NameAbbrTask.split==idx).count())
         print(f"Split {idx}: Number of AllAuthors + Task candidates:", session.query(AllAuthorsTask).filter(AllAuthorsTask.split==idx).count())
+
+
+ # Print AllAuthorsTask candidates
+        all_authors_candidates = session.query(AllAuthorsTask).filter(AllAuthorsTask.split == idx).all()
+        print(f"\nAllAuthorsTask Candidates:")
+        for candidate in all_authors_candidates:
+            print(candidate)
