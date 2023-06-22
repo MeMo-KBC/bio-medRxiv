@@ -1,4 +1,5 @@
 from snorkel.labeling import labeling_function
+import csv
 
 ABSTAIN = -1
 FALSE = 0
@@ -46,8 +47,27 @@ def lf_check_surr_chars(c):
         
     return ABSTAIN
 
+@labeling_function()
+def is_medical_abbreviation(c):
+    name_abbr, task = c
+    name_span = name_abbr.context.get_span()
+
+    with open('/workspaces/bio-medRxiv/data/CSVs/all_abbs.csv', 'r') as csvfile:
+        reader = csv.reader(csvfile)
+        medical_abbreviations = [row[0].lower() for row in reader]
+
+    for ngram in name_span:
+        if ngram.lower() in medical_abbreviations:
+            return FALSE
+            #print("FALSE")
+
+    return ABSTAIN
+    #print("ABSTAIN")
+
+
 name_abbr_task_lfs = [
     lf_length_more_than_three_words,
     lf_name_short_in_first_words,
+    is_medical_abbreviation,
     # lf_check_surr_chars
 ]
