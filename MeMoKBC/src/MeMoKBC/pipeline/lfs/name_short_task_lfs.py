@@ -56,10 +56,10 @@ def is_medical_abbreviation(c):
         reader = csv.reader(csvfile)
         medical_abbreviations = [row[0].lower() for row in reader]
 
-    for ngram in name_span:
-        if ngram.lower() in medical_abbreviations:
-            return FALSE
-            #print("FALSE")
+    
+    if name_span.lower() in medical_abbreviations:
+        return FALSE
+        #print("FALSE")
 
     return ABSTAIN
     #print("ABSTAIN")
