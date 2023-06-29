@@ -5,3 +5,5 @@ dist/
 # directory with (test-)html-files should not be pushed 
 #/data/*
 
+# GloVE directory
+/GitHub/
