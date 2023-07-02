@@ -59,7 +59,7 @@ def match_label_matrix(session: Meta, candidates: "list[Candidate]", split: int)
     labeler = Labeler(session, candidates)
     train_cands = load_candidates(session, split, candidates)
     L_train = labeler.get_label_matrices(train_cands)
-    lfs = session.query(LabelKey).all()
+    lfs = session.query(LabelKey).order_by(LabelKey.name).all()
     lfs_classes = np.array([lf.candidate_classes[0] for lf in lfs])
     matricies = []
     for candidate, L_train_cand in zip(candidates, L_train):

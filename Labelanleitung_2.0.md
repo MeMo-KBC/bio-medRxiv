@@ -39,7 +39,7 @@ Relation Author long / Author short
 Beispiel: 
 ![grafik](https://github.com/MeMo-KBC/bio-medRxiv/assets/92575975/b066bb3e-7769-40d0-91d2-ec44df16da6f)
 
-- Immer unter der Überschrift "Author Contributions zu finden"
+- Immer unter der Überschrift "Author Contributions" zu finden
 - Kürzel können verschiedene Formen haben, bspw. MA oder M.A oder M.A. 
 - !!! nicht gelabelt werden: volle Namen und teilweise abgekürzte Namen (z.b. nur Vorname) 
 - Bsp: Marion Müller , M. Müller

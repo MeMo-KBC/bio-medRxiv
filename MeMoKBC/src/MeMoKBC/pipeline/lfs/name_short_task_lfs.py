@@ -1,8 +1,12 @@
 from snorkel.labeling import labeling_function
+from random import randint
+from pathlib import Path
+import csv
 
 ABSTAIN = -1
 FALSE = 0
 TRUE = 1
+
 
 @labeling_function()
 def lf_length_more_than_three_words(c):
@@ -46,8 +50,31 @@ def lf_check_surr_chars(c):
         
     return ABSTAIN
 
+@labeling_function()
+def is_medical_abbreviation(c):
+    name_abbr, task = c
+    name_span = name_abbr.context.get_span()
+
+    with open(f'{str(Path(__file__).parent)}/CSVs/all_abbs.csv', 'r') as csvfile:
+        reader = csv.reader(csvfile)
+        medical_abbreviations = [row[0].lower() for row in reader]
+    
+    with open(f'{str(Path(__file__).parent)}/CSVs/Orga_abb.csv', 'r') as csvfile:
+        reader_orga = csv.reader(csvfile)
+        orga_abbreviations = [row[0].lower() for row in reader_orga]
+
+    
+    if name_span.lower() in medical_abbreviations or orga_abbreviations:
+        return FALSE
+        #print("FALSE")
+
+    return ABSTAIN
+    #print("ABSTAIN")
+
+
 name_abbr_task_lfs = [
     lf_length_more_than_three_words,
     lf_name_short_in_first_words,
+    is_medical_abbreviation,
     # lf_check_surr_chars
 ]
