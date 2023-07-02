@@ -13,7 +13,7 @@ def extract_candidates(session, split: "tuple[float, float]"=(0.33, 0.66), paral
     candidate_extractor = CandidateExtractor(
                                     session,
                                     [NameAbbrTask, NameFullAbbr, AllAuthorsTask],
-                                    throttlers=[None, name_shortlong_throttler, all_authors_task_throttler]
+                                    throttlers=[name_mention_in_task_mention_throttler, name_shortlong_throttler, all_authors_task_throttler]
                                 )
     
     # doc_split = split_documents(session, split)
