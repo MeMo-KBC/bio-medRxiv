@@ -1,9 +1,11 @@
 from snorkel.labeling import labeling_function
+from random import randint
 import csv
 
 ABSTAIN = -1
 FALSE = 0
 TRUE = 1
+
 
 @labeling_function()
 def lf_length_more_than_three_words(c):
