@@ -78,6 +78,13 @@ def mention_get_verb(mention):
 
 matcher_task = LambdaFunctionMatcher(func = mention_get_verb)
 
+#MAtcher All Authors
+
+matcher_all_authors = RegexMatchSpan(
+    rgx=r"(\b(all|both)\b\s*(?:authors?|writers?|contributors?))",
+    longest_match_only=True,
+    ignore_case=True
+)
 '''
 def first_page(mention):
     """Matches a span if it is on the first page."""
