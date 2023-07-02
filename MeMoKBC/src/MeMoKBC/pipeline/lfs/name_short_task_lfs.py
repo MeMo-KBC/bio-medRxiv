@@ -54,11 +54,11 @@ def is_medical_abbreviation(c):
     name_abbr, task = c
     name_span = name_abbr.context.get_span()
 
-    with open('/workspaces/bio-medRxiv/data/CSVs/all_abbs.csv', 'r') as csvfile:
+    with open('CSVs/all_abbs.csv', 'r') as csvfile:
         reader = csv.reader(csvfile)
         medical_abbreviations = [row[0].lower() for row in reader]
     
-    with open('/workspaces/bio-medRxiv/data/CSVs/Orga_abb.csv', 'r') as csvfile:
+    with open('CSVs/Orga_abb.csv', 'r') as csvfile:
         reader_orga = csv.reader(csvfile)
         orga_abbreviations = [row[0].lower() for row in reader_orga]
 

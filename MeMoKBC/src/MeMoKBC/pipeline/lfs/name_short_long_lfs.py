@@ -60,7 +60,7 @@ def is_company_name(c):
     name = name_full.context.get_span()
 
     word_list = []
-    with open('/workspaces/bio-medRxiv/data/CSVs/Company_Abbr.csv', 'r') as csvfile:
+    with open('CSVs/Company_Abbr.csv', 'r') as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
             word_list.extend(row)
