@@ -7,6 +7,7 @@ from MeMoKBC.pipeline.throttler.name_shortlong_throttler import name_shortlong_t
 #from MeMoKBC.pipeline.throttler.NameAbbrTask import are_neighbors
 from MeMoKBC.pipeline.throttler.AllAuthorsTask_throt import all_authors_task_throttler
 from MeMoKBC.pipeline.throttler.NameAbbrTask import name_mention_in_task_mention_throttler
+from MeMoKBC.pipeline.throttler.NameAbbrTask import name_mention_in_task_mention_throttler
 
 
 
