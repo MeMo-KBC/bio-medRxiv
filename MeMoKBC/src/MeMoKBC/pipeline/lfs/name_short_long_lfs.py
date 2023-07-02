@@ -1,5 +1,6 @@
 from fonduer.utils.data_model_utils.visual import get_page_vert_percentile
 from snorkel.labeling import labeling_function
+import csv
 
 ABSTAIN = -1
 FALSE = 0
@@ -53,7 +54,23 @@ def name_short_outside_half_percentile_sentence_wise(c):
     else:
         return ABSTAIN
     
+@labeling_function()
+def is_company_name(c):
+    name_short, name_full  = c
+    name = name_full.context.get_span()
 
+    word_list = []
+    with open('/workspaces/bio-medRxiv/data/CSVs/Company_Abbr.csv', 'r') as csvfile:
+        reader = csv.reader(csvfile)
+        for row in reader:
+            word_list.extend(row)
+    
+    name_lower = name.lower()
+    for word in word_list:
+        if word.lower() in name_lower:
+            return FALSE
+    return ABSTAIN
+    
 @labeling_function()
 def name_full_in_top_percentile_sentence_wise(c):
     '''Checks if name long is in the top percentile of the document'''
@@ -109,6 +126,27 @@ def check_all_uppercase_letters(c):
     
     return TRUE
 
+@labeling_function()
+def check_uppercase_letters(c):
+    name_short = c[0]
+    name_long = c[1]
+    
+    short_string = name_short.context.get_span()
+    long_string = name_long.context.get_span()
+    
+    short_letters = [char for char in short_string if char.isupper()]
+    long_letters = [char for char in long_string if char.isupper()]
+    
+    pattern_index = 0
+    
+    for letter in long_letters:
+        if letter == short_letters[pattern_index]:
+            pattern_index += 1
+            
+            if pattern_index == len(short_letters):
+                return TRUE
+                
+    return ABSTAIN
 
 
 short_long_lfs = [
@@ -118,5 +156,6 @@ short_long_lfs = [
     name_full_in_top_percentile_sentence_wise,
     word_count,
     small_letter_count,
-    check_all_uppercase_letters
+    check_all_uppercase_letters,
+    check_uppercase_letters
 ]
