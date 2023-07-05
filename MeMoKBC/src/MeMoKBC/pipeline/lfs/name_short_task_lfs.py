@@ -2,6 +2,7 @@ from snorkel.labeling import labeling_function
 from random import randint
 from pathlib import Path
 import csv
+import re
 
 ABSTAIN = -1
 FALSE = 0
@@ -19,7 +20,7 @@ def lf_length_more_than_three_words(c):
     else:
         # print("2")
         return FALSE
-
+'''
 @labeling_function()
 def lf_name_short_in_first_words(c):
     name_abbr, task = c
@@ -29,6 +30,18 @@ def lf_name_short_in_first_words(c):
         return TRUE
     else:
         return ABSTAIN
+'''
+@labeling_function()
+def lf_name_short_in_first_words(c):
+    name_abbr, task = c
+    name = name_abbr.context.get_span()
+    sentence = task.context.get_span().split(" ")
+    first_words = sentence.split()[:3]
+
+    for word in first_words:
+        if re.match(r'\b{}\b'.format(re.escape(name)), word):
+            return TRUE
+    return ABSTAIN
 
 @labeling_function()
 def lf_check_surr_chars(c):
