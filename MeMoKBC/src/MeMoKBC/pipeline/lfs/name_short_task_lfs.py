@@ -35,11 +35,11 @@ def lf_name_short_in_first_words(c):
 def lf_name_short_in_first_words(c):
     name_abbr, task = c
     name = name_abbr.context.get_span()
-    sentence = task.context.get_span().split(" ")
-    first_words = sentence.split()[:3]
+    sentence = re.sub(r'[^\w\s]', '', task.context.get_span())
+    first_words = re.findall(r'\b\w+\b', sentence)[:3]
 
     for word in first_words:
-        if re.match(r'\b{}\b'.format(re.escape(name)), word):
+        if word.isupper() and word == name:
             return TRUE
     return ABSTAIN
 
