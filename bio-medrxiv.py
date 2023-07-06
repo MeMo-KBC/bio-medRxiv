@@ -38,19 +38,19 @@ def main(db_name, create_db_arg, parse_documents_folder, extract_mentions_arg, e
         print("Parsed documents")
     
     if extract_mentions_arg:
-        extract_mentions(session)
+        extract_mentions(session, 25)
         print("Extracted mentions")
 
     if extract_candidates_arg:
-        extract_candidates(session)
+        extract_candidates(session, 25)
         print("Extracted candidates")
     
     if extract_features_arg:
-        extract_features(session)
+        extract_features(session, 25)
         print("Extracted features")
 
     if apply_lfs_arg:
-        apply_lf(session)
+        apply_lf(session, 25)
         print("Applied label functions")
 
 
