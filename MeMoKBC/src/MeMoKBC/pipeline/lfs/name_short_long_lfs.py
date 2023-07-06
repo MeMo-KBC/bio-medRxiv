@@ -235,5 +235,6 @@ short_long_lfs = [
     check_uppercase_letters,
     check_horizont_abr_short,
     check_uppercase_letters_short_in_long,
-    check_long_name_not_upper
+    check_long_name_not_upper,
+    is_company_name
 ]
