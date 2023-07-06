@@ -85,9 +85,119 @@ def is_medical_abbreviation(c):
     #print("ABSTAIN")
 
 
+@labeling_function()
+def name_in_task(c):
+    name_abbr, task = c
+    sentence = task.context.get_span()
+    if name_abbr.context.get_span() in sentence:
+        return TRUE
+    else:
+        return FALSE
+
+
+@labeling_function()
+def sentence_beginning(c):
+    name_abbr, task = c
+    sentence = task.context.get_span()
+    if sentence.startswith(name_abbr.context.get_span()):
+        return TRUE
+    else:
+        return ABSTAIN
+    
+
+@labeling_function()
+def common_verbs_following_abbr(c):
+    common_verbs = [
+        "did",
+        "conducted",
+        "prepared",
+        "performed",
+        "developed",
+        "designed",
+        "created",
+        "wrote",
+        "edited",
+        "reviewed",
+        "analyzed",
+        "evaluated",
+        "interpreted",
+    ]
+    name_abbr, task = c
+    sentence = task.context.get_span()
+    sentence_tokenized = sentence.split(" ")
+    if name_abbr.context.get_span() in sentence_tokenized:
+        index = sentence_tokenized.index(name_abbr.context.get_span())
+        if index + 1 < len(sentence_tokenized):
+            if sentence_tokenized[index + 1] in common_verbs:
+                return TRUE
+        
+    return ABSTAIN
+
+
+@labeling_function()
+def verbs_ending_with_past(c):
+    name_abbr, task = c
+    sentence = task.context.get_span()
+    sentence_tokenized = sentence.split(" ")
+    if name_abbr.context.get_span() in sentence_tokenized:
+        index = sentence_tokenized.index(name_abbr.context.get_span())
+        if index + 1 < len(sentence_tokenized):
+            if sentence_tokenized[index + 1].endswith("ed"):
+                return TRUE
+        
+    return ABSTAIN
+
+
+@labeling_function()
+def word_before_abbr(c):
+    words_before = [
+        "the",
+        "a",
+        "an",
+        "this",
+        "that",
+        "these",
+        "those",
+    ]
+
+    name_abbr, task = c
+    sentence = task.context.get_span()
+    sentence_tokenized = sentence.split(" ")
+    if name_abbr.context.get_span() in sentence_tokenized:
+        index = sentence_tokenized.index(name_abbr.context.get_span())
+        if index - 1 >= 0:
+            if sentence_tokenized[index - 1] in words_before:
+                return FALSE
+    return ABSTAIN
+
+
+@labeling_function()
+def abbr_is_complete(c):
+    name_abbr, task = c
+    name = name_abbr.context.get_span()
+    sentence = task.context.get_span()
+
+    if name in sentence:
+        idx = sentence.index(name)
+        if idx + len(name) < len(sentence):
+            if sentence[idx + len(name)] not in [" ", ",", ";", "."]:
+                return FALSE
+    
+        if idx >= 1:
+            if sentence[idx - 1] not in [" ", ",", ";", "."]:
+                return FALSE
+    return ABSTAIN
+
+
 name_abbr_task_lfs = [
+    # name_in_task,
     lf_length_more_than_three_words,
     lf_name_short_in_first_words,
     is_medical_abbreviation,
+    sentence_beginning,
+    common_verbs_following_abbr,
+    verbs_ending_with_past,
+    word_before_abbr,
+    abbr_is_complete,
     # lf_check_surr_chars
 ]

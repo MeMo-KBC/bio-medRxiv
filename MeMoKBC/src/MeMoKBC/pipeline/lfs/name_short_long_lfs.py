@@ -10,7 +10,7 @@ TRUE = 1
 @labeling_function()
 def name_short_outside_half_percentile(c):
     '''Checks if name short is in the lower half of the document'''
-    name_short, name_full = c
+    name_full, name_short = c
     try:
         short_vert_percentile = get_page_vert_percentile(name_short)
     except:
@@ -25,7 +25,7 @@ def name_short_outside_half_percentile(c):
 @labeling_function()
 def name_full_in_top_percentile(c):
     '''Checks if name long is in the top percentile of the document'''
-    name_short, name_full = c
+    name_full, name_short = c
     full_vert_percentile = get_page_vert_percentile(name_full)
     if full_vert_percentile <= 0.25:
         return TRUE
@@ -43,7 +43,7 @@ def get_page_vert_perc_by_sentence(mention):
 @labeling_function()
 def name_short_outside_half_percentile_sentence_wise(c):
     '''Checks if name short is in the lower half of the documents sentences'''
-    name_short, name_full = c
+    name_full, name_short = c
     try:
         short_vert_percentile = get_page_vert_perc_by_sentence(name_short)
     except:
@@ -51,13 +51,13 @@ def name_short_outside_half_percentile_sentence_wise(c):
         return ABSTAIN
     
     if short_vert_percentile >= 0.5:
-        return TRUE
+        return FALSE
     else:
         return ABSTAIN
     
 @labeling_function()
 def is_company_name(c):
-    name_short, name_full  = c
+    name_full, name_short  = c
     name = name_full.context.get_span()
 
     word_list = []
@@ -75,10 +75,10 @@ def is_company_name(c):
 @labeling_function()
 def name_full_in_top_percentile_sentence_wise(c):
     '''Checks if name long is in the top percentile of the document'''
-    name_short, name_full = c
+    name_full, name_short = c
     full_vert_percentile = get_page_vert_perc_by_sentence(name_full)
     if full_vert_percentile <= 0.25:
-        return TRUE
+        return FALSE
     else:
         return ABSTAIN
 
@@ -86,11 +86,11 @@ def name_full_in_top_percentile_sentence_wise(c):
 @labeling_function()
 def word_count(c):
     '''Checks if name short has less than or equal to 8 letters'''
-    name_short, name_full = c
+    name_full, name_short = c
     short_string = name_short.context.get_span()
    
     if len(short_string) <= 8:
-        return TRUE
+        return FALSE
     else:
         return ABSTAIN
     
@@ -98,12 +98,12 @@ def word_count(c):
 @labeling_function()
 def small_letter_count(c):
     '''Checks if name short has less than or equal to 2 small letters'''
-    name_short, name_full = c
+    name_full, name_short = c
     name_short_string = name_short.context.get_span()
     lowercase_count = sum(1 for w in name_short_string if w.islower())
 
     if lowercase_count <= 2:
-        return TRUE
+        return FALSE
     else:
         return ABSTAIN
 
@@ -111,7 +111,7 @@ def small_letter_count(c):
 @labeling_function()
 def check_all_uppercase_letters(c):
     '''Checks if all name short uppercase letters are in name long'''
-    name_short, name_full = c
+    name_full, name_short = c
     
     short_string = name_short.context.get_span()
     long_string = name_full.context.get_span() 
@@ -125,12 +125,11 @@ def check_all_uppercase_letters(c):
         if letter not in uppercase_set:
             return ABSTAIN
     
-    return TRUE
+    return FALSE
 
 @labeling_function()
 def check_uppercase_letters(c):
-    name_short = c[0]
-    name_long = c[1]
+    name_long, name_short = c
     
     short_string = name_short.context.get_span()
     long_string = name_long.context.get_span()
@@ -145,13 +144,13 @@ def check_uppercase_letters(c):
             pattern_index += 1
             
             if pattern_index == len(short_letters):
-                return TRUE
+                return FALSE
                 
     return ABSTAIN
 
 @labeling_function()
 def check_horizont_abr_short(c):
-    name_short, name_full = c
+    name_full, name_short = c
     short_string = name_short.context.get_span()
 
     horizont_list = ["AAL","ACARE", "ACCESS4EU", "ACP", "AdG", "AdR", "ALICE", "AEUV", "AKP", "Artemis",
@@ -187,7 +186,7 @@ def check_horizont_abr_short(c):
 
 @labeling_function()
 def check_uppercase_letters_short_in_long(c):
-    name_short, name_full = c
+    name_full, name_short = c
     
     short_string = name_short.context.get_span()
     long_string = name_full.context.get_span()
@@ -202,14 +201,14 @@ def check_uppercase_letters_short_in_long(c):
             pattern_index += 1
             
             if pattern_index == len(short_letters):
-                return TRUE
+                return FALSE
                 
     return ABSTAIN
 
 
 @labeling_function()
 def check_long_name_not_upper(c):
-    name_short, name_full = c
+    name_full, name_short = c
     long_string = name_full.context.get_span()
     
     words = long_string.split()
@@ -220,6 +219,22 @@ def check_long_name_not_upper(c):
             return FALSE
     
     return ABSTAIN
+
+
+@labeling_function()
+def check_all_abbr_letters_in_long(c):
+    name_full, name_short = c
+    
+    short_string = name_short.context.get_span()
+    long_string = name_full.context.get_span()
+    puntuation = [" ", ",", ".", ";", ":", "(", ")", "[", "]", "{", "}", "-", "_", "/", "\\", "|",
+                   "<", ">", "=", "+", "*", "&", "^", "%", "$", "#", "@", "!", "?", "~", "`", '"', "'"]
+    short_letters = [char for char in short_string if char not in puntuation]
+    for letter in short_letters:
+        if letter not in long_string:
+            return FALSE
+    
+    return TRUE
 
 
 
@@ -235,5 +250,6 @@ short_long_lfs = [
     check_uppercase_letters,
     check_horizont_abr_short,
     check_uppercase_letters_short_in_long,
-    check_long_name_not_upper
+    check_long_name_not_upper,
+    check_all_abbr_letters_in_long
 ]
