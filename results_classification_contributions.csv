@@ -1,0 +1,450 @@
+,contribution,class_label,label_code,glove_classification,glove_label,ann_classification,ann_label,kmeans_cluster,x_axis,y_axis,partition
+0,Volunteered at a community garden,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.107780874292293,1.2775144841560693,training
+1,conceptualised experiments,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,8,-0.47025743401885617,-0.4043465535688917,training
+2,ran Gingko on data,Formal analysis,2,2,Formal analysis,2,Formal analysis,2,0.5183025002370253,0.664533859147606,training
+3,verified linked non-identifiable microbiological and genomic data,Data curation,1,1,Data curation,1,Data curation,16,2.698054256519251,2.54583968223289,training
+4,had full access to the data,Sonstiges,10,10,Sonstiges,10,Sonstiges,2,1.7595771572650958,-0.7920122309422744,training
+5,supported for sequencing ,Sonstiges,10,10,Sonstiges,10,Sonstiges,5,-0.8142469312045517,-0.1299512521822014,training
+6,"provided oversight in study design, conducting experiments, data analysis, and manuscript revision",Supervision,11,11,Supervision,11,Supervision,16,2.6979683034537394,2.409662498830349,training
+7,oversaw review and editing of writing,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,10,1.5111786426881553,1.3515255740920646,training
+8,assisted all experiments,Investigation,4,4,Investigation,4,Investigation,8,-0.45575064851101754,-0.3965917058528941,training
+9,allowed aerosol technology to the project,Resources,8,8,Resources,8,Resources,1,0.7111788803987237,-1.8648385541880625,training
+10,conceptualised task,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,7,-0.5755690244017265,-0.42933866387482267,training
+11,Created a vision board for your goals,Other - not related,6,6,Other - not related,6,Other - not related,14,-2.4278978838127956,1.6120509845337951,training
+12,Wrote a poem about nature,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.209397421811809,1.3883869516002998,training
+13,developed AutoCoEv,Sonstiges,10,10,Sonstiges,10,Sonstiges,7,-0.5404105640667893,-0.3951427707408946,training
+14,tested software,Validation,13,13,Validation,13,Validation,11,-0.5394679593605631,-0.414206601017728,training
+15,gained ethical approval,Sonstiges,10,10,Sonstiges,10,Sonstiges,7,-0.5461767211855755,-0.40063553910968086,training
+16,Designed a new board game,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.1204021357692935,1.301280980807545,training
+17,Organized a fundraising car wash,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.1298473972212224,1.295918572356233,training
+18,performed transcriptional profiling,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5461378133149032,-0.4052923529582474,training
+19,developed ASCAT.m and CAMDAC,Software,9,9,Software,9,Software,10,1.4669751599875778,1.3595766044748039,training
+20,discussed manuscript,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,7,-0.5025720956183273,-0.4349702911771733,training
+21,conceived the study,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,1,0.7049112933630957,-1.8235268546391237,training
+22,selected drug targets,Project administration,7,7,Project administration,7,Project administration,7,-0.547836024253327,-0.404482748420776,training
+23,were responsible for experiments and data analysis,Formal analysis,2,2,Formal analysis,2,Formal analysis,16,2.3784540846005284,2.7047937605472203,training
+24,verified the identifiable participant data,Data curation,1,1,Data curation,1,Data curation,2,1.8656968675682295,-0.7602245835022716,training
+25,Took up photography as a hobby,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.140764023458625,1.3112113299167363,training
+26,Wrote a letter of appreciation to a teacher,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.196211391884013,1.385578654604409,training
+27,contributed to study conception and design,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,10,1.5959745063541675,1.4056088501806765,training
+28,performed laboratory procedures,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5289449210148961,-0.40009418249471806,training
+29,Created a family tree,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.1233527758229207,1.3050832904179912,training
+30,has coordinated the team,Supervision,11,11,Supervision,11,Supervision,1,0.7045331487280253,-1.8264616278335064,training
+31,oversaw data curation,Data curation,1,1,Data curation,1,Data curation,2,0.504868643503074,0.6478558757986403,training
+32,collected data,Data curation,1,1,Data curation,1,Data curation,2,0.5040510796031962,0.6480882219617004,training
+33,wrote initial version of the manuscript,Writing - original draft,15,15,Writing - original draft,15,Writing - original draft,1,0.6268590445595452,-1.7527039800992303,training
+34,contributed to the creation of the UK Biobank COVID-19 re-imaging project,Sonstiges,10,10,Sonstiges,10,Sonstiges,1,0.8349557437425686,-1.909163963685881,training
+35,Designed and built a website,Other - not related,6,6,Other - not related,6,Other - not related,10,-0.06552946492804079,3.035308500932752,training
+36,designed and performed most in vivo and in vitro studies,Investigation,4,4,Investigation,4,Investigation,10,1.5077524633774038,1.3947031571941677,training
+37,Planned a weekend getaway with friends,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.128145736131973,1.32349697353122,training
+38,prepared figures,Visualization / Visualisation,14,14,Visualization / Visualisation,14,Visualization / Visualisation,7,-0.5493174237073523,-0.4182929169656315,training
+39,contributed to experimental design,Investigation,4,4,Investigation,4,Investigation,13,-0.4325435956745913,-0.3811276551466054,training
+40,carried out the imaging analyses,Formal analysis,2,2,Formal analysis,2,Formal analysis,1,0.7130471266677069,-1.9540882198834317,training
+41,curated data,Data curation,1,1,Data curation,1,Data curation,2,0.4995665142895005,0.6396738683599914,training
+42,annotated the data,Formal analysis,2,2,Formal analysis,2,Formal analysis,2,1.7475237494286857,-0.7919457411470728,training
+43,oversaw anaylses,Supervision,11,11,Supervision,11,Supervision,7,-0.5442836213735822,-0.3931795944948551,training
+44,reviewed  manuscript,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,7,-0.48144750294432354,-0.43943047054871526,training
+45,Learned to play poker or blackjack,Other - not related,6,6,Other - not related,6,Other - not related,7,-0.5520293104796808,-0.3843629467172658,training
+46,obtained human lung and kidney samples,Resources,8,8,Resources,8,Resources,10,1.4613648098289693,1.36274645941021,training
+47,were responsible for patient selection and data collection,Resources,8,8,Resources,8,Resources,16,2.294359291083094,2.7219720102985354,training
+48,interpreted findings,Investigation,4,4,Investigation,4,Investigation,7,-0.5457309463628993,-0.39440404914607086,training
+49,approved manuscript,Supervision,11,11,Supervision,11,Supervision,7,-0.47284795000133834,-0.43000888677421367,training
+50,devised experimental strategy  ,Project administration,7,7,Project administration,7,Project administration,13,-0.49641551143133966,-0.4188332474449489,training
+51,designed and implemented the software,Software,9,9,Software,9,Software,4,2.740931834884338,-0.1035488549427401,training
+52,contributed to software,Software,9,9,Software,9,Software,11,-0.47565422787932815,-0.3724408292797149,training
+53,Learned to make pottery or ceramics,Other - not related,6,6,Other - not related,6,Other - not related,7,-0.5519309393748293,-0.3868776940452716,training
+54,fabricated the scaffolds,Resources,8,8,Resources,8,Resources,1,0.7056888678509309,-1.8500230727248534,training
+55,performed quality control,Validation,13,13,Validation,13,Validation,7,-0.5459589857677651,-0.40077673499201677,training
+56,performed all data analysis,Formal analysis,2,2,Formal analysis,2,Formal analysis,2,0.535524516009639,0.656429404050784,training
+57,developed experimental strategy,Project administration,7,7,Project administration,7,Project administration,13,-0.49099782655291924,-0.41872139670818603,training
+58,conducted investigations,Investigation,4,4,Investigation,4,Investigation,7,-0.5442584927307719,-0.4046635611187172,training
+59,proposed analysis tools and plots,Resources,8,8,Resources,8,Resources,10,1.48939063497543,1.373811748968291,training
+60,provided relevant intellectual input for this manuscript,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,5,-0.7058836340308213,-0.10237730194577589,training
+61,discussed the results,Investigation,4,4,Investigation,4,Investigation,1,0.7022306430284387,-1.8269497259194252,training
+62,Organized a garage sale,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.102277642964607,1.2706643238693112,training
+63,led the effort on data preparation,Data curation,1,1,Data curation,1,Data curation,2,1.7771921399260036,-0.8298156756792799,training
+64,Taught a cooking class to beginners,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.094169878193184,1.274647805461665,training
+65,generated transgenic plants,Resources,8,8,Resources,8,Resources,7,-0.5448881652704112,-0.3939285344372345,training
+66,provided technical expertise,Resources,8,8,Resources,8,Resources,7,-0.5216418984145949,-0.3718017727510674,training
+67,implemented CopyMix,Software,9,9,Software,9,Software,7,-0.5188856369690097,-0.41855136036774787,training
+68,did critical revision of article,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,7,-0.5237788056068432,-0.38959075582795516,training
+69,made contribution in proofreading,Supervision,11,11,Supervision,11,Supervision,7,-0.543876746302454,-0.38642087117407914,training
+70,Volunteered at a local food bank,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.218221894271497,1.369478680092059,training
+71,Made homemade soap or candles,Other - not related,6,6,Other - not related,6,Other - not related,7,-0.5565876468490696,-0.3859301322134096,training
+72,gave approval for the submission,Supervision,11,11,Supervision,11,Supervision,5,0.4305084278555792,-1.586546441992742,training
+73,conducted analyses,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5365151497143902,-0.4215454266821771,training
+74,provided key comments,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,7,-0.5289194079722485,-0.38367193005326583,training
+75,performed the replication GWAS,Formal analysis,2,2,Formal analysis,2,Formal analysis,1,0.7118375256518507,-1.8725871052499798,training
+76,contributed to data acquisition and curation,Data curation,1,1,Data curation,1,Data curation,16,2.632023237153356,2.537227268712711,training
+77,improving data standardization and organization,Data curation,1,1,Data curation,1,Data curation,16,2.5235153526807417,2.4189135632163903,training
+78,made major contributions to its conceptualization and design,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,10,1.4962008956124035,1.3693496302382535,training
+79,designed algorithms in,Software,9,9,Software,9,Software,7,-0.5414269104698942,-0.38333768225581943,training
+80,"extracted billing codes, clinical notes",Sonstiges,10,10,Sonstiges,10,Sonstiges,7,-0.5156676161054543,-0.38336396434815484,training
+81,drafted manuscript,Writing - original draft,15,15,Writing - original draft,15,Writing - original draft,7,-0.507607989399566,-0.4325017466591434,training
+82,made contribution in funding acquisition,Funding acquisition,3,3,Funding acquisition,3,Funding acquisition,7,-0.47296101969023374,-0.27440784782950706,training
+83,provided logistical support,Resources,8,8,Resources,8,Resources,7,-0.5155898053873761,-0.3653482607595453,training
+84,wrote software,Software,9,9,Software,9,Software,11,-0.666213698855013,-0.26932940976564795,training
+85,Cooked a three-course meal for your family,Other - not related,6,6,Other - not related,6,Other - not related,14,-2.3666198960288494,1.542321449171558,training
+86,coupled and analyzed different datasets of the study,Formal analysis,2,2,Formal analysis,2,Formal analysis,6,2.751906383719946,-0.08101775153682106,training
+87,prepared  the manuscript,Writing - original draft,15,15,Writing - original draft,15,Writing - original draft,1,0.7345257737810551,-1.8781981925688807,training
+88,read manuscript,Sonstiges,10,10,Sonstiges,10,Sonstiges,7,-0.4493090982434505,-0.44134740457730703,training
+89,contributed equally to development of the project and the writing of the manuscript,Writing - original draft,15,15,Writing - original draft,15,Writing - original draft,6,2.8395715997724627,-0.10529142299435365,training
+90,discussed findings,Investigation,4,4,Investigation,4,Investigation,7,-0.5420033874264324,-0.39915160371105324,training
+91,designed task,Sonstiges,10,10,Sonstiges,10,Sonstiges,7,-0.5658009695966879,-0.4150754656819504,training
+92,agree to be accountable for all aspects of the work,Sonstiges,10,10,Sonstiges,10,Sonstiges,5,0.4649869241168274,-1.6001506382834034,training
+93,conceptualized experiments,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,8,-0.4625688079665526,-0.3953620195961385,training
+94,take responsibility for the integrity of the data and the accuracy of the data analysis,Supervision,11,11,Supervision,11,Supervision,16,3.5484613600930603,1.2682387155202903,training
+95,visualized results,Visualization / Visualisation,14,14,Visualization / Visualisation,14,Visualization / Visualisation,7,-0.5434845694357519,-0.3958581901839189,training
+96,Organized a neighborhood cleanup event,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.116401903138063,1.283559132578891,training
+97,Taught a child to ride a bike,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.079201435015777,1.2608816043432511,training
+98,Created a DIY home decor project,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.1312107572513592,1.2901254524586416,training
+99,were major contributors in writing the manuscript,Writing - original draft,15,15,Writing - original draft,15,Writing - original draft,1,0.8426042204769213,-1.83706395191343,training
+100,helped to refine the method,Methodology,5,5,Methodology,5,Methodology,1,0.7439335574778814,-1.9693228352809926,training
+101,conceptualised project,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,7,-0.551223302195847,-0.42441322472458826,training
+102,implemented the methods in code,Methodology,5,5,Methodology,5,Methodology,1,0.7534317045235983,-1.8350158590150858,training
+103,assisted analysis,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5249218126060881,-0.3840743991509382,training
+104,analyzed user hormone trends,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5500805390969464,-0.40017106089989907,training
+105,Created a personalized playlist for a road trip,Other - not related,6,6,Other - not related,6,Other - not related,14,-2.4019175423894312,1.587451240094692,training
+106,Decorated your living room,Other - not related,6,6,Other - not related,6,Other - not related,7,-0.551150759620063,-0.3981190861515581,training
+107,conducted graph analysis,Visualization / Visualisation,14,14,Visualization / Visualisation,14,Visualization / Visualisation,7,-0.5267115412124819,-0.397756854822791,training
+108,designed data analysis,Formal analysis,2,2,Formal analysis,2,Formal analysis,2,0.524938718745187,0.6623690784569122,training
+109,performed modelling,Methodology,5,5,Methodology,5,Methodology,7,-0.5427238618772756,-0.40147806888642956,training
+110,Painted a mural on your bedroom wall,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.077587115582302,1.2602050986033646,training
+111,performed the COLOC expression analyses,Formal analysis,2,2,Formal analysis,2,Formal analysis,1,0.7238837420154153,-1.853952021432496,training
+112,Learned to knit or crochet,Other - not related,6,6,Other - not related,6,Other - not related,7,-0.5547006304476269,-0.3898202903951194,training
+113,analysed genetic information,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5378236637497938,-0.4039135245504527,training
+114,conceived the VAP-SIRS model,Methodology,5,5,Methodology,5,Methodology,1,0.7574617687122807,-1.9484746242879716,training
+115,designed the work and analyses,Formal analysis,2,2,Formal analysis,2,Formal analysis,6,2.7082766791951074,-0.08895176926938698,training
+116,supervised study,Project administration,7,7,Project administration,7,Project administration,7,-0.5374409881949942,-0.39693659622831096,training
+117,analysed the MIC data,Formal analysis,2,2,Formal analysis,2,Formal analysis,2,1.769282704032303,-0.7922222226550667,training
+118,gave final approval for publication,Supervision,11,11,Supervision,11,Supervision,5,-0.8044874435717292,-0.1360923757371012,training
+119,provided TVB data,Resources,8,8,Resources,8,Resources,2,0.5155955543350935,0.6500324410739187,training
+120,examined calculation results in an alternative solution algorithm,Validation,13,13,Validation,13,Validation,7,-0.5411048031488712,-0.3909791793704446,training
+121,contributed to the topic,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,1,0.7555840285409821,-1.784833801373754,training
+122,participated in all outdoor samplings and development of methods,Resources,8,8,Resources,8,Resources,10,1.553120377074206,1.4494789622107933,training
+123,contributed to the study conception and design,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,6,2.837878946964722,-0.021404144241450266,training
+124,"contributed to data extraction, coding, and evaluation of included studies",Sonstiges,10,10,Sonstiges,10,Sonstiges,16,2.6327991445181116,2.5236731290994894,training
+125,aquire data,Data curation,1,1,Data curation,1,Data curation,2,0.5004278540787371,0.6413360634399766,training
+126,led data collection activities,Data curation,1,1,Data curation,1,Data curation,2,0.5313372745414009,0.5977732988784414,training
+127,secured funding for research,Funding acquisition,3,3,Funding acquisition,3,Funding acquisition,5,-0.8709715848803729,-0.2146156578389451,training
+128,provided feedback during work development,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,7,-0.5174758157254126,-0.38816853236782217,training
+129,provided input on the data and experimental design,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,16,3.8731113878128256,0.982871330908296,training
+130,contributed to data processing,Data curation,1,1,Data curation,1,Data curation,2,0.5855211401083874,0.7160183260693973,training
+131,marked clips of data to be used,Formal analysis,2,2,Formal analysis,2,Formal analysis,2,0.5163800939724696,0.6379000125946187,training
+132,Planned a day trip to a nearby city,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.086425487072856,1.267599882066391,training
+133,helped interpret results,Investigation,4,4,Investigation,4,Investigation,7,-0.5140381242943579,-0.5093527938879121,training
+134,designed & performed NPC experiments,Investigation,4,4,Investigation,4,Investigation,8,-0.4593778680182209,-0.39866435446062337,training
+135,efficiency of user interface,Software,9,9,Software,9,Software,7,-0.5481930035455114,-0.4085341276999118,training
+136,provided data analysis,Resources,8,8,Resources,8,Resources,2,0.5391480702164231,0.667832634656392,training
+137,Organized a charity fundraiser,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.16689724829982,1.3335031168675917,training
+138,verified the identifiable participant data,Data curation,1,1,Data curation,1,Data curation,2,1.8656968675682295,-0.7602245835022716,training
+139,assisted some experiments,Investigation,4,4,Investigation,4,Investigation,8,-0.4623529945659484,-0.4079662092562017,training
+140,involved design of the study,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,1,0.7099642882443562,-1.8217738967820527,training
+141,for knowledge graph quality check,Visualization / Visualisation,14,14,Visualization / Visualisation,14,Visualization / Visualisation,5,-0.8276260577167014,-0.14595960002794792,training
+142,Sewed a new dress for yourself,Other - not related,6,6,Other - not related,6,Other - not related,14,-2.3652668827607743,1.5437720401216346,training
+143,wrote programm,Software,9,9,Software,9,Software,7,-0.6777131587486158,-0.2551879681933846,training
+144,collected samples,Resources,8,8,Resources,8,Resources,7,-0.5379473814197863,-0.37881450136411515,training
+145,performed research,Investigation,4,4,Investigation,4,Investigation,7,-0.5974305416494348,-0.48808693096613287,training
+146,organized the data,Formal analysis,2,2,Formal analysis,2,Formal analysis,2,1.7066607461977947,-0.7579004856684023,training
+147,supervised research,Supervision,11,11,Supervision,11,Supervision,7,-0.5986675676700106,-0.4807170992798017,training
+148,conceived experiments,Investigation,4,4,Investigation,4,Investigation,8,-0.46206598475325106,-0.39593516829267317,training
+149,"formulated the research question,",Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,1,0.6453771295174152,-1.9191318721712254,training
+150,wrote manuscript draft,Writing - original draft,15,15,Writing - original draft,15,Writing - original draft,7,-0.6378697673458464,-0.2914869821774291,training
+151,contributed with conceptual input on methods and/or interpretation of results,Investigation,4,4,Investigation,4,Investigation,10,1.590815350604585,1.436509392032749,training
+152,revised paper,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,0,-0.546262565353153,-0.491011533309662,training
+153,designed survey,Investigation,4,4,Investigation,4,Investigation,7,-0.5424151864973269,-0.38834921118416027,training
+154,performed  analysis,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5190747460444367,-0.3835057230801925,training
+155,was responsible for formal analysis,Formal analysis,2,2,Formal analysis,2,Formal analysis,5,-0.7721866641339652,-0.10937293072399608,training
+156,for critical discussion on constructing iBKH,Investigation,4,4,Investigation,4,Investigation,5,-0.7886843149014654,-0.11923514921747609,training
+157,conducted most of the animal/cell experiments,Investigation,4,4,Investigation,4,Investigation,8,0.7943200901721506,-1.8385433751232927,training
+158,performed statistical analysis,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5175767150546724,-0.41013362998709324,training
+159,read and approved the final manuscript,Supervision,11,11,Supervision,11,Supervision,6,2.834350722958952,-0.12439445714455964,training
+160,implemented simulations,Software,9,9,Software,9,Software,7,-0.5094748958351333,-0.42239987999518763,training
+161,Started a podcast on a topic you love,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.238328901928577,1.4126710258003539,training
+162,Wrote a thank-you letter to a mentor,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.2371642708657613,1.4246801705066454,training
+163,designed software package,Software,9,9,Software,9,Software,11,-0.5301646756148849,-0.40416470143482136,training
+164,Learned to play chess,Other - not related,6,6,Other - not related,6,Other - not related,7,-0.5471841877024242,-0.39623033189311624,training
+165,"contributed to Conceptualization, Methodology, Data Acquisition, Formal analysis, Visualization, Writing - original draft, Writing - review & editing",Sonstiges,10,10,Sonstiges,10,Sonstiges,2,0.7077406346972921,0.819848695241413,training
+166,prototyped algorithms,Software,9,9,Software,9,Software,7,-0.5504423370637678,-0.39841514896176616,training
+167,contributed to methodology,Methodology,5,5,Methodology,5,Methodology,12,-0.48563840677114345,-0.3574401410557317,training
+168,Volunteered at a homeless shelter,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.102682163756789,1.2723810851957003,training
+169,added new considerations in the text content and discussions,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,6,2.766691272610718,-0.10248486830372476,training
+170,performed  literatur review,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,7,-0.547364246353788,-0.40494077184134375,training
+171,assisted with analysis,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5249294878107854,-0.3840656666964464,training
+172,assisted staining,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5305788476814757,-0.40068336419289197,training
+173,supported sequencing ,Sonstiges,10,10,Sonstiges,10,Sonstiges,7,-0.5495873195142769,-0.3978436716385817,training
+174,performed in silico analysis,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5120979340549288,-0.3736485573620612,training
+175,revised manuscript,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,7,-0.5150462182315327,-0.45878309406188367,training
+176,coordinated recruitment of,Project administration,7,7,Project administration,7,Project administration,7,-0.5298326655900739,-0.3837884590483954,training
+177,prepared tables,Visualization / Visualisation,14,14,Visualization / Visualisation,14,Visualization / Visualisation,7,-0.5480684005275785,-0.4168579155832527,training
+178,for knowledge graph embedding algorithms,Software,9,9,Software,9,Software,5,-0.830508984937499,-0.14843324775371325,training
+179,provided important critical revisions,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,7,-0.5113398743689727,-0.379723618879005,training
+180,Case and control recruitment and characterization,Sonstiges,10,10,Sonstiges,10,Sonstiges,10,1.472683384702743,1.3770386651244408,training
+181,determined gene and protein expression,Formal analysis,2,2,Formal analysis,2,Formal analysis,10,1.5107226010189765,1.3695531573849662,training
+182,drafted paper,Writing - original draft,15,15,Writing - original draft,15,Writing - original draft,0,-0.5388243365211861,-0.46473018590692144,training
+183,approved manuscript prior to submission,Supervision,11,11,Supervision,11,Supervision,7,-0.46739710044906807,-0.4501250587116557,training
+184,conceived and designed the resting-state computational experiments,Investigation,4,4,Investigation,4,Investigation,6,2.8092323273502577,-0.0756558772605615,training
+185,Planned a birthday party for a friend,Other - not related,6,6,Other - not related,6,Other - not related,14,-2.3610150319340986,1.5358342176589312,training
+186,directed theorethical aspects of the projekt,Project administration,7,7,Project administration,7,Project administration,1,0.7155595926648334,-1.8922697113101254,training
+187,was responsible for the drafting of manuscript,Writing - original draft,15,15,Writing - original draft,15,Writing - original draft,5,0.48717794086670085,-1.6055374687652917,training
+188,planned analysis,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,7,-0.5241648654979612,-0.3719908289582698,training
+189,were responsible for the study conception and design,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,6,2.5543369520441384,0.24911545714232816,training
+190,designed the analysis plan,Supervision,11,11,Supervision,11,Supervision,1,0.7241558657686226,-1.7988891903515238,training
+191,developed mathematics,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5401097095594706,-0.3948113411011384,training
+192,tested statistic,Validation,13,13,Validation,13,Validation,7,-0.5506168891260732,-0.4004858019668028,training
+193,interpreted results,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5434013565185856,-0.3951891769323164,training
+194,were responsible for experiments and data analysis,Investigation,4,2,Formal analysis,2,Formal analysis,16,2.3784540846005284,2.7047937605472203,training
+195,generated experimental data,Resources,8,8,Resources,8,Resources,13,0.5477118488562776,0.614668828329989,training
+196,retrieved MIC data,Data curation,1,1,Data curation,1,Data curation,2,0.5264401059055351,0.6371459551549736,training
+197,designed the R package structure,Software,9,9,Software,9,Software,1,0.7066277660025463,-1.8337708863343707,training
+198,built the decision-analytical model,Methodology,5,5,Methodology,5,Methodology,1,0.7546453042461796,-1.922810359477264,training
+199,assisted with experimental design,Sonstiges,10,10,Sonstiges,10,Sonstiges,13,-0.49549586143558966,-0.4257243102700502,training
+200,created concept of project,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,7,-0.5797174389647505,-0.3500173019922145,training
+201,led the effort on web interface implementation,Software,9,9,Software,9,Software,1,0.7362716358502847,-1.8757819275760033,training
+202,designed research,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,7,-0.5966431211830447,-0.4744425503518341,training
+203,provided main text for the section,Writing - original draft,15,15,Writing - original draft,15,Writing - original draft,5,0.4510701252288873,-1.5470385920880443,training
+204,"created, extracted and organised the imaging and clinical data",Formal analysis,2,2,Formal analysis,2,Formal analysis,16,3.755027901233558,1.0075476853048593,training
+205,contributed to data extraction and pre-processing,Formal analysis,2,2,Formal analysis,2,Formal analysis,16,2.599742089855994,2.4818362699381287,training
+206,analyzed transcriptomic,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5436330208140847,-0.3930472700623373,training
+207,wrote manuscript,Writing - original draft,15,15,Writing - original draft,15,Writing - original draft,7,-0.6378182181910851,-0.29131671537116877,training
+208,assisted with staining,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5305865228861726,-0.40067463173839996,training
+209,Volunteered at an animal shelter,Other - not related,6,6,Other - not related,6,Other - not related,7,-0.5700090113701197,-0.3708302966131018,training
+210,carried out sequencing of libraries,Resources,8,8,Resources,8,Resources,7,-0.5593951679599639,-0.503937748601152,training
+211,Hosted a movie night with friends,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.1558416455835885,1.3504395784653198,training
+212,approved final version to be published,Supervision,11,11,Supervision,11,Supervision,7,-0.4695838050206361,-0.42284707870561566,training
+213,developed model,Methodology,5,5,Methodology,5,Methodology,7,-0.4900448594120491,-0.48386332811562704,training
+214,Collected and processed,Resources,8,8,Resources,8,Resources,10,1.472313598411052,1.3793175937708737,training
+215,provided useful suggestions for the evaluation,Resources,8,8,Resources,8,Resources,5,0.452881816989268,-1.5467509655159213,training
+216,contributed to mathematical derivations,Formal analysis,2,2,Formal analysis,2,Formal analysis,12,-0.4940583950322997,-0.36686783542834517,training
+217,carried out all central tissue immunostaining,Investigation,4,4,Investigation,4,Investigation,7,-0.5450039755658207,-0.49471355053919763,training
+218,provided reagents,Resources,8,8,Resources,8,Resources,7,-0.5272419984658522,-0.38171153256445406,training
+219,conducted drug target prioritisation,Project administration,7,7,Project administration,7,Project administration,7,-0.5534973817531376,-0.4150914254382798,training
+220,contributed to conceptualization,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,12,-0.4845310545901412,-0.3422989689779403,training
+221,contributed to study design,Sonstiges,10,10,Sonstiges,10,Sonstiges,12,-0.4743650374003805,-0.3591987795115867,training
+222,Wrote a guidebook for your city,Other - not related,6,6,Other - not related,6,Other - not related,14,-2.4818712887820804,1.6643090717245734,training
+223,assisted experiments,Investigation,4,4,Investigation,4,Investigation,8,-0.4671238662418596,-0.4042964120610643,training
+224,contributed to data extraction and pre-processing,Formal analysis,2,2,Formal analysis,2,Formal analysis,16,2.599742089855994,2.4818362699381287,training
+225,conducted celluar assays,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5441847570273664,-0.40429980573942464,training
+226,carried out the data collection.,Data curation,1,1,Data curation,1,Data curation,2,1.736562537962746,-0.8894776522717962,training
+227,developed database and web browser,Software,9,9,Software,9,Software,10,1.462477561620884,1.350129726286184,training
+228,constructed plasmids,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,7,-0.5046648107250773,-0.4257252357196585,training
+229,verified linked non-identifiable microbiological and genomic data,Data curation,1,1,Data curation,1,Data curation,16,2.698054256519251,2.5458396822328897,training
+230,commented on final version,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,7,-0.5128082224258081,-0.4097368412739738,training
+231,provided critical feedback,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,7,-0.5004704682638523,-0.3828713888109893,training
+232,extracted the delivery cohort,Sonstiges,10,10,Sonstiges,10,Sonstiges,1,0.7017634582300255,-1.8510623304571514,training
+233,aided in feature selection,Sonstiges,10,10,Sonstiges,10,Sonstiges,7,-0.5391598394618279,-0.3854369043033848,training
+234,"performed the AGDS GWAS, the meta and MTAG analyses, and post-GWAS gene-based tests, genetic correlation",Formal analysis,2,2,Formal analysis,2,Formal analysis,6,2.81450767651827,-0.09524771604219066,training
+235,were involved in data acquisition and processing,Data curation,1,1,Data curation,1,Data curation,16,2.629170609060812,2.574043137556648,training
+236,assisted with all experiments,Investigation,4,4,Investigation,4,Investigation,8,-0.4557583237157146,-0.3965829733984018,training
+237,assisted with sample collection,Resources,8,8,Resources,8,Resources,15,-0.565674684391299,-0.4234374236049817,training
+238,constructed  strains and some of the plasmids,Formal analysis,2,2,Formal analysis,2,Formal analysis,6,2.7421965588004693,-0.11268367566481342,training
+239,developed and implemented software,Software,9,9,Software,9,Software,4,1.501627936977413,1.3173378795992599,training
+240,performed analysis proving,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5224177044229182,-0.38723627425133583,training
+241,Taught a friend how to swim,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.079259451902406,1.2611041880977774,training
+242,validated data,Data curation,1,1,Data curation,1,Data curation,2,0.4994916358722175,0.6395295065486187,training
+243,contributed to its original concept and design,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,10,1.5252855611910525,1.4028492984134187,training
+244,Created a custom jewelry piece,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.1160258576246376,1.2982755183541808,training
+245,"conducted simulations, calibration, analysis, figure generation",Sonstiges,10,10,Sonstiges,10,Sonstiges,7,-0.5148520906445997,-0.3933762539324715,training
+246,did the georeferencing methods,Formal analysis,2,2,Formal analysis,2,Formal analysis,1,0.7149465582264137,-1.8306019599524828,training
+247,contributed by supervision,Supervision,11,11,Supervision,11,Supervision,12,-0.4882648378603618,-0.3622479160371253,training
+248,Planned a surprise party for a sibling,Other - not related,6,6,Other - not related,6,Other - not related,14,-2.3601874779747476,1.535170379922567,training
+249,provided clincial interpretation,Investigation,4,4,Investigation,4,Investigation,7,-0.517687760406077,-0.3672897849614063,training
+250,provided critical reagents and experimental support,Resources,8,8,Resources,8,Resources,13,1.5495269466083703,1.3568182839690368,training
+251,analyzed the data collection,Formal analysis,2,2,Formal analysis,2,Formal analysis,2,1.7456585815870473,-0.7851480840445357,training
+252,performed the laboratory analysis,Formal analysis,2,2,Formal analysis,2,Formal analysis,1,0.7367223835068928,-1.809004940320796,training
+253,discussed the results and implications,Investigation,4,4,Investigation,4,Investigation,6,2.7255194819112307,-0.08428761431982969,training
+254,provided data and data administration resources,Resources,8,8,Resources,8,Resources,16,2.521170041874414,2.4033335469369432,training
+255,provided critical input into editing the manuscript,Resources,8,8,Resources,8,Resources,1,0.836309521029206,-1.8142693118193154,training
+256,supported by sequencing ,Sonstiges,10,10,Sonstiges,10,Sonstiges,7,-0.5455763378244943,-0.39773145629395695,training
+257,contributed to visualization,Visualization / Visualisation,14,14,Visualization / Visualisation,14,Visualization / Visualisation,12,-0.48554450612054245,-0.3572136993068401,training
+258,Wrote and performed a skit with friends,Other - not related,6,6,Other - not related,6,Other - not related,3,-0.2512771954036827,3.209496061951653,training
+259,Wrote a short story for a children's book,Other - not related,6,6,Other - not related,6,Other - not related,14,-2.4847558343970566,1.6676488524713398,training
+260,performed sleep apnoea and Snoring GWAS,Formal analysis,2,2,Formal analysis,2,Formal analysis,10,1.4975727067636262,1.3961444291870342,training
+261,performed computational analyses,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5343853617844952,-0.41887676285584247,training
+262,was responsible for original draft writing,Writing - original draft,15,15,Writing - original draft,15,Writing - original draft,5,-0.7506451293782551,-0.13330387517540998,training
+263,Painted a mural in a community center,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.0910234346942786,1.278661402877288,training
+264,Designed and built a birdhouse,Other - not related,6,6,Other - not related,6,Other - not related,10,-0.06584705698115048,3.0575975588661106,training
+265,has contributed to interpretation,Investigation,4,4,Investigation,4,Investigation,12,-0.47551890022277293,-0.3423160328937333,training
+266,conducted data analysis,Formal analysis,2,2,Formal analysis,2,Formal analysis,2,0.5226660086852827,0.6455945175821729,training
+267,participated and coordinated all outdoor samplings,Project administration,7,7,Project administration,7,Project administration,10,1.5351748581734712,1.4428375718789739,training
+268,has contributed to interpretation of results,Investigation,4,4,Investigation,4,Investigation,12,-0.4742672147213537,-0.3442852051985634,training
+269,provided dataset,Resources,8,8,Resources,8,Resources,7,-0.5308116536968152,-0.38574456645324073,training
+270,wrote R package for data fitting,Software,9,9,Software,9,Software,2,0.10627721963550212,1.0595634286205597,training
+271,Learned to meditate,Other - not related,6,6,Other - not related,6,Other - not related,7,-0.5384934315753529,-0.38942662304591635,training
+272,supervised paper,Project administration,7,7,Project administration,7,Project administration,0,-0.5368096443522452,-0.4633234539538743,training
+273,performed experiments,Investigation,4,4,Investigation,4,Investigation,8,-0.4612767996802078,-0.40372773599031814,training
+274,was primarily responsible for the drafting of the manuscript,Writing - original draft,15,15,Writing - original draft,15,Writing - original draft,5,0.4874627086797992,-1.6069507719233938,training
+275,Learned to dance salsa or tango,Other - not related,6,6,Other - not related,6,Other - not related,7,-0.5502801412737164,-0.3851310187699461,training
+276,performed surgery,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5458822459237717,-0.4050059742537109,training
+277,provided intellectual input and resources,Resources,8,8,Resources,8,Resources,10,1.5281940536105465,1.4178464513901305,training
+278,assisted with some experiments,Investigation,4,4,Investigation,4,Investigation,8,-0.4623606697706456,-0.4079574768017095,training
+279,provided critical revisions,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,7,-0.5103896149214256,-0.3791633464959894,training
+280,designed and set up the PaNDiv Experiment,Investigation,4,4,Investigation,4,Investigation,6,2.7123554056647707,-0.07002966989447476,training
+281,"performed cell culture, microscopy and analysis",Formal analysis,2,2,Formal analysis,2,Formal analysis,10,1.5036007277757502,1.3893545628265251,training
+282,assisted in conducting experiments,Investigation,4,4,Investigation,4,Investigation,8,-0.4503016140194455,-0.3810648597392517,training
+283,revised for important intellectual content,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,5,-0.8155752616294475,-0.13993229221443032,training
+284,oversaw all experimental protocols,Supervision,11,11,Supervision,11,Supervision,13,-0.4840564085761787,-0.4096840903030908,training
+285,Started a book club with friends,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.2551617191852285,1.4451215337697414,training
+286,wrote the first and successive drafts of the manuscript,Writing - original draft,15,15,Writing - original draft,15,Writing - original draft,6,2.6239672682091464,0.012703694405838541,training
+287,Learned a new language,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.0729245608937794,1.2481662014446129,training
+288,"assisted with NOD mice experiments, NOD mice colonization followed by FACS staining, data analysis and writing the manuscript",Sonstiges,10,10,Sonstiges,10,Sonstiges,16,4.02219618073484,0.9487743133471837,training
+289,Baked cookies for a charity bake sale,Other - not related,6,6,Other - not related,6,Other - not related,14,-2.4051796723908603,1.5798591706122336,training
+290,Volunteered at a local library,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.2119314695252683,1.363621346829555,training
+291,performed endoscropy,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5430881291527672,-0.40188389496441923,training
+292,Learned to play a musical instrument,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.06395969560706,1.2455507992527661,training
+293,for the genomic analyses,Sonstiges,10,10,Sonstiges,10,Sonstiges,5,0.49209189693357475,-1.5448869744528706,training
+294,developed model simulations,Methodology,5,5,Methodology,5,Methodology,7,-0.48735472602949914,-0.49587333981941095,training
+295,developed methodology,Methodology,5,5,Methodology,5,Methodology,7,-0.5393479675957736,-0.39395873182875035,training
+296,provided critical scientific input,Resources,8,8,Resources,8,Resources,7,-0.45179739325799095,-0.33851588423434853,training
+297,conducted the clinical trials,Investigation,4,4,Investigation,4,Investigation,1,0.7248407228371013,-1.8332059215370355,training
+298,developed methodology of age-related analysis,Methodology,5,5,Methodology,5,Methodology,7,-0.5168683129397819,-0.3772718538611963,training
+299,performed concept extraction on,Sonstiges,10,10,Sonstiges,10,Sonstiges,7,-0.5186832094277645,-0.3683348977474588,training
+300,designed statistic,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5431132611730978,-0.38911236112168185,training
+301,performed profile likelyhood analysis,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5247157489338108,-0.38981492765870135,training
+302,commented on manuscript,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,7,-0.5022725186865612,-0.4320248582534535,training
+303,helped with data analysis,Formal analysis,2,2,Formal analysis,2,Formal analysis,2,0.5510692912755847,0.5511200436069793,training
+304,Created a scrapbook of your favorite memories,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.1807075908901985,1.3594956224576467,training
+305,provided methods,Resources,8,8,Resources,8,Resources,7,-0.5110300897643271,-0.38951399559676525,training
+306,"Synapse area annotation, analysis",Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5266239217441534,-0.38198327058095477,training
+307,"developed, implemented, and evaluated the SIPEC modules and framework",Software,9,9,Software,9,Software,6,2.759494275677354,-0.09601754122240959,training
+308,developed R package for data fitting,Software,9,9,Software,9,Software,2,0.2431271297865569,0.9199334183334749,training
+309,were responsible for conceptualization,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,5,-0.7680730495107253,-0.07177936759416292,training
+310,contributed by revising the manuscript and overall editing,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,6,2.800161188348474,-0.08122814803932946,training
+311,Created a photo collage,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.122650513639029,1.3044142363681643,training
+312,interpreted data,Formal analysis,2,2,Formal analysis,2,Formal analysis,2,0.49857307795421957,0.6390103641170314,training
+313,was responsible for the design of the database searches,Software,9,9,Software,9,Software,5,0.4508894698256406,-1.5541470829865398,training
+314,provided samples,Resources,8,8,Resources,8,Resources,7,-0.5264852277863916,-0.37702653217524257,validation
+315,contributed to study conception,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,12,-0.40808136832883035,-0.33924040593313914,validation
+316,provided emissions,Resources,8,8,Resources,8,Resources,7,-0.529888549611458,-0.38473252077443076,validation
+317,contributed to experimental strategy,Project administration,7,7,Project administration,7,Project administration,13,-0.4372882657282895,-0.38220280593516703,validation
+318,conceptualised study,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,7,-0.5451845965130668,-0.40492524549321574,validation
+319,curated data,Data curation,1,1,Data curation,1,Data curation,2,0.4995665142895005,0.6396738683599914,validation
+320,helped to interpret the pathology,Investigation,4,4,Investigation,4,Investigation,1,0.7325111930248777,-1.9303209815425755,validation
+321,"reviewed, critically appraised and approved the final manuscript",Writing - review & editing,16,11,Supervision,11,Supervision,6,2.817610289704609,-0.1234935646896253,validation
+322,solved all crystal structures and performed all FP measurements and kinetic assays,Investigation,4,2,Formal analysis,2,Formal analysis,10,1.495480672446186,1.3885684366386928,validation
+323,implemented task,Sonstiges,10,10,Sonstiges,9,Software,7,-0.5360438362564929,-0.43764754800164163,validation
+324,implemented model simulations and the Shiny application for visualizations,Software,9,5,Methodology,5,Methodology,9,2.5618959750583796,0.07432744916879036,validation
+325,was involved in model discussions,Methodology,5,5,Methodology,5,Methodology,7,-0.45930257634046956,-0.5211307014358235,validation
+326,contributed to software development,Software,9,9,Software,9,Software,11,-0.47558967371382427,-0.37242414572937604,validation
+327,contributed to data analysis and interpretation,Investigation,4,4,Investigation,1,Data curation,16,2.590645728311904,2.451665464329409,validation
+328,performed sFRAPs,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5440326207246923,-0.40293742676913186,validation
+329,developed software,Software,9,9,Software,9,Software,11,-0.5293637887039582,-0.40895942005273334,validation
+330,Wrote a song or composed music,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.250582359991892,1.42539767265071,validation
+331,conceived research,Investigation,4,4,Investigation,4,Investigation,7,-0.5982197267224783,-0.48029436326848807,validation
+332,performed bioinformatic analysis,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5195477745169241,-0.38403211981886837,validation
+333,"extracted, cleaned, and provided clinical laboratory data",Data curation,1,8,Resources,2,Formal analysis,16,2.5605776377816993,2.409462128511743,validation
+334,co-supervised the statistical analyses,Supervision,11,2,Formal analysis,2,Formal analysis,1,0.7118306941192103,-1.8833884900575355,validation
+335,directed study,Project administration,7,7,Project administration,0,Conceptualization / Conceptualisation,7,-0.537313941059123,-0.39619224584259793,validation
+336,selected the experimental stimuli,Resources,8,7,Project administration,7,Project administration,13,0.7475147678697528,-1.8541239457341179,validation
+337,performed data analysis,Formal analysis,2,2,Formal analysis,2,Formal analysis,2,0.5241512982787968,0.6487246978426139,validation
+338,helped with specific experiments,Investigation,4,4,Investigation,4,Investigation,8,-0.4355502225006727,-0.5034055204788214,validation
+339,wrote first draft,Writing - original draft,15,15,Writing - original draft,15,Writing - original draft,7,-0.6651915479009177,-0.26729866067255964,validation
+340,programmed and debugged the algorithm,Software,9,0,Conceptualization / Conceptualisation,13,Validation,6,2.7346785527483295,-0.07774680401539287,validation
+341,assisted sample collection,Resources,8,8,Resources,8,Resources,15,-0.565667009186602,-0.4234461560594737,validation
+342,contributed to analysis,Formal analysis,2,2,Formal analysis,2,Formal analysis,12,-0.4619772220497868,-0.3394690115730015,validation
+343,reviewed  paper,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,0,-0.5126638500659437,-0.4716589097964936,validation
+344,designed overall research scheme,Investigation,4,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,7,-0.5974511723813919,-0.4759315399092663,validation
+345,Wrote a handwritten letter to a loved one,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.218806140471575,1.4071615388372862,validation
+346,Planned a picnic in the park,Other - not related,6,0,Conceptualization / Conceptualisation,6,Other - not related,3,-0.8289789058472283,-0.1756825632198132,validation
+347,contributed to data analysis and interpretation,Formal analysis,2,4,Investigation,1,Data curation,16,2.590645728311904,2.451665464329409,validation
+348,developed Covasim,Sonstiges,10,2,Formal analysis,2,Formal analysis,7,-0.5394022903120591,-0.394032765077825,validation
+349,designed this research,Investigation,4,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,7,-0.6042853074240367,-0.4804906565452708,validation
+350,Started a blog about your favorite hobby,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.3034225186357866,1.4641214130189253,validation
+351,reviewed and edited the final version of the paper,Writing - review & editing,16,16,Writing - review & editing,15,Writing - original draft,6,2.758496641960649,-0.17046076685320044,validation
+352,converted to BIDS,Data curation,1,4,Investigation,10,Sonstiges,7,-0.5381894649641356,-0.38909640935266115,validation
+353,contributed novel data,Data curation,1,1,Data curation,1,Data curation,2,0.5536935882742894,0.6743503325192344,validation
+354,carried out qPCR analyses,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5457880779696375,-0.5154472985213944,validation
+355,helped with evaluation of the study,Validation,13,10,Sonstiges,2,Formal analysis,1,0.7351252796693178,-1.9298653742369143,validation
+356,for knowledge graph embedding implementation,Visualization / Visualisation,14,9,Software,9,Software,5,-0.8240360157287016,-0.14597000998135,validation
+357,contributed to annotation,Data curation,1,4,Investigation,2,Formal analysis,12,-0.48823207798067836,-0.36031054088528114,validation
+358,conceptualized project,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,7,-0.5435346761435432,-0.41542869075183503,validation
+359,assisted with sample classification,Resources,8,8,Resources,8,Resources,15,-0.5831878807501044,-0.441342149557436,validation
+360,performed experimental work,Investigation,4,2,Formal analysis,2,Formal analysis,13,-0.4930823161131998,-0.4271815318074347,validation
+361,contributed to discussion,Investigation,4,4,Investigation,4,Investigation,12,-0.4857518845551276,-0.3575042017546893,validation
+362,have written sections of the paper,Writing - original draft,15,7,Project administration,5,Methodology,0,0.7104001592071923,-1.901988359589546,validation
+363,conducted analysis,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.5205600356379505,-0.38663590334063275,validation
+364,contributed to interpretion of data,Investigation,4,4,Investigation,1,Data curation,2,0.5593425665756104,0.6779590488777644,validation
+365,coded the initial implementation of SCNIC,Sonstiges,10,15,Writing - original draft,9,Software,1,0.7057461963115144,-1.8538923496053044,validation
+366,Designed a greeting card for a special occasion,Other - not related,6,6,Other - not related,6,Other - not related,14,-2.3538505213056937,1.536939045390796,validation
+367,performed the replication GWAS,Formal analysis,2,2,Formal analysis,2,Formal analysis,1,0.7118375256518507,-1.8725871052499798,validation
+368,contributed to acquisition of data,Data curation,1,1,Data curation,1,Data curation,2,0.6273584701537446,0.7852701157108087,validation
+369,implemented model simulations,Methodology,5,5,Methodology,9,Software,7,-0.46019813539293325,-0.5123191622589756,validation
+370,collected samples for research,Resources,8,8,Resources,8,Resources,5,-0.8573279517352271,-0.19754684628785657,validation
+371,Learned to juggle,Other - not related,6,6,Other - not related,6,Other - not related,7,-0.5385043573243714,-0.3894385247012291,validation
+372,for language of manuscript,Sonstiges,10,15,Writing - original draft,16,Writing - review & editing,5,-0.7714027298261077,-0.16129762901361366,validation
+373,conducted DNA extraction,Formal analysis,2,2,Formal analysis,10,Sonstiges,7,-0.5349855059620435,-0.3902151640358746,validation
+374,has proposed the idea of looking at correlations between UVI and COVID-19 infections,Conceptualization / Conceptualisation,0,11,Supervision,2,Formal analysis,6,2.8399634994496092,-0.10807801158676299,validation
+375,assisted research,Investigation,4,4,Investigation,4,Investigation,7,-0.6032776082110868,-0.48865560703687894,validation
+376,carried out experiments,Investigation,4,4,Investigation,4,Investigation,8,-0.47109518387485,-0.49942351632499304,validation
+377,oversaw project administration,Project administration,7,11,Supervision,11,Supervision,7,-0.5377024570784612,-0.40649124221028576,validation
+378,supervised the project,Supervision,11,11,Supervision,11,Supervision,1,0.6984247467327835,-1.8434375698818084,validation
+379,provided feedback and resources to perform calibration and analysis,Resources,8,8,Resources,16,Writing - review & editing,10,1.5167854730621124,1.388569893665592,validation
+380,Organized a clothing drive for the needy,Other - not related,6,6,Other - not related,6,Other - not related,14,-1.132768532909366,0.11246594155233997,validation
+381,Hosted a game night with friends,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.159130445622982,1.3535109067378395,validation
+382,Collected and preprocessed data,Resources,8,1,Data curation,1,Data curation,16,2.530160713497007,2.430619818468707,validation
+383,"provided critical scientific input, data analysis, and logistical support",Resources,8,8,Resources,8,Resources,16,2.626500967647946,2.4724552684249126,validation
+384,provided critical feedback to the manuscript,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,1,0.7856833802650599,-1.8428098273341602,validation
+385,for the genomic analyses,Sonstiges,10,10,Sonstiges,10,Sonstiges,5,0.49209189693357475,-1.5448869744528706,validation
+386,conceptualize and designed work,Conceptualization / Conceptualisation,0,2,Formal analysis,2,Formal analysis,10,1.459273638342208,1.3558271701968143,validation
+387,contributed equally to this work,Sonstiges,10,2,Formal analysis,2,Formal analysis,12,-0.49189616407972053,-0.36443722344329393,validation
+388,contributed to provision of computational resources,Resources,8,4,Investigation,2,Formal analysis,12,-0.48453844443588884,-0.3570181804769799,validation
+389,modeled and analyzed data,Data curation,1,2,Formal analysis,2,Formal analysis,16,2.5333822099903176,2.432729507328099,validation
+390,conducted experiments,Investigation,4,4,Investigation,4,Investigation,8,-0.462762089273722,-0.4068579162507585,validation
+391,designed research question,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,7,-0.5965931869070402,-0.4781367872663971,validation
+392,provided samples and pretreatment,Resources,8,8,Resources,8,Resources,10,1.485502838762759,1.3845351240992894,validation
+393,drafted article,Writing - original draft,15,15,Writing - original draft,15,Writing - original draft,7,-0.5465860811607078,-0.39618959309009316,validation
+394,provided critical reagents and experimental support,Resources,8,8,Resources,8,Resources,13,1.5495269466083703,1.3568182839690368,validation
+395,contributed to manuscript revision,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,12,-0.4445972124298262,-0.3906532461660773,validation
+396,helped the analysis of the data,Formal analysis,2,2,Formal analysis,2,Formal analysis,2,1.7929814827418316,-0.8759017354479269,validation
+397,were responsible for conceptualization,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,5,-0.7680730495107253,-0.07177936759416292,validation
+398,wrote first draft of the manuscript,Writing - original draft,15,15,Writing - original draft,15,Writing - original draft,1,0.6150662801748501,-1.7313143870793892,validation
+399,carried out benchmarking analysis,Formal analysis,2,1,Data curation,2,Formal analysis,7,-0.5288948246825793,-0.47920381474338586,validation
+400,contributed to topic,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,12,-0.48632041206957505,-0.3578208069516275,validation
+401,Planted a vegetable garden in your backyard,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.0877129499356513,1.275783027277786,validation
+402,Painted a landscape picture,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.090226239874378,1.2613872637313734,validation
+403,provided obstetric and nursing notes on,Sonstiges,10,16,Writing - review & editing,16,Writing - review & editing,10,1.482023322892281,1.368987487617493,validation
+404,Started a walking or hiking club,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.2109152668747574,1.3746450641797507,test
+405,characterized plants,Sonstiges,10,8,Resources,8,Resources,7,-0.5457936465098654,-0.39503455947903937,test
+406,implemented algorithms,Software,9,9,Software,9,Software,7,-0.5186594266387097,-0.41578103211005446,test
+407,Painted a self-portrait,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.076204354963995,1.2486256683521673,test
+408,"revised the text content, discussions",Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,1,0.7215515647265056,-1.8899830941885647,test
+409,provide med associates code,Resources,8,5,Methodology,2,Formal analysis,7,-0.54714078459077,-0.396857034395352,test
+410,Volunteered at a local hospital,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.205201919335781,1.3573738383569303,test
+411,provided resources,Resources,8,8,Resources,8,Resources,7,-0.5269088736740497,-0.38106951828336016,test
+412,acquired computing resources,Resources,8,8,Resources,2,Formal analysis,7,-0.5455200275245833,-0.39432481973194117,test
+413,wrote paper,Writing - original draft,15,15,Writing - original draft,9,Software,0,-0.6690345653127052,-0.32354515461894706,test
+414,led the effort on knowledge graph construction,Visualization / Visualisation,14,14,Visualization / Visualisation,5,Methodology,1,0.7303215855445996,-1.898016220638408,test
+415,constructed plasmids,Formal analysis,2,0,Conceptualization / Conceptualisation,0,Conceptualization / Conceptualisation,7,-0.5046648107250773,-0.4257252357196585,test
+416,developed the parameter identification method,Methodology,5,5,Methodology,5,Methodology,1,0.7146821409333854,-1.868970923381196,test
+417,helped to refine the method,Sonstiges,10,5,Methodology,5,Methodology,1,0.7439335574778814,-1.9693228352809926,test
+418,assisted sample classification,Resources,8,8,Resources,8,Resources,15,-0.5831802055454074,-0.44135088201192807,test
+419,provided resources,Resources,8,8,Resources,8,Resources,7,-0.5269088736740497,-0.38106951828336016,test
+420,conducted and monitored data collection,Data curation,1,2,Formal analysis,1,Data curation,16,2.5023769299704197,2.3739810452138332,test
+421,Designed a logo for a local business,Other - not related,6,6,Other - not related,6,Other - not related,14,-2.465325755102733,1.6300204705959307,test
+422,performed implementation with tghe local optimization algorithm,Formal analysis,2,2,Formal analysis,2,Formal analysis,7,-0.664189755431465,-0.3181464947077873,test
+423,wrote and provided critical feedback to the manuscript,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,6,2.652668605158807,0.039563305044481197,test
+424,developed and verified the epidemiological model,Methodology,5,5,Methodology,5,Methodology,6,2.7540316872733643,-0.16672291901930852,test
+425,processed samples,Data curation,1,8,Resources,8,Resources,7,-0.5304406084677145,-0.3678996776144282,test
+426,performed the stability analysis,Formal analysis,2,2,Formal analysis,2,Formal analysis,1,0.7303642119816345,-1.839081479102858,test
+427,provided intelectual and technical support,Support,12,8,Resources,8,Resources,10,1.492454980339823,1.3920195228946588,test
+428,supervised experiments,Supervision,11,7,Project administration,11,Supervision,8,-0.4625138257007832,-0.39635790430398676,test
+429,helped write the manuscripts,Writing - original draft,15,4,Investigation,4,Investigation,1,0.7324566750095987,-1.9515039026943082,test
+430,contributed to writing the manuscript,Writing - original draft,15,15,Writing - original draft,15,Writing - original draft,1,0.839667704029831,-1.826736699111089,test
+431,Learned to do magic tricks,Other - not related,6,6,Other - not related,6,Other - not related,7,-0.5388520346933671,-0.38981738493344625,test
+432,carried out analysis,Formal analysis,2,1,Data curation,2,Formal analysis,7,-0.5288931302390788,-0.4792015034148673,test
+433,helped with experimental design,Sonstiges,10,10,Sonstiges,10,Sonstiges,13,-0.4627231266724528,-0.5227690208894311,test
+434,performed in vitro experiments,Investigation,4,4,Investigation,4,Investigation,8,-0.45381028694966613,-0.3931742494690791,test
+435,Trained for a 5K charity run,Other - not related,6,6,Other - not related,6,Other - not related,14,-2.454792752167253,1.6295471809884705,test
+436,provided endoscopic biopsies,Resources,8,8,Resources,8,Resources,7,-0.535887468973198,-0.3913416718040519,test
+437,Knitted a cozy blanket for winter,Other - not related,6,6,Other - not related,6,Other - not related,14,-2.3474301853471684,1.5235582736473392,test
+438,devised experiments,Investigation,4,4,Investigation,4,Investigation,8,-0.46330652138860906,-0.39632146599290863,test
+439,established cohort,Sonstiges,10,10,Sonstiges,3,Funding acquisition,7,-0.5441750005879157,-0.42628740088979894,test
+440,conceptualized task,Conceptualization / Conceptualisation,0,0,Conceptualization / Conceptualisation,10,Sonstiges,7,-0.5678803983494229,-0.42035412990206944,test
+441,edited manuscript,Writing - review & editing,16,16,Writing - review & editing,15,Writing - original draft,7,-0.5033650753947605,-0.4307639953791689,test
+442,revised molecular analysis,Formal analysis,2,16,Writing - review & editing,16,Writing - review & editing,7,-0.5324100188474664,-0.4068674421933468,test
+443,provided a critical review and approved the final manuscript,Writing - review & editing,16,16,Writing - review & editing,16,Writing - review & editing,6,1.2916354907178604,1.5399127150049015,test
+444,assisted experimental design,Sonstiges,10,10,Sonstiges,10,Sonstiges,13,-0.49548818623089264,-0.4257330427245423,test
+445,have read and agreed to the published version of the manuscript,Writing - review & editing,16,10,Sonstiges,15,Writing - original draft,6,2.833526631625461,-0.13985163570056855,test
+446,Created a budget for a family vacation,Other - not related,6,6,Other - not related,6,Other - not related,14,-2.383938255073407,1.569834117059669,test
+447,was involved in entire project,Supervision,11,0,Conceptualization / Conceptualisation,2,Formal analysis,7,-0.5378137226340582,-0.4179898047989845,test
+448,Started a vegetable or herb garden,Other - not related,6,6,Other - not related,6,Other - not related,3,-2.2305120715027122,1.3927219941130917,test
